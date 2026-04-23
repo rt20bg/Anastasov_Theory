@@ -1,8 +1,13 @@
 # Anastasov Theory: The Ideas Sandbox
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19707920.svg)](https://doi.org/10.5281/zenodo.19707920)
+[![License: All Rights Reserved](https://img.shields.io/badge/License-All_Rights_Reserved-red.svg)](https://github.com/rt20bg/Anastasov_Theory)
+
 This repository serves as an official digital "sandbox" for papers, theories, and hypotheses related to alternative physics, mathematical philosophy, and futurology.
 
-To maintain order within this research, the framework is divided into independent but logically connected **Research Branches**.
+### 📜 How to Cite
+If you use these ideas or data in your research, please cite this repository as follows:
+> Anastasov, R. (2026). *Anastasov Theory: Unified Research on Alternative Physics, Mathematics, and Futurology*. Zenodo. DOI: 10.5281/zenodo.19707920
 
 ---
 
