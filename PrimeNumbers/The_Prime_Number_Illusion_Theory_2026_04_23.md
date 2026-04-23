@@ -17,8 +17,8 @@ If an alien species counts with a base unit of 2, their "integers" are our even 
 
 This does not mean that if an alien species counts 2-4-6, there are no instances of "3 apples" in nature. The apples physically exist. But the alien mathematics would describe that quantity not as a fundamental, "holy" integer, but as an intermediate, fractional state. The property of being "prime" is wholly dependent on where you place the zero and how wide you draw the step size. It is a relative coordinate, not an absolute truth.
 
-### 2.1 The Mathematical Proof: The "Even-Stepper" Alien Monoid
-To rigorously prove that prime numbers are merely relative artifacts, we must look at advanced algebra, specifically Generalized Primes (or Hilbert Monoids). 
+### 2.1 The Mathematical Demonstration: The "Even-Stepper" Alien Monoid
+To mathematically demonstrate that prime numbers can be viewed as relative artifacts, we can examine advanced algebra, specifically Generalized Primes (or Hilbert Monoids). 
 
 Consider an alien civilization that operates exclusively on an even-numbered grid: $$\{2, 4, 6, 8, 10, 12...\}$$
 
@@ -27,7 +27,7 @@ In their mathematics, a "prime number" is defined exactly as ours is: a number t
 * $$2 \times 4 = 8$$ (Therefore, 8 is composite).
 * $$2 \times 6 = 12$$ (Therefore, 12 is composite).
 
-But what about the number **6**? To create 6 via multiplication, they would need to multiply $$2 \times 3$$. However, the number 3 *does not exist* in their mathematical grid. Consequently, the number 6 is mathematically indestructible in their universe. It cannot be factored.
+But what about the number **6**? To create 6 via multiplication, they would need to multiply $$2 \times 3$$. However, the number 3 *does not exist* in their mathematical grid. Consequently, the number 6 functions as a prime in their mathematical system. It cannot be factored within that specific monoid.
 
 Thus, in this alien counting system, the Prime Numbers are: **2, 6, 10, 14, 18, 22...** (Mathematically, every number of the form $$4k+2$$). 
 
@@ -44,7 +44,7 @@ Look closely at the **9th number** in each sequence:
 
 The "holes" do not match up by sequence index. In the human sequence, primes become increasingly rare as numbers grow. In the Even-Stepper alien sequence, *every odd index is a prime number*, resulting in a prime density of exactly 50% extending to infinity.
 
-This is an absolute mathematical proof. By simply changing the grid step from 1.0 to 2.0, the "holes" in the fabric of numbers shift completely—both in absolute physical value and in relative sequence index. This proves unequivocally that primes are not fundamental universal constants; they are dynamic illusions dictated strictly by the baseline unit of the observer.
+This mathematical demonstration suggests that by altering the grid step from 1.0 to 2.0, the distribution of primes shifts entirely—both in absolute physical value and in relative sequence index. This provides a compelling argument that primes may not be fundamental universal constants, but rather dynamic properties dictated strictly by the baseline unit of the observer's coordinate system.
 
 ![The Prime Number Illusion Simulator](prime_illusion_plot.png)
 
@@ -70,7 +70,7 @@ Modern digital security infrastructure, primarily RSA encryption, relies heavily
 
 However, this entire paradigm forces both the encrypter and the hacker to play on the exact same 1.0 integer grid. The looming threat of Quantum Computers (specifically Shor's Algorithm) relies entirely on this fact: quantum states can rapidly scan the standard 1.0 integer grid to find the prime factors, rendering current encryption obsolete in the near future.
 
-When we realize that primes are an illusion created by the grid's step size, a vastly superior cryptographic paradigm emerges: **Dynamic Grid Cryptography (DGC)**.
+If we approach primes as a relative property of the grid's step size, an alternative cryptographic paradigm emerges: **Dynamic Grid Cryptography (DGC)**.
 
 ### 5.1 The DGC Protocol
 Instead of relying on standard primes, a DGC system encrypts data using "Alien Primes" generated from a mathematically shifted, non-standard grid (e.g., an Even-Stepper monoid, or an irrational step like $$0.96347... \times \pi$$). 
@@ -79,7 +79,7 @@ Instead of relying on standard primes, a DGC system encrypts data using "Alien P
 2. **Encryption:** The message is encrypted using primes valid *only* within that specific mathematical dimension.
 3. **The Quantum Trap:** A quantum computer attempting to brute-force the code using standard base-10 integer mathematics will process pure statistical noise. It will hunt for standard primes, but the data is locked by a prime that only exists in a different grid dimension (e.g., attempting to factor a number that is only prime when the step is 2.0).
 
-You cannot brute-force a prime factorization if you do not know the exact length of the "ruler" the system used to define what a prime is. Brute-forcing RSA is like trying to guess the combination of a padlock; attempting to crack DGC without the baseline grid is like trying to guess the exact atmospheric pressure of a sealed room on another planet. By weaponizing the Prime Number Illusion, we can create a cryptographic standard that is fundamentally immune to standard quantum factorization.
+You cannot brute-force a prime factorization if you do not know the exact length of the "ruler" the system used to define what a prime is. Brute-forcing RSA is like trying to guess the combination of a padlock; attempting to crack DGC without the baseline grid is like trying to guess the exact atmospheric pressure of a sealed room on another planet. By utilizing shifting algebraic baselines, we can propose a cryptographic standard that offers significant resilience against standard integer-based quantum factorization algorithms.
 
 ## 6. The Verdict
 The mathematics surrounding prime numbers is undeniably brilliant, but it is ultimately the study of the anomalies within our own numerical grid, not a study of the fundamental universe.
