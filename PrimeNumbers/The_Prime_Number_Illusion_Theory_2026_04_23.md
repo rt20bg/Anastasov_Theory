@@ -1,4 +1,4 @@
-# The Prime Number Illusion: A Paradigm Shift from Digital Integers to Analog Continuous Reality
+# The Relativity of Prime Numbers: Grid-Dependent Distributions and Cryptographic Applications
 
 ## Abstract
 For centuries, mathematics has revered prime numbers as the fundamental, unbreakable "atoms" of reality. Enormous computational power and human intellect are expended mapping their chaotic distribution. However, this paper proposes a paradigm-shifting perspective: prime numbers are not intrinsic properties of the universe, but rather optical illusions created by an arbitrary measurement system. We argue that the universe operates as an analog, continuous spectrum, and the anomalies we observe as "primes" are merely artifacts of an artificially imposed "Step 1.0" integer grid.
