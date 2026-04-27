@@ -17,7 +17,7 @@ If you use these ideas or data in your research, please cite this repository as 
 **Paper:** [`Relativity_Alternative_Full_Paper.md`](./Macro_Gravity/Relativity_Alternative_Full_Paper.md)
 *   **Topic:** Proof that local kinematics (Flat Space) replaces Einstein's General Relativity.
 *   **Key Tests:** Mercury's orbital precession, light deflection, Shapiro delay, GPS clock synchronization.
- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rt20bg/Anastasov_Theory/blob/main/Macro_Gravity/Gravitacia_Interactive.ipynb)
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rt20bg/Anastasov_Theory/blob/main/Macro_Gravity/simulations/Gravitacia_Interactive.ipynb)
 
 ### 🔬 2. "Quantum Kinematics" Branch (IN PROGRESS)
 **Paper:** [`rakts_theory_expanded_EN.md`](./Spin%20no%20Spin/rakts_theory_expanded_EN.md)
