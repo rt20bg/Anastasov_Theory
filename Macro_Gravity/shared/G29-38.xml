@@ -1,0 +1,1229 @@
+<VOTABLE version='1.3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns='http://www.ivoa.net/xml/VOTable/v1.3'>
+  <RESOURCE type='results'>
+    <INFO name='QUERY_STATUS' value='OK' />
+    <INFO name='PROVIDER' value='ESO' />
+    <TABLE>
+      <FIELD name='access_format' datatype='char' ucd='meta.code.mime' utype='obscore:Access.format' arraysize='*' />
+      <FIELD name='access_url' datatype='char' ucd='meta.ref.url' xtype='adql:CLOB' arraysize='*' />
+      <FIELD name='preview_url' datatype='char' ucd='meta.ref.url' xtype='adql:CLOB' arraysize='*' />
+      <FIELD name='dp_type' datatype='char' ucd='meta.id' arraysize='*' />
+      <FIELD name='dp_subtype' datatype='char' ucd='meta.id' arraysize='*' />
+      <FIELD name='ins_id' datatype='char' ucd='meta.id;instr' arraysize='*' />
+      <FIELD name='observatory' datatype='char' ucd='meta.id;instr.obsty' arraysize='*' />
+      <FIELD name='mjd_obs' datatype='double' ucd='time.start;obs.exposure' />
+      <FIELD name='obs_date' datatype='char' ucd='time.start' xtype='adql:TIMESTAMP' arraysize='*' />
+      <FIELD name='texptime' datatype='float' ucd='time.duration' />
+      <FIELD name='spec_range' datatype='char' ucd='em.wl' arraysize='*' />
+      <FIELD name='spec_res' datatype='float' ucd='spect.resolution' />
+      <FIELD name='filter' datatype='char' ucd='meta.id;inst.filter' arraysize='*' />
+      <FIELD name='prog_id' datatype='char' ucd='meta.id;obs.proposal' arraysize='*' />
+      <FIELD name='pi' datatype='char' ucd='meta.id.PI' arraysize='*' />
+      <FIELD name='p3_user' datatype='char' ucd='meta.curation' arraysize='*' />
+      <FIELD name='data_collection' datatype='char' ucd='meta.id' arraysize='*' />
+      <FIELD name='obj' datatype='char' ucd='meta.id;src' arraysize='*' />
+      <FIELD name='fov' datatype='float' ucd='phys.angSize;instr.fov' />
+      <FIELD name='publ_date' datatype='char' ucd='time.release' xtype='adql:TIMESTAMP' arraysize='*' />
+      <FIELD name='footprint' datatype='char' ucd='pos.outline;obs.field' xtype='adql:REGION' arraysize='*' />
+      <FIELD name='ra' datatype='float' ucd='pos.eq.ra' />
+      <FIELD name='dec' datatype='float' ucd='pos.eq.dec' />
+      <FIELD name='dp_id' datatype='char' ucd='meta.ref.url' arraysize='*' />
+      <FIELD name='number_obs' datatype='int' ucd='meta.number;obs' />
+      <FIELD name='data_release_date' datatype='char' ucd='time.release' xtype='adql:TIMESTAMP' arraysize='*' />
+      <FIELD name='dataset_id' datatype='char' ucd='meta.id;meta.dataset' arraysize='*' />
+      <FIELD name='file_size' datatype='long' ucd='phys.size;meta.file' />
+      <FIELD name='spatial_resolution' datatype='float' ucd='spect.resolution' />
+      <FIELD name='snr' datatype='float' ucd='stat.snr' />
+      <FIELD name='gal_lon' datatype='float' ucd='pos.galactic.lon' />
+      <FIELD name='gal_lat' datatype='float' ucd='pos.galactic.lat' />
+      <FIELD name='sqdeg' datatype='float' ucd='phys.angArea' />
+      <FIELD name='pixelscale' datatype='float' ucd='phys.angSize;instr.pixel' />
+      <FIELD name='abmaglim' datatype='float' ucd='instr.sensitivity;phot.mag' />
+      <FIELD name='sensitivity' datatype='float' ucd='instr.sensitivity;phot.flux.density' />
+      <FIELD name='strehl' datatype='float' ucd='instr.param' />
+      <FIELD name='calib_level' datatype='int' ucd='meta.code;obs.calib' />
+      <FIELD name='exp_end' datatype='char' ucd='time.end' xtype='adql:TIMESTAMP' arraysize='*' />
+      <FIELD name='mjd_end' datatype='double' ucd='time.end;obs.exposure' />
+      <FIELD name='exptime' datatype='float' ucd='time.duration;obs.exposure' />
+      <FIELD name='obs_title' datatype='char' ucd='meta.title;obs' arraysize='*' />
+      <FIELD name='tel_id' datatype='char' ucd='meta.id;instr.tel' arraysize='*' />
+      <FIELD name='obstech' datatype='char' ucd='instr.setup' arraysize='*' />
+      <FIELD name='obs_id' datatype='char' ucd='meta.id' arraysize='*' />
+      <FIELD name='p3orig' datatype='char' ucd='meta.ref' arraysize='*' />
+      <FIELD name='origfile' datatype='char' ucd='meta.dataset;meta.file' arraysize='*' />
+      <FIELD name='group_version' datatype='int' ucd='meta.version' />
+      <FIELD name='data_release' datatype='char' ucd='meta.number' arraysize='*' />
+      <FIELD name='visible' datatype='' />
+      <FIELD name='is_solar' datatype='' />
+      <DATA>
+        <TABLEDATA>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2021-09-16T14:55:38.815</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54348.30973251</TD>
+            <TD>2007-09-05T07:26:00.890</TD>
+            <TD>2955.005</TD>
+            <TD>373.216-499.982</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2021-09-16T15:11:20.000</TD>
+            <TD>POSITION J2000 352.198136 5.24784</TD>
+            <TD>352.198136</TD>
+            <TD>5.24784</TD>
+            <TD>ADP.2021-09-16T14:55:38.815</TD>
+            <TD>1</TD>
+            <TD>2008-10-26T01:21:44.000</TD>
+            <TD>15442795</TD>
+            <TD>6192</TD>
+            <TD></TD>
+            <TD>44.2</TD>
+            <TD>88.170335</TD>
+            <TD>-51.957</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-09-05T08:16:54.750</TD>
+            <TD>54348.34507813</TD>
+            <TD>2955.005</TD>
+            <TD><![CDATA[G29-38_270612_2007-09-05T07:26:00.889_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270612"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270612_2007-09-05T07:26:00.889_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T13:48:01.184</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54268.39089154</TD>
+            <TD>2007-06-17T09:22:53.030</TD>
+            <TD>2955.004</TD>
+            <TD>373.214-499.981</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:20.000</TD>
+            <TD>POSITION J2000 352.197647 5.24872</TD>
+            <TD>352.197647</TD>
+            <TD>5.24872</TD>
+            <TD>ADP.2020-06-30T13:48:01.184</TD>
+            <TD>1</TD>
+            <TD>2008-09-06T11:23:41.940</TD>
+            <TD>10581737</TD>
+            <TD>6189</TD>
+            <TD></TD>
+            <TD>51.7</TD>
+            <TD>88.170383</TD>
+            <TD>-51.955995</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-06-17T10:13:43.540</TD>
+            <TD>54268.42619837</TD>
+            <TD>2955.004</TD>
+            <TD><![CDATA[G29-38_270600_2007-06-17T09:22:53.029_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270600"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270600_2007-06-17T09:22:53.029_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T04:25:23.848</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54318.36204468</TD>
+            <TD>2007-08-06T08:41:20.660</TD>
+            <TD>2955.004</TD>
+            <TD>373.213-499.983</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:18.000</TD>
+            <TD>POSITION J2000 352.197345 5.2474</TD>
+            <TD>352.197345</TD>
+            <TD>5.2474</TD>
+            <TD>ADP.2020-06-30T04:25:23.848</TD>
+            <TD>1</TD>
+            <TD>2008-09-19T13:20:15.007</TD>
+            <TD>10580923</TD>
+            <TD>6183</TD>
+            <TD></TD>
+            <TD>48.0</TD>
+            <TD>88.168871</TD>
+            <TD>-51.956978</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-08-06T09:32:11.010</TD>
+            <TD>54318.39734963</TD>
+            <TD>2955.004</TD>
+            <TD><![CDATA[G29-38_270615_2007-08-06T08:41:20.660_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270615"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270615_2007-08-06T08:41:20.660_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T04:06:34.108</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54305.22626877</TD>
+            <TD>2007-07-24T05:25:49.623</TD>
+            <TD>2955.004</TD>
+            <TD>373.214-499.983</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:18.000</TD>
+            <TD>POSITION J2000 352.19693 5.2484</TD>
+            <TD>352.19693</TD>
+            <TD>5.2484</TD>
+            <TD>ADP.2020-06-30T04:06:34.108</TD>
+            <TD>1</TD>
+            <TD>2008-09-19T08:21:32.940</TD>
+            <TD>10580802</TD>
+            <TD>6189</TD>
+            <TD></TD>
+            <TD>47.4</TD>
+            <TD>88.169121</TD>
+            <TD>-51.955907</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-07-24T06:16:39.980</TD>
+            <TD>54305.26157383</TD>
+            <TD>2955.004</TD>
+            <TD><![CDATA[G29-38_270603_2007-07-24T05:25:49.622_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270603"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270603_2007-07-24T05:25:49.622_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T04:19:01.215</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54312.24063943</TD>
+            <TD>2007-07-31T05:46:31.247</TD>
+            <TD>2955.004</TD>
+            <TD>373.216-499.98</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:18.000</TD>
+            <TD>POSITION J2000 352.196886 5.24835</TD>
+            <TD>352.196886</TD>
+            <TD>5.24835</TD>
+            <TD>ADP.2020-06-30T04:19:01.215</TD>
+            <TD>1</TD>
+            <TD>2008-10-26T01:21:44.597</TD>
+            <TD>10580877</TD>
+            <TD>6186</TD>
+            <TD></TD>
+            <TD>45.2</TD>
+            <TD>88.169019</TD>
+            <TD>-51.955927</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-07-31T06:37:21.547</TD>
+            <TD>54312.27594382</TD>
+            <TD>2955.004</TD>
+            <TD><![CDATA[G29-38_270612_2007-07-31T05:46:31.247_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270612"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270612_2007-07-31T05:46:31.247_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T04:05:27.496</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54304.20625631</TD>
+            <TD>2007-07-23T04:57:00.547</TD>
+            <TD>2955.003</TD>
+            <TD>373.214-499.984</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:18.000</TD>
+            <TD>POSITION J2000 352.196836 5.2479</TD>
+            <TD>352.196836</TD>
+            <TD>5.2479</TD>
+            <TD>ADP.2020-06-30T04:05:27.496</TD>
+            <TD>1</TD>
+            <TD>2008-09-19T08:21:33.600</TD>
+            <TD>10580785</TD>
+            <TD>6189</TD>
+            <TD></TD>
+            <TD>39.1</TD>
+            <TD>88.168577</TD>
+            <TD>-51.956289</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-07-23T05:47:50.843</TD>
+            <TD>54304.24156068</TD>
+            <TD>2955.003</TD>
+            <TD><![CDATA[G29-38_270603_2007-07-23T04:57:00.545_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270603"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270603_2007-07-23T04:57:00.545_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T04:29:09.615</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54325.22931978</TD>
+            <TD>2007-08-13T05:30:13.230</TD>
+            <TD>2955.003</TD>
+            <TD>373.217-499.984</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:18.000</TD>
+            <TD>POSITION J2000 352.196784 5.24917</TD>
+            <TD>352.196784</TD>
+            <TD>5.24917</TD>
+            <TD>ADP.2020-06-30T04:29:09.615</TD>
+            <TD>1</TD>
+            <TD>2008-09-19T13:43:39.660</TD>
+            <TD>10580952</TD>
+            <TD>6183</TD>
+            <TD></TD>
+            <TD>35.7</TD>
+            <TD>88.169555</TD>
+            <TD>-51.95517</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-08-13T06:21:03.317</TD>
+            <TD>54325.26462171</TD>
+            <TD>2955.003</TD>
+            <TD><![CDATA[G29-38_270618_2007-08-13T05:30:13.229_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270618"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270618_2007-08-13T05:30:13.229_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T04:41:23.253</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54334.16411281</TD>
+            <TD>2007-08-22T03:56:19.347</TD>
+            <TD>1970.002</TD>
+            <TD>373.215-499.982</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:18.000</TD>
+            <TD>POSITION J2000 352.196463 5.24812</TD>
+            <TD>352.196463</TD>
+            <TD>5.24812</TD>
+            <TD>ADP.2020-06-30T04:41:23.253</TD>
+            <TD>1</TD>
+            <TD>2008-10-26T01:21:44.417</TD>
+            <TD>10581053</TD>
+            <TD>6192</TD>
+            <TD></TD>
+            <TD>42.3</TD>
+            <TD>88.168241</TD>
+            <TD>-51.955911</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-08-22T04:29:57.107</TD>
+            <TD>54334.18746651</TD>
+            <TD>1970.002</TD>
+            <TD><![CDATA[G29-38_270612_2007-08-22T03:56:19.347_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270612"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270612_2007-08-22T03:56:19.347_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T04:16:13.732</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54309.25700293</TD>
+            <TD>2007-07-28T06:10:05.053</TD>
+            <TD>2955.004</TD>
+            <TD>373.214-499.981</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:18.000</TD>
+            <TD>POSITION J2000 352.196443 5.24829</TD>
+            <TD>352.196443</TD>
+            <TD>5.24829</TD>
+            <TD>ADP.2020-06-30T04:16:13.732</TD>
+            <TD>1</TD>
+            <TD>2008-10-26T01:21:44.623</TD>
+            <TD>10580856</TD>
+            <TD>6192</TD>
+            <TD></TD>
+            <TD>57.4</TD>
+            <TD>88.168353</TD>
+            <TD>-51.955754</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-07-28T07:00:55.123</TD>
+            <TD>54309.29230465</TD>
+            <TD>2955.004</TD>
+            <TD><![CDATA[G29-38_270612_2007-07-28T06:10:05.053_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270612"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270612_2007-07-28T06:10:05.053_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T04:16:13.706</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54309.21862127</TD>
+            <TD>2007-07-28T05:14:48.877</TD>
+            <TD>2955.004</TD>
+            <TD>373.214-499.981</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:18.000</TD>
+            <TD>POSITION J2000 352.196442 5.24827</TD>
+            <TD>352.196442</TD>
+            <TD>5.24827</TD>
+            <TD>ADP.2020-06-30T04:16:13.706</TD>
+            <TD>1</TD>
+            <TD>2008-09-19T13:20:14.950</TD>
+            <TD>10580853</TD>
+            <TD>6192</TD>
+            <TD></TD>
+            <TD>55.6</TD>
+            <TD>88.168335</TD>
+            <TD>-51.955771</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-07-28T06:05:39.367</TD>
+            <TD>54309.25392786</TD>
+            <TD>2955.004</TD>
+            <TD><![CDATA[G29-38_270615_2007-07-28T05:14:48.878_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270615"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270615_2007-07-28T05:14:48.878_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T05:14:53.762</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54365.06010381</TD>
+            <TD>2007-09-22T01:26:32.970</TD>
+            <TD>2955.005</TD>
+            <TD>373.217-499.983</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:19.000</TD>
+            <TD>POSITION J2000 352.196434 5.24828</TD>
+            <TD>352.196434</TD>
+            <TD>5.24828</TD>
+            <TD>ADP.2020-06-30T05:14:53.762</TD>
+            <TD>1</TD>
+            <TD>2008-10-26T08:28:19.713</TD>
+            <TD>10581154</TD>
+            <TD>6209</TD>
+            <TD></TD>
+            <TD>51.1</TD>
+            <TD>88.168333</TD>
+            <TD>-51.955758</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-09-22T02:17:23.830</TD>
+            <TD>54365.09541471</TD>
+            <TD>2955.005</TD>
+            <TD><![CDATA[G29-38_270630_2007-09-22T01:26:32.969_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270630"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270630_2007-09-22T01:26:32.969_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T05:14:09.138</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54364.05488534</TD>
+            <TD>2007-09-21T01:19:02.093</TD>
+            <TD>2955.005</TD>
+            <TD>373.217-499.983</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:19.000</TD>
+            <TD>POSITION J2000 352.196442 5.24813</TD>
+            <TD>352.196442</TD>
+            <TD>5.24813</TD>
+            <TD>ADP.2020-06-30T05:14:09.138</TD>
+            <TD>1</TD>
+            <TD>2008-10-26T08:27:43.770</TD>
+            <TD>10581149</TD>
+            <TD>6209</TD>
+            <TD></TD>
+            <TD>47.2</TD>
+            <TD>88.16822</TD>
+            <TD>-51.955891</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-09-21T02:09:52.703</TD>
+            <TD>54364.09019331</TD>
+            <TD>2955.005</TD>
+            <TD><![CDATA[G29-38_270621_2007-09-21T01:19:02.093_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270621"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270621_2007-09-21T01:19:02.093_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T04:16:13.717</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54309.1800213</TD>
+            <TD>2007-07-28T04:19:13.840</TD>
+            <TD>2955.004</TD>
+            <TD>373.214-499.981</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:18.000</TD>
+            <TD>POSITION J2000 352.196393 5.24825</TD>
+            <TD>352.196393</TD>
+            <TD>5.24825</TD>
+            <TD>ADP.2020-06-30T04:16:13.717</TD>
+            <TD>1</TD>
+            <TD>2008-09-19T13:43:39.613</TD>
+            <TD>10580854</TD>
+            <TD>6192</TD>
+            <TD></TD>
+            <TD>51.5</TD>
+            <TD>88.168251</TD>
+            <TD>-51.955763</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-07-28T05:10:04.190</TD>
+            <TD>54309.21532626</TD>
+            <TD>2955.004</TD>
+            <TD><![CDATA[G29-38_270618_2007-07-28T04:19:13.840_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270618"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270618_2007-07-28T04:19:13.840_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T04:07:51.181</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54306.29332315</TD>
+            <TD>2007-07-25T07:02:23.120</TD>
+            <TD>2955.004</TD>
+            <TD>373.215-499.984</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:18.000</TD>
+            <TD>POSITION J2000 352.196377 5.24815</TD>
+            <TD>352.196377</TD>
+            <TD>5.24815</TD>
+            <TD>ADP.2020-06-30T04:07:51.181</TD>
+            <TD>1</TD>
+            <TD>2008-09-19T08:23:22.267</TD>
+            <TD>10580813</TD>
+            <TD>6194</TD>
+            <TD></TD>
+            <TD>57.9</TD>
+            <TD>88.168146</TD>
+            <TD>-51.955841</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-07-25T07:53:13.667</TD>
+            <TD>54306.32863042</TD>
+            <TD>2955.004</TD>
+            <TD><![CDATA[G29-38_270606_2007-07-25T07:02:23.120_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270606"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270606_2007-07-25T07:02:23.120_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T04:16:13.759</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54309.29451948</TD>
+            <TD>2007-07-28T07:04:06.483</TD>
+            <TD>2955.004</TD>
+            <TD>373.214-499.981</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:18.000</TD>
+            <TD>POSITION J2000 352.196366 5.2481</TD>
+            <TD>352.196366</TD>
+            <TD>5.2481</TD>
+            <TD>ADP.2020-06-30T04:16:13.759</TD>
+            <TD>1</TD>
+            <TD>2008-10-26T08:27:43.747</TD>
+            <TD>10580860</TD>
+            <TD>6192</TD>
+            <TD></TD>
+            <TD>58.8</TD>
+            <TD>88.168089</TD>
+            <TD>-51.955879</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-07-28T07:54:56.983</TD>
+            <TD>54309.32982618</TD>
+            <TD>2955.004</TD>
+            <TD><![CDATA[G29-38_270621_2007-07-28T07:04:06.483_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270621"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270621_2007-07-28T07:04:06.483_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T04:13:24.274</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54308.30107833</TD>
+            <TD>2007-07-27T07:13:33.167</TD>
+            <TD>2955.004</TD>
+            <TD>373.216-499.981</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:18.000</TD>
+            <TD>POSITION J2000 352.196336 5.24811</TD>
+            <TD>352.196336</TD>
+            <TD>5.24811</TD>
+            <TD>ADP.2020-06-30T04:13:24.274</TD>
+            <TD>1</TD>
+            <TD>2008-09-19T08:24:25.917</TD>
+            <TD>10580837</TD>
+            <TD>6194</TD>
+            <TD></TD>
+            <TD>54.4</TD>
+            <TD>88.168056</TD>
+            <TD>-51.955855</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-07-27T08:04:23.757</TD>
+            <TD>54308.33638606</TD>
+            <TD>2955.004</TD>
+            <TD><![CDATA[G29-38_270634_2007-07-27T07:13:33.168_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270634"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270634_2007-07-27T07:13:33.168_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-06-30T04:10:00.423</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>54307.33254688</TD>
+            <TD>2007-07-26T07:58:52.050</TD>
+            <TD>2955.004</TD>
+            <TD>373.214-499.982</TD>
+            <TD>68040.0</TD>
+            <TD></TD>
+            <TD>["079.C-0342"]</TD>
+            <TD><![CDATA[[EHRENREICH, DAVID]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>G29-38</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:56:18.000</TD>
+            <TD>POSITION J2000 352.196301 5.24773</TD>
+            <TD>352.196301</TD>
+            <TD>5.24773</TD>
+            <TD>ADP.2020-06-30T04:10:00.423</TD>
+            <TD>1</TD>
+            <TD>2008-09-19T08:23:56.663</TD>
+            <TD>10580819</TD>
+            <TD>6186</TD>
+            <TD></TD>
+            <TD>60.1</TD>
+            <TD>88.167693</TD>
+            <TD>-51.956164</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2007-07-26T08:49:42.300</TD>
+            <TD>54307.36785069</TD>
+            <TD>2955.004</TD>
+            <TD><![CDATA[G29-38_270609_2007-07-26T07:58:52.050_BLU437bl_1x1_05]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE,SLIC#2</TD>
+            <TD>["270609"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SOBF_270609_2007-07-26T07:58:52.050_BLU437bl_1x1_05.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2021-09-07T09:10:51.436</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (NOT FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>51804.1682948</TD>
+            <TD>2000-09-17T04:02:20.670</TD>
+            <TD>300.002</TD>
+            <TD>328.106-456.243</TD>
+            <TD>19540.0</TD>
+            <TD></TD>
+            <TD>["165.H-0588"]</TD>
+            <TD><![CDATA[[NAPIWOTZKI, RALF]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>wd2326+049</TD>
+            <TD></TD>
+            <TD>2021-09-07T09:22:41.000</TD>
+            <TD>POSITION J2000 352.198394 5.24895</TD>
+            <TD>352.198394</TD>
+            <TD>5.24895</TD>
+            <TD>ADP.2021-09-07T09:10:51.436</TD>
+            <TD>1</TD>
+            <TD>2001-10-20T21:54:27.000</TD>
+            <TD>15357627</TD>
+            <TD>789</TD>
+            <TD></TD>
+            <TD>38.7</TD>
+            <TD>88.171612</TD>
+            <TD>-51.956176</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2000-09-17T04:07:20.673</TD>
+            <TD>51804.17176704</TD>
+            <TD>300.002</TD>
+            <TD><![CDATA[wd2326+049_14291_2000-09-17T04:02:20.671_BLU390d1_2x2_21]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE</TD>
+            <TD>["14291"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SRED_14291_2000-09-17T04:02:20.671_BLU390d1_2x2_21.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2021-09-30T14:44:35.955</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>51762.17906571</TD>
+            <TD>2000-08-06T04:17:51.277</TD>
+            <TD>300.001</TD>
+            <TD>328.1-456.25</TD>
+            <TD>19540.0</TD>
+            <TD></TD>
+            <TD>["165.H-0588"]</TD>
+            <TD><![CDATA[[NAPIWOTZKI, RALF]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>wd2326+049</TD>
+            <TD></TD>
+            <TD>2021-09-30T15:02:12.000</TD>
+            <TD>POSITION J2000 352.199865 5.24856</TD>
+            <TD>352.199865</TD>
+            <TD>5.24856</TD>
+            <TD>ADP.2021-09-30T14:44:35.955</TD>
+            <TD>1</TD>
+            <TD>2001-10-20T21:54:21.000</TD>
+            <TD>15583967</TD>
+            <TD>1195</TD>
+            <TD></TD>
+            <TD>27.9</TD>
+            <TD>88.173335</TD>
+            <TD>-51.957259</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2000-08-06T04:22:51.280</TD>
+            <TD>51762.18253795</TD>
+            <TD>300.001</TD>
+            <TD><![CDATA[wd2326+049_14290_2000-08-06T04:17:51.277_BLU390d1_2x2_21]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE</TD>
+            <TD>["14290"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SFLX_14290_2000-08-06T04:17:51.277_BLU390d1_2x2_21.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2021-09-30T14:44:35.951</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (NOT FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>51762.17906571</TD>
+            <TD>2000-08-06T04:17:51.277</TD>
+            <TD>300.001</TD>
+            <TD>328.111-456.257</TD>
+            <TD>19540.0</TD>
+            <TD></TD>
+            <TD>["165.H-0588"]</TD>
+            <TD><![CDATA[[NAPIWOTZKI, RALF]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>wd2326+049</TD>
+            <TD></TD>
+            <TD>2021-09-30T15:02:12.000</TD>
+            <TD>POSITION J2000 352.199865 5.24856</TD>
+            <TD>352.199865</TD>
+            <TD>5.24856</TD>
+            <TD>ADP.2021-09-30T14:44:35.951</TD>
+            <TD>1</TD>
+            <TD>2001-10-20T21:54:21.000</TD>
+            <TD>15583965</TD>
+            <TD>815</TD>
+            <TD></TD>
+            <TD>28.1</TD>
+            <TD>88.173335</TD>
+            <TD>-51.957259</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2000-08-06T04:22:51.280</TD>
+            <TD>51762.18253795</TD>
+            <TD>300.001</TD>
+            <TD><![CDATA[wd2326+049_14290_2000-08-06T04:17:51.277_BLU390d1_2x2_21]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE</TD>
+            <TD>["14290"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SRED_14290_2000-08-06T04:17:51.277_BLU390d1_2x2_21.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2021-09-07T09:10:51.452</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (NOT FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>51804.16823298</TD>
+            <TD>2000-09-17T04:02:15.330</TD>
+            <TD>300.0</TD>
+            <TD>458.342-667.348</TD>
+            <TD>18770.0</TD>
+            <TD></TD>
+            <TD>["165.H-0588"]</TD>
+            <TD><![CDATA[[NAPIWOTZKI, RALF]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>wd2326+049</TD>
+            <TD></TD>
+            <TD>2021-09-07T09:22:41.000</TD>
+            <TD>POSITION J2000 352.198394 5.24895</TD>
+            <TD>352.198394</TD>
+            <TD>5.24895</TD>
+            <TD>ADP.2021-09-07T09:10:51.452</TD>
+            <TD>1</TD>
+            <TD>2001-10-20T21:54:27.000</TD>
+            <TD>15357635</TD>
+            <TD>1131</TD>
+            <TD></TD>
+            <TD>62.1</TD>
+            <TD>88.171612</TD>
+            <TD>-51.956176</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2000-09-17T04:07:15.330</TD>
+            <TD>51804.1717052</TD>
+            <TD>300.0</TD>
+            <TD><![CDATA[wd2326+049_14291_2000-09-17T04:02:15.329_RED564d1_2x2_21]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE</TD>
+            <TD>["14291"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SRED_14291_2000-09-17T04:02:15.329_RED564d1_2x2_21.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+          <TR>
+            <TD>application/x-votable+xml;content=datalink</TD>
+            <TD>http://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2020-09-10T10:30:39.105</TD>
+            <TD></TD>
+            <TD>SPECTRUM</TD>
+            <TD>SPECTRUM (FLUX CALIBRATED)</TD>
+            <TD>UVES</TD>
+            <TD>La Silla Paranal APEX</TD>
+            <TD>51762.17904881</TD>
+            <TD>2000-08-06T04:17:49.817</TD>
+            <TD>299.997</TD>
+            <TD>458.348-668.649</TD>
+            <TD>18770.0</TD>
+            <TD></TD>
+            <TD>["165.H-0588"]</TD>
+            <TD><![CDATA[[NAPIWOTZKI, RALF]]]></TD>
+            <TD>ESO, PHASE3</TD>
+            <TD>UVES</TD>
+            <TD>wd2326+049</TD>
+            <TD></TD>
+            <TD>2020-10-20T09:57:01.000</TD>
+            <TD>POSITION J2000 352.199865 5.24856</TD>
+            <TD>352.199865</TD>
+            <TD>5.24856</TD>
+            <TD>ADP.2020-09-10T10:30:39.105</TD>
+            <TD>1</TD>
+            <TD>2001-10-20T21:54:21.710</TD>
+            <TD>10615340</TD>
+            <TD>1969</TD>
+            <TD></TD>
+            <TD>50.2</TD>
+            <TD>88.173334</TD>
+            <TD>-51.957258</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>2</TD>
+            <TD>2000-08-06T04:22:49.817</TD>
+            <TD>51762.182521</TD>
+            <TD>299.997</TD>
+            <TD><![CDATA[wd2326+049_14290_2000-08-06T04:17:49.817_RED564d1_2x2_21]]></TD>
+            <TD>ESO-VLT-U2</TD>
+            <TD>ECHELLE</TD>
+            <TD>["14290"]</TD>
+            <TD>IDP</TD>
+            <TD>UV_SFLX_14290_2000-08-06T04:17:49.817_RED564d1_2x2_21.fits</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>true</TD>
+            <TD></TD>
+          </TR>
+        </TABLEDATA>
+      </DATA>
+    </TABLE>
+  </RESOURCE>
+</VOTABLE>

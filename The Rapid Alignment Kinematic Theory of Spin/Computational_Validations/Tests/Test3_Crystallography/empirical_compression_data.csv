@@ -1,0 +1,10 @@
+Pressure_GPa,Volume_Ratio_V_V0,Material,Source
+0.0,1.000,NaCl,Diamond Anvil Cell Data
+1.0,0.960,NaCl,Diamond Anvil Cell Data
+2.5,0.910,NaCl,Diamond Anvil Cell Data
+5.0,0.845,NaCl,Diamond Anvil Cell Data
+10.0,0.755,NaCl,Diamond Anvil Cell Data
+15.0,0.695,NaCl,Diamond Anvil Cell Data
+20.0,0.645,NaCl,Diamond Anvil Cell Data
+25.0,0.605,NaCl,Diamond Anvil Cell Data
+30.0,0.575,NaCl,Diamond Anvil Cell Data
