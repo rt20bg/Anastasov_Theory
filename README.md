@@ -22,7 +22,7 @@ If you use these ideas or data in your research, please cite this repository as 
 *   **Interactive Tests:** Run the [Jupyter Physics Engine](./Macro_Gravity/05_Interactive_Physics_Simulations/Gravitacia_Interactive.ipynb). [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rt20bg/Anastasov_Theory/blob/main/Macro_Gravity/05_Interactive_Physics_Simulations/Gravitacia_Interactive.ipynb)
 
 ### 🔬 2. "Quantum Kinematics" Branch (COMPLETED)
-**Paper:** [`RAKTS_Whitepaper.tex`](./The%20Rapid%20Alignment%20Kinematic%20Theory%20of%20Spin/RAKTS_Whitepaper.tex)
+**Paper:** [`The Rapid Alignment Kinematic Theory of Spin (RAKTS).md`](./The%20Rapid%20Alignment%20Kinematic%20Theory%20of%20Spin/The%20Rapid%20Alignment%20Kinematic%20Theory%20of%20Spin%20(RAKTS).md) | **PDF:** [`RAKTS_Whitepaper.pdf`](./The%20Rapid%20Alignment%20Kinematic%20Theory%20of%20Spin/RAKTS_Whitepaper.pdf)
 *   **Topic:** The Rapid Alignment Kinematic Theory of Spin (RAKTS). Proof that quantum superposition is an illusion caused by macroscopic magnetic-kinematic alignment. Replaces orbital hybridization with fluid mechanics.
 *   **Interactive Tests:** See the [Validation Dashboard](./The%20Rapid%20Alignment%20Kinematic%20Theory%20of%20Spin/Computational_Validations/RAKTS_Validation_Dashboard.html).
 
