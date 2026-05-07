@@ -26,16 +26,16 @@ If you use these ideas or data in your research, please cite this repository as 
 *   **Topic:** The Rapid Alignment Kinematic Theory of Spin (RAKTS). Proof that quantum superposition is an illusion caused by macroscopic magnetic-kinematic alignment. Replaces orbital hybridization with fluid mechanics.
 *   **Interactive Tests:** See the [Validation Dashboard](./The%20Rapid%20Alignment%20Kinematic%20Theory%20of%20Spin/Computational_Validations/RAKTS_Validation_Dashboard.html).
 
-### 🌊 3. "Fluid Gravitational Waves" Branch (NEW)
-**Directory:** [`\LIGO_Fluid_Dynamics`](./LIGO_Fluid_Dynamics)
+### 🌊 3. "Fluid Gravitational Waves" Branch (UPCOMING)
+*   **Status:** Future Work / In Development
 *   **Topic:** Proof that gravitational waves are mechanical shockwaves in a viscous dielectric medium, not spacetime ripples.
 
-### 🚀 4. "Solar Kinematic Anomalies" Branch
-**Directory:** [`\Kinematic_Anomalies`](./Kinematic_Anomalies)
+### 🚀 4. "Solar Kinematic Anomalies" Branch (UPCOMING)
+*   **Status:** Future Work / In Development
 *   **Topic:** Explaining solar system anomalies (Pioneer, Earth Flyby) through fluid vacuum friction.
 
-### 🔭 5. "Cosmology and Genesis" Branch
-**Directory:** [`\Cosmology_and_Genesis`](./Cosmology_and_Genesis)
+### 🔭 5. "Cosmology and Genesis" Branch (UPCOMING)
+*   **Status:** Future Work / In Development
 *   **Topic:** Redefining the origin of matter. The universe as a self-regulating thermodynamic engine.
 
 ---
