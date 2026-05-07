@@ -1,0 +1,6 @@
+Bond,Atom1,Atom2,Bond_Length_pm,BDE_kJ_mol,Source
+H-H,H,H,74,436,Standard Thermodynamic Data
+C-C,C,C,154,348,Standard Thermodynamic Data
+Cl-Cl,Cl,Cl,199,242,Standard Thermodynamic Data
+Br-Br,Br,Br,228,193,Standard Thermodynamic Data
+I-I,I,I,266,151,Standard Thermodynamic Data

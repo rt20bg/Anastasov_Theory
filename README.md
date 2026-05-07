@@ -13,15 +13,18 @@ If you use these ideas or data in your research, please cite this repository as 
 
 ## 🪐 Physics Branches (Alternative Relativity)
 
-### 🌌 1. "Macro-Gravity" Branch (COMPLETED)
-**Paper:** [`Relativity_Alternative_Full_Paper.md`](./Macro_Gravity/Relativity_Alternative_Full_Paper.md)
-*   **Topic:** Proof that local kinematics (Flat Space) replaces Einstein's General Relativity.
-*   **Key Tests:** Mercury's orbital precession, light deflection, Shapiro delay, GPS clock synchronization.
- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rt20bg/Anastasov_Theory/blob/main/Macro_Gravity/simulations/Gravitacia_Interactive.ipynb)
+### 🌌 1. "Macro-Gravity" Branch: The $\varepsilon_0(\varphi)$ Model (COMPLETED)
+**Paper:** [`01_The_Core_Theory_Flat_Space_Relativity.md`](./Macro_Gravity/01_The_Core_Theory_Flat_Space_Relativity.md) | **PDF:** [`01_The_Core_Theory_Flat_Space_Relativity.pdf`](./Macro_Gravity/01_The_Core_Theory_Flat_Space_Relativity.pdf)
+*   **Topic:** Proof that local kinematics (Flat Space) and a Variable Vacuum Permittivity $\varepsilon_0(\varphi)$ replace Einstein's geometric General Relativity.
+*   **Key Tests:** Mercury's precession, light deflection, Shapiro delay, GPS synchronization.
+*   **Empirical Milestone:** Identified a definitive **Spectroscopic Violation of the Equivalence Principle** in White Dwarfs, confirming the theory's quantum predictions.
+*   **Reports:** See the full [WEP Violation Report](./Macro_Gravity/07_Executive_Reports/WEP_VIOLATION_REPORT.md).
+*   **Interactive Tests:** Run the [Jupyter Physics Engine](./Macro_Gravity/05_Interactive_Physics_Simulations/Gravitacia_Interactive.ipynb). [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rt20bg/Anastasov_Theory/blob/main/Macro_Gravity/05_Interactive_Physics_Simulations/Gravitacia_Interactive.ipynb)
 
-### 🔬 2. "Quantum Kinematics" Branch (IN PROGRESS)
-**Paper:** [`rakts_theory_expanded_EN.md`](./Spin%20no%20Spin/rakts_theory_expanded_EN.md)
-*   **Topic:** Proof that quantum superposition is an illusion caused by macroscopic magnetic-kinematic alignment (RAKTS). Rebuttal of Bell's Theorem.
+### 🔬 2. "Quantum Kinematics" Branch (COMPLETED)
+**Paper:** [`RAKTS_Whitepaper.tex`](./The%20Rapid%20Alignment%20Kinematic%20Theory%20of%20Spin/RAKTS_Whitepaper.tex)
+*   **Topic:** The Rapid Alignment Kinematic Theory of Spin (RAKTS). Proof that quantum superposition is an illusion caused by macroscopic magnetic-kinematic alignment. Replaces orbital hybridization with fluid mechanics.
+*   **Interactive Tests:** See the [Validation Dashboard](./The%20Rapid%20Alignment%20Kinematic%20Theory%20of%20Spin/Computational_Validations/RAKTS_Validation_Dashboard.html).
 
 ### 🌊 3. "Fluid Gravitational Waves" Branch (NEW)
 **Directory:** [`\LIGO_Fluid_Dynamics`](./LIGO_Fluid_Dynamics)
@@ -37,20 +40,8 @@ If you use these ideas or data in your research, please cite this repository as 
 
 ---
 
-## 🧠 Mathematics and Computer Science (Philosophy)
+## 🧠 Mathematics and Computer Science (Miscellaneous / Popular Articles)
 
 ### 🔢 6. The Prime Number Illusion
 **Paper:** [`The_Prime_Number_Illusion_Theory_2026_04_23.md`](./PrimeNumbers/The_Prime_Number_Illusion_Theory_2026_04_23.md)
-*   **Topic:** Papers proving that prime numbers are artifacts of perception and artificial discrete mathematics ("step 1.0"), rather than properties of the analog universe.
-
-### 💻 7. P vs NP: Computational and Physical Limits
-**Paper:** [`P_vs_NP_Physical_Computational_Perspective_2026_04_23.md`](./P_vs_NP_Theory/P_vs_NP_Physical_Computational_Perspective_2026_04_23.md)
-*   **Topic:** A pragmatic view of P vs NP through the lens of hardware (Assembly), quantum probabilities (the "Infinite Luck Monkey"), and the thermodynamic arrow of time.
-
----
-
-## 🏛️ Futurology and Economics
-
-### 🌍 8. Economics of the Future
-**Directory:** [`\Economics_and_Futurology`](./Economics_and_Futurology)
-*   **Topic:** Socio-economic hypotheses, forecasts, and analyses of the future.
+*   **Topic:** A popular science/philosophical exploration proving that prime numbers are artifacts of perception and artificial discrete mathematics ("step 1.0"), rather than fundamental properties of the analog universe. Has potential implications for modern cryptography.

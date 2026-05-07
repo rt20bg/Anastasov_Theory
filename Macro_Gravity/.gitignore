@@ -1,0 +1,6 @@
+# Ignore archive directory and its contents
+_archive/
+
+# Ignore backups
+*.zip
+*.bak

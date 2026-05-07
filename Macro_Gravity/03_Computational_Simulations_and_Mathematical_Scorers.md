@@ -45,12 +45,12 @@ This document presents the direct computational outputs of the flat-space kinema
 
 **The Phenomenon:** GPS atomic clocks diverge from Earth-based receivers by ~$38\ \mu s$/day.
 **The GR Explanation:** Special Relativity slows the satellite down, but General Relativity speeds it up due to decreased spacetime curvature.
-**The Kinematic Explanation:** Total vector mechanical energy constraints. Orbital speed puts kinematic drag on the clock. Expanding altitude relieves vacuum density drag on orbital transitions.
+**The Kinematic Explanation:** Kinematic delay from orbital velocity slows the clock. However, expanding altitude decreases the vacuum refractive index ($n$). Since matter is fundamentally light-like, atomic transitions speed up because the local speed of light $c_{loc} = c_0/n$ increases.
 
 | Mechanical Vector | Physical Mechanism | Microseconds per Day |
 | :---------------- | :----------------- | :------------------- |
-| **Velocity Drag** | Kinematic cross-interaction of moving vectors | $-7.1\ \mu s$/day |
-| **Vacuum Relief** | Less resistance to internal atomic transitions at high altitude | $+45.7\ \mu s$/day |
+| **Kinematic Delay** | Velocity-induced slowing of internal mechanics | $-7.1\ \mu s$/day |
+| **Vacuum Relief** | Decreased refractive index ($n$) allows higher $c_{loc}$, speeding up transitions | $+45.7\ \mu s$/day |
 | **Net Final Offset** | Mathematical Sum | **$+38.6\ \mu s$/day** |
 
-> **Conclusion:** The identical GPS offset is achieved without requiring time to be a pliable physical axis. Atomic clocks are mechanical devices experiencing varying levels of environmental drag.
+> **Conclusion:** The identical GPS offset is achieved without requiring time to be a pliable physical axis. Atomic clocks are physical devices governed by the local speed of light $c_{loc}$, running faster when the vacuum refractive index $n(\varphi)$ decreases.

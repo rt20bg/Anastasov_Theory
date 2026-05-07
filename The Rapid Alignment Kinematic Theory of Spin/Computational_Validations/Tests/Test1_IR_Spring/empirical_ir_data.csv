@@ -1,0 +1,4 @@
+Molecule,Isotope,Reduced_Mass_kg,Force_Constant_Nm,Empirical_Freq_cm_1,Source
+CO,12C-16O,1.138e-26,1902,2169.8,NIST Chemistry WebBook
+HCl,1H-35Cl,1.627e-27,516,2990.9,NIST Chemistry WebBook
+N2,14N-14N,1.163e-26,2295,2358.5,NIST Chemistry WebBook

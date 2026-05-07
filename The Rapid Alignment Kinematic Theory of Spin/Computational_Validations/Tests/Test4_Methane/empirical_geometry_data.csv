@@ -1,0 +1,5 @@
+Molecule,Central_Atom,Ligands,Empirical_Bond_Angle_Deg,Source
+CH4,C,4,109.5,Gas-Phase Electron Diffraction (Standard)
+NH3,N,3,107.8,Gas-Phase Electron Diffraction
+H2O,O,2,104.5,Gas-Phase Electron Diffraction
+CCl4,C,4,109.5,X-ray Crystallography
