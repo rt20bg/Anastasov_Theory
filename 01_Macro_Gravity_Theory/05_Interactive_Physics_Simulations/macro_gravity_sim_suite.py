@@ -44,7 +44,7 @@ def einstein_gravity(t, state, mass=M_sun):
     a_vec = - (G * mass / r**3) * r_vec * (1.0 + 3.0 * h2 / (c**2 * r**2))
     return [v_vec[0], v_vec[1], a_vec[0], a_vec[1]]
 
-def flat_space_kinematic_gravity(t, state, mass=M_sun):
+def euclidean_field_kinematic_gravity(t, state, mass=M_sun):
     r_vec, v_vec = state[0:2], state[2:4]
     r = np.linalg.norm(r_vec)
     v = np.linalg.norm(v_vec)
@@ -67,7 +67,7 @@ def run_planetary_simulation():
     print("\n" + "="*70)
     print(" 1. ORBITAL PRECESSION OF INNER PLANETS (arcsec/century)")
     print("="*70)
-    print(f"{'Planet':<10} | {'Observed (GR)':<15} | {'Flat Space (K=3)':<15}")
+    print(f"{'Planet':<10} | {'Observed (GR)':<15} | {'Euclidean Field (K=3)':<15}")
     print("-" * 45)
 
     for body, data in obj_data.items():
@@ -84,8 +84,8 @@ def run_planetary_simulation():
         else:
             prec_e = 0.0
 
-        # Flat Space Simulation
-        sol_f = solve_ivp(flat_space_kinematic_gravity, [0, t_max], state0, method='DOP853', 
+        # Euclidean Field Simulation
+        sol_f = solve_ivp(euclidean_field_kinematic_gravity, [0, t_max], state0, method='DOP853', 
                           events=perihelion_event, rtol=1e-11, atol=1e-11, args=(M_sun,))
         if len(sol_f.t_events[0]) > 1:
             t_ev_f, y_ev_f = sol_f.t_events[0], sol_f.y_events[0]
@@ -114,7 +114,7 @@ def run_light_deflection():
     rtol, atol = 1e-12, 1e-12
     
     sol_e = solve_ivp(einstein_gravity_light, [0, t_end], state0, method='DOP853', rtol=rtol, atol=atol)
-    sol_f = solve_ivp(flat_space_kinematic_gravity, [0, t_end], state0, method='DOP853', rtol=rtol, atol=atol)
+    sol_f = solve_ivp(euclidean_field_kinematic_gravity, [0, t_end], state0, method='DOP853', rtol=rtol, atol=atol)
     
     def calc_deflection(sol): 
         return (np.arctan2(np.abs(sol.y[3][-1]), sol.y[2][-1]) * 180 / np.pi) * 3600 
@@ -122,7 +122,7 @@ def run_light_deflection():
     defl_arcsec_e = calc_deflection(sol_e)
     defl_arcsec_f = calc_deflection(sol_f)
 
-    print(f"{'Metric':<10} | {'Observed (GR)':<15} | {'Flat Space (K=1.5)':<15}")
+    print(f"{'Metric':<10} | {'Observed (GR)':<15} | {'Euclidean Field (K=1.5)':<15}")
     print("-" * 48)
     print(f"{'Deflection':<10} | {defl_arcsec_e:>10.3f}\" | {defl_arcsec_f:>13.3f}\"")
 
@@ -140,15 +140,15 @@ def run_shapiro_delay():
         v_local = c * (1.0 - 2.0 * G * M_sun / (np.sqrt(x**2 + b**2) * c**2))
         return [1.0 / v_local]
         
-    # Flat Space Polarizable Vacuum Refractive Index
-    def dt_dx_flat_space(x, t):
+    # Euclidean Field Polarizable Medium Refractive Index
+    def dt_dx_euclidean_field(x, t):
         r = np.sqrt(x**2 + b**2)
         n = 1.0 + (K_dynamic(c) / 1.5) * (2.0 * G * M_sun / (r * c**2))
         v_local = c / n
         return [1.0 / v_local]
 
     sol_e = solve_ivp(dt_dx_einstein, [x_earth, x_venus], [0], method='RK45', atol=1e-12, rtol=1e-12)
-    sol_f = solve_ivp(dt_dx_flat_space, [x_earth, x_venus], [0], method='RK45', atol=1e-12, rtol=1e-12)
+    sol_f = solve_ivp(dt_dx_euclidean_field, [x_earth, x_venus], [0], method='RK45', atol=1e-12, rtol=1e-12)
     
     light_time_e = sol_e.y[0][-1]
     light_time_f = sol_f.y[0][-1]
@@ -162,7 +162,7 @@ def run_shapiro_delay():
     round_trip_f = delay_f * 2
     
     print("Refractive index modeled as: n(r) = 1 + (K_dyn / 1.5) * 2GM/rc^2\n")
-    print(f"{'Metric':<15} | {'Observed (GR)':<15} | {'Flat Space':<15}")
+    print(f"{'Metric':<15} | {'Observed (GR)':<15} | {'Euclidean Field':<15}")
     print("-" * 50)
     print(f"{'Delay (micro-s)':<15} | {round_trip_e:>10.2f} us  | {round_trip_f:>10.2f} us")
 
@@ -180,7 +180,7 @@ def run_gps_simulation():
     # Kinematic Dilation (Time slows down due to velocity)
     kinematic_diff = - (0.5 * v_sat**2 / c**2) * day * 1e6
     
-    # Gravitational Dilation (Polarizable Vacuum density relief)
+    # Gravitational Dilation (Polarizable Medium density relief)
     n_surface = 1 + 2*G*M_earth / (r_surface * c**2)
     n_sat = 1 + 2*G*M_earth / (r_sat * c**2)
     grav_relief = (n_surface - n_sat)/2 * day * 1e6
@@ -188,7 +188,7 @@ def run_gps_simulation():
     net_shift = kinematic_diff + grav_relief
     
     print(f"Velocity Drag (Kinematic)     : {kinematic_diff:+.2f} us/day")
-    print(f"Vacuum Relief (Gravitational) : {grav_relief:+.2f} us/day")
+    print(f"Medium Relief (Gravitational) : {grav_relief:+.2f} us/day")
     print("-" * 50)
     print(f"Net Daily Advance             : {net_shift:+.2f} us/day")
 
@@ -198,7 +198,7 @@ def main():
     
     print("\n" + "#"*70)
     print("=== MACRO-GRAVITY KINEMATIC SIMULATOR ===")
-    print("Testing the equivalence of Flat-Space Kinematics to Metric Curvature (GR)")
+    print("Testing the equivalence of Euclidean Field Kinematics to Metric Curvature (GR)")
     print("#"*70)
     
     run_planetary_simulation()

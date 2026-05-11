@@ -1,2 +1,14 @@
+# Build and temporary files
 *.zip
 *.log
+__pycache__/
+*.py[cod]
+
+# Distribution & Outreach (DO NOT PUBLISH)
+03_Distribution_Campaign/
+potential_reviewers.csv
+*.env
+
+# Local IDE settings
+.vscode/
+.idea/

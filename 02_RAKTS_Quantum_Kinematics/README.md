@@ -25,6 +25,7 @@ Inside the `Computational_Validations/Tests` folder, you will find Python simula
 3.  **Test 3: Crystallography Bulk Modulus (`Test3_Crystallography`)** - Proves the "incompressibility of streams" using extreme pressure Diamond Anvil Cell data, outperforming Coulomb statics.
 4.  **Test 4: Molecular Geometry (`Test4_Methane`)** - Derives exact molecular angles (like Methane's 109.5° and Water's 104.5°) purely by minimizing Hydrodynamic Boundary Layer friction.
 5.  **Test 5: Paramagnetism (`Test5_Paramagnetism`)** - Replaces quantum "unpaired spin states" with continuous macroscopic vector alignment (Langevin function).
+6.  **Test 6: Electron Diffraction Paradox (`Test6_Diffraction`)** - ⚡ **NEW:** Proves that diffraction rings are a mechanical result of grid-steering, not probability waves. Demonstrates that a massive, chaotic electron beam produces the same crisp pattern as single electrons, despite massive Coulomb entropy.
 
 ## Getting Started
 To view the results immediately, simply open `Computational_Validations/RAKTS_Validation_Dashboard.html`.

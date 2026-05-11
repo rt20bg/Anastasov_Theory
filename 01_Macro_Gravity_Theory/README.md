@@ -1,6 +1,6 @@
 # Macro Gravity Project: The $\varepsilon_0(\varphi)$ Model
 
-This repository contains the theoretical framework, simulations, and empirical testing suite for the **Variable Vacuum Permittivity Model of Gravity**.
+This repository contains the theoretical framework, simulations, and empirical testing suite for the **Variable Medium Permittivity Model of Gravity**.
 
 ## 🧠 Theoretical Core
 The core hypothesis proposes that gravitational phenomena—traditionally described by the spacetime curvature of General Relativity (GR)—are instead the physical consequence of a variable vacuum permittivity $\varepsilon_0(\varphi)$ induced by mass.
@@ -10,9 +10,9 @@ The core hypothesis proposes that gravitational phenomena—traditionally descri
 
 ## 📂 Project Structure
 
-*   **`01_The_Core_Theory_Flat_Space_Relativity.pdf` / `.md`**: The foundational whitepaper outlining the "Matter as Light" resolution and the mechanical basis of Flat-Space Relativity.
+*   **`01_The_Core_Theory_Euclidean_Field_Relativity.pdf` / `.md`**: The foundational whitepaper outlining the "Matter as Light" resolution and the mechanical basis of Euclidean Field Relativity.
 *   **`02_Empirical_Evidence_and_Astronomical_Data.md`**: Compiles 9 distinct observational breakdowns of GR.
-*   **`03_Computational_Simulations_and_Mathematical_Scorers.md`**: Explanation of the python simulations that validate the flat-space mathematics against classical GR formulas.
+*   **`03_Computational_Simulations_and_Mathematical_Scorers.md`**: Explanation of the python simulations that validate the Euclidean Field mathematics against classical GR formulas.
 *   **`04_Defending_the_Theory_Preemptive_Rebuttals.md`**: Anticipated critiques, FAQs, and physical rebuttals.
 *   **`05_Interactive_Physics_Simulations/`**: The dynamic Python sandbox containing the code for planetary orbits, light deflection, and Shapiro delay.
 *   `/shared/`

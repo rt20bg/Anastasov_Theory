@@ -11,12 +11,28 @@ If you use these ideas or data in your research, please cite this repository as 
 
 ---
 
+## 🖋️ Author's Philosophical Note: The Spirit of "What If"
+
+The history of science shows us that the giants who built the foundations of our modern understanding—Maxwell, Newton, Faraday, and Einstein—were characterized by their intellectual bravery. They were not afraid to be wrong, and more importantly, they were not afraid to explore "What If" scenarios that challenged the established norms of their time. 
+
+This repository is born from that same spirit of intellectual freedom. 
+
+I want to be clear: I do not claim to hold the absolute, final truth of the universe. Instead, I am presenting a series of rigorous "What If" simulations. These models are offered as **intellectual stress-tests** for established theories. Some parts may survive, some may break—and I believe both outcomes are scientifically valuable. 
+
+In the following papers, I argue as if these kinematic and Euclidean models are the definitive reality. I do this because the only way to truly test a model’s limits is to push its logic to the absolute extreme. 
+
+Exploring these alternative paths is inherently valuable for the progress of science. In this independent research, the only cost is my personal time—not taxpayer-funded grants. I believe it is far better for humanity to have 20 working, non-refuted models for future data than to be locked into a single dogmatic path. 
+
+I invite you to treat these theories as exploratory blueprints. Let us see where the logic leads, not because we want to tear down the past, but because we want to secure the future of pluralistic scientific inquiry.
+
+---
+
 ## 🪐 Physics Branches (Alternative Relativity)
 
 ### 🌌 1. "Macro-Gravity" Branch: The $\varepsilon_0(\varphi)$ Model (COMPLETED)
 **Directory:** [`01_Macro_Gravity_Theory`](./01_Macro_Gravity_Theory)
-**Paper:** [`01_The_Core_Theory_Flat_Space_Relativity.md`](./01_Macro_Gravity_Theory/01_The_Core_Theory_Flat_Space_Relativity.md) | **PDF:** [`01_The_Core_Theory_Flat_Space_Relativity.pdf`](./01_Macro_Gravity_Theory/01_The_Core_Theory_Flat_Space_Relativity.pdf)
-*   **Topic:** Proof that local kinematics (Flat Space) and a Variable Vacuum Permittivity $\varepsilon_0(\varphi)$ replace Einstein's geometric General Relativity.
+**Paper:** [`01_The_Core_Theory_Euclidean_Field_Relativity.md`](./01_Macro_Gravity_Theory/01_The_Core_Theory_Euclidean_Field_Relativity.md) | **PDF:** [`01_The_Core_Theory_Euclidean_Field_Relativity.pdf`](./01_Macro_Gravity_Theory/01_The_Core_Theory_Euclidean_Field_Relativity.pdf)
+*   **Topic:** Proof that local kinematics (Euclidean Space) and a Variable Medium Permittivity $\varepsilon_0(\varphi)$ replace Einstein's geometric General Relativity.
 *   **Key Tests:** Mercury's precession, light deflection, Shapiro delay, GPS synchronization.
 *   **Empirical Milestone:** Identified a definitive **Spectroscopic Violation of the Equivalence Principle** in White Dwarfs, confirming the theory's quantum predictions.
 *   **Reports:** See the full [WEP Violation Report](./01_Macro_Gravity_Theory/07_Executive_Reports/WEP_VIOLATION_REPORT.md).
