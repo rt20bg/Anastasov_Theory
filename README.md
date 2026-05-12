@@ -45,18 +45,18 @@ I invite you to treat these theories as exploratory blueprints. Let us see where
 *   **Interactive Tests:** See the [Validation Dashboard](./02_RAKTS_Quantum_Kinematics/Computational_Validations/RAKTS_Validation_Dashboard.html).
 
 ### 🌊 3. "Fluid Gravitational Waves" Branch (UPCOMING)
-*   **Directory:** `99_Upcoming_Research/LIGO_Fluid_Dynamics`
-*   **Status:** Future Work / In Development
-*   **Topic:** Proof that gravitational waves are mechanical shockwaves in a viscous dielectric medium, not spacetime ripples.
+*   **Topic:** Gravitational waves as mechanical shockwaves.
+*   **Strategic Doc:** [`01_Strategic_Space_Defense_Roadmap.md`](./99_Upcoming_Research/01_Strategic_Space_Defense_Roadmap.md)
 
 ### 🚀 4. "Solar Kinematic Anomalies" Branch (UPCOMING)
-*   **Directory:** `99_Upcoming_Research/Kinematic_Anomalies`
-*   **Status:** Future Work / In Development
-*   **Topic:** Explaining solar system anomalies (Pioneer, Earth Flyby) through fluid vacuum friction.
+*   **Topic:** Pioneer/Flyby anomalies via fluid vacuum friction.
+*   **Experimental Proposal:** [`02_RAKTS_Falsification_Experiments.md`](./99_Upcoming_Research/02_RAKTS_Falsification_Experiments.md)
 
-### 🔭 5. "Cosmology and Genesis" Branch (UPCOMING)
-*   **Directory:** `99_Upcoming_Research/Cosmology_and_Genesis`
-*   **Status:** Future Work / In Development
+### ⚡ 5. "Precision Kinematic Assembly" Branch (UPCOMING)
+*   **Topic:** Post-accelerator engineering. Energy production and hyper-dense materials via resonant atomic alignment.
+*   **Technical Proposal:** [`03_Precision_Kinematic_Assembly_and_Energy.md`](./99_Upcoming_Research/03_Precision_Kinematic_Assembly_and_Energy.md)
+
+### 🔭 6. "Cosmology and Genesis" Branch (UPCOMING)
 *   **Topic:** Redefining the origin of matter. The universe as a self-regulating thermodynamic engine.
 
 ---
