@@ -20,19 +20,23 @@ In our model, the medium permittivity $\varepsilon$ is not a universal constant 
 $$ \varepsilon(\Phi) = \varepsilon_0 \cdot n(\Phi) \quad \text{where} \quad n(\Phi) \approx 1 + \frac{2|\Phi|}{c^2} $$
 
 For the Solar surface:
+
 $$ \delta = \frac{|\Phi|}{c^2} \approx 2.12 \times 10^{-6} $$
 
 #### 2.1 The Atomic Polarization Effect
 If $\varepsilon$ increases, the Coulomb force between the nucleus and electrons is shielded:
+
 $$ F_c = \frac{1}{4\pi\varepsilon} \frac{Ze^2}{r^2} $$
 
 This leads to an immediate expansion of the Bohr radius $a_0$:
+
 $$ a_{modified} = a_0 \cdot n(\Phi) $$
 
 The atom literally "swells" in response to the gravity pool. This expansion induces a **Geometric Dipole Moment** in the electron cloud, creating a structural polarization that mimics the effect of a weak external magnetic or electric field.
 
 #### 2.2 Energy Level Shifts (The Structural Redshift)
 The Rydberg energy scales as $E \propto 1/\varepsilon^2$. Therefore:
+
 $$ \frac{\Delta E}{E} = -2 \frac{\Delta \varepsilon}{\varepsilon} \approx -4 \delta $$
 
 This predicts a "Structural Redshift" that is **four times larger** than the standard kinematic redshift if not properly calibrated against the medium index.

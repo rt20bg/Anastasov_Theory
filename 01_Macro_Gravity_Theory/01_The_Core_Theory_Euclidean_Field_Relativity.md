@@ -98,10 +98,12 @@ $$ z_{total} = z_{universal} + z_{alpha}(q) $$
 We assert that atomic GPS clocks are physical machines altering their tick rate in response to shifting drag potentials in the Field Medium.
 
 1.  **Velocity Stress (Kinematic Drag):** A satellite traveling at $3.87$ km/s experiences localized kinematic drag, dropping ticks:
-    $$ \Delta t_{kinematic} \approx -\frac{1}{2} \frac{v_{sat}^2}{c^2} \quad \implies \quad -7.1 \ \mu s\text{/day} $$
+
+$$ \Delta t_{kinematic} \approx -\frac{1}{2} \frac{v_{sat}^2}{c^2} \quad \implies \quad -7.1 \ \mu s\text{/day} $$
 
 2.  **Medium Density Relief (Optical Speedup):** At high altitudes, the Field Medium is "thinner" (lower $n$). Internal machinery ticks faster:
-    $$ \Delta t_{gravitational} \approx \frac{GM}{c^2} \left[ \frac{1}{R_{earth}} - \frac{1}{R_{sat}} \right] \quad \implies \quad +45.7 \ \mu s\text{/day} $$
+
+$$ \Delta t_{gravitational} \approx \frac{GM}{c^2} \left[ \frac{1}{R_{earth}} - \frac{1}{R_{sat}} \right] \quad \implies \quad +45.7 \ \mu s\text{/day} $$
 
 **Result:** A net clock advance of **$38.6 \ \mu s$/day**, matching the GPS network empirical drift.
 
