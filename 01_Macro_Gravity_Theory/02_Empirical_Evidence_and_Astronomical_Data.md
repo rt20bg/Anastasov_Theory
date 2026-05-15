@@ -10,16 +10,13 @@ Below is a compiled list of established experimental and observational data that
 
 **The Observation:** Since the 1970s, astronomers have known that the outer edges of galaxies rotate far too quickly. According to GR, there is not enough visible mass to hold them together; they should fly apart.
 **The GR Problem:** To save GR, physicists invented "Dark Matter" — a hypothetical invisible particle that supposedly makes up 85% of the universe. However, after 40+ years of billion-dollar underground experiments (XENON1T, LUX, LZ), **zero dark matter particles have ever been found.**
-**Our Kinematic Verification:** Within our theoretical framework, the model does not need invisible particles. We physically derive the fast outer rotation through two real mechanisms: 
-
-1. **Lorentz Forces** acting on the plasma disk via the galaxy's gravitationally induced super-magnetism.
-2. **Vacuum Refractive Distortion**, meaning the Doppler shifts we measure are visually distorted by the dense vacuum gradient $n(r)$. Dark matter is simply an optical and electromagnetic illusion caused by treating the vacuum as empty GR geometry rather than a dense medium.
+**Our Kinematic Verification:** Within our theoretical framework, the model does not need invisible particles. We physically derive the fast outer rotation by correctly modeling Euclidean space as a dense medium. In a highly dense Field Medium, gravitational tension (the K-factor impedance) does not strictly dissipate at $1/r^2$ over vast galactic scales. Furthermore, **Vacuum Refractive Distortion** means the Doppler shifts we measure are optically distorted by the dense vacuum gradient $n(r)$. Dark matter is an illusion caused by treating the vacuum as empty, frictionless geometry rather than a structured medium.
 
 ### 2. The Hubble Tension (The Crisis in Cosmology)
 
 **The Observation:** The rate at which the universe is expanding ($H_0$) is currently the biggest crisis in astrophysics. When measured using the early universe (CMB radiation), the rate is $\sim 67$ km/s/Mpc. When measured in the late universe (Supernovae, Cepheids), it is $\sim 73$ km/s/Mpc.
 **The GR Problem:** GR cannot reconcile this. The geometric expansion of spacetime should be consistent, forcing scientists to invent "Dark Energy" and constantly tweak its parameters.
-**Our Kinematic Verification:** In our model, light travels through a physical, viscous, polarizable Field Medium. The "redshift" of distant galaxies is fundamentally an optical phenomenon: as photons travel across billions of light-years against the medium's inherent viscosity ($\zeta$), they lose energy ("Tired Light"). The Hubble Tension simply demonstrates that the medium's optical density and viscosity are not perfectly homogeneous across cosmic time, completely invalidating the need for expanding 4D geometric space.
+**Our Kinematic Verification:** In our model, light travels through a physical, viscoelastic polarizable Field Medium. The "redshift" of distant galaxies is fundamentally a phenomenon of **Vacuum Kinematic Attenuation**. As waves travel across billions of light-years, the structural viscoelasticity of the medium causes the wave to naturally stretch and attenuate over time. This is not friction acting on a particle, but the natural mechanical expansion of a wave in a dense medium. The Hubble Tension simply demonstrates that the medium's optical density and impedance are not perfectly homogeneous across cosmic time, invalidating the need for expanding 4D geometry.
 
 ### 3. The Information Paradox and Singularities
 
@@ -33,11 +30,11 @@ Below is a compiled list of established experimental and observational data that
 **The GR Problem:** GR models space as the frictionless geometry of the metric tensor. Mechanical waves in a frictionless void should never lose thermal energy. The universe should be filled with a deafening, continuous baseline "roar" of overlapping gravitational waves from every collision in history.
 **Our Kinematic Verification:** Our model requires that the vacuum is a physical medium with bulk viscosity. Gravitational waves expend energy to stress this medium and therefore attenuate exponentially over distance. The silence between LIGO events is direct proof that the vacuum possesses physical mechanical viscosity, refuting the concept of frictionless geometric spacetime.
 
-### 5. Flyby Anomalies and The Pioneer Anomaly
+### 5. Flyby Anomalies
 
-**The Observation:** Spacecraft performing Earth flybys (like Galileo, NEAR, and Rosetta) often receive a tiny, unexplained boost in velocity. Similarly, the Pioneer spacecraft exhibited an unexplained deceleration as they left the solar system.
-**The GR Problem:** Despite decades of analysis, GR models struggle to elegantly explain the specific vectors of these anomalies, forcing physicists to blame asymmetric thermal radiation from the spacecraft's own batteries. 
-**Our Kinematic Verification:** Our $K_{dynamic}$ framework proves that transverse kinetic motion through a gravitational gradient encounters specific resistance. Spacecraft cutting transversely across Earth's steep gravity well experience a localized shift in the vacuum's kinematic drag, naturally inducing micro-accelerations or decelerations that standard frictionless geometry entirely misses.
+**The Observation:** Spacecraft performing Earth flybys (like Galileo, NEAR, Rosetta, and Juno) frequently experience a tiny, unexplained boost or drop in velocity. 
+**The GR Problem:** Despite decades of analysis, GR models cannot explain these specific orbital energy shifts without adding ad-hoc mathematical patches.
+**Our Kinematic Verification:** Our $K_{dynamic}$ framework proves that transverse kinetic motion through a gravitational gradient encounters specific structural impedance. Spacecraft cutting transversely across Earth's steep gravity well experience a localized shift in the vacuum's kinematic drag (transverse resistance), naturally inducing the exact micro-accelerations that standard frictionless geometry is incapable of predicting.
 
 ### 6. The "Axis of Evil" (Cosmic Anisotropy)
 
@@ -51,11 +48,11 @@ Below is a compiled list of established experimental and observational data that
 **The GR/Standard Cosmology Problem:** Standard cosmology relies heavily on an unprovable "Big Bang" singularity to explain this heat, claiming it is the residual glow of a primordial explosion. This requires a mathematically impossible initial singularity, followed by an untestable period of "Cosmic Inflation" involving hypothetical inflaton fields.
 **Our Kinematic Verification:** If the Field Medium is a physical, viscous medium (as required to explain the attenuation of gravitational waves), the dissipated mechanical energy from cosmic events (attenuating gravitational waves, galactic magnetic friction) cannot simply disappear. According to thermodynamics, it must thermalize. The $2.7$ K background is the natural, ongoing thermodynamic equilibrium temperature of the cosmic medium absorbing kinetic energy. No singular "Big Bang" or exotic inflation fields are required; the universe is a stable, self-regulating thermal engine.
 
-### 8. The Uniform Velocity of Cosmic Light (The Field Medium as a Fluid)
+### 8. The Uniform Velocity of Cosmic Light (The Hallmark of a Medium)
 
-**The Observation:** When distant astrophysical events (like a supernova or a gamma-ray burst billions of light-years away) occur, they emit light across an enormous spectrum of energies—from ultra-high-energy Gamma rays to low-energy radio waves. Despite the massive difference in their inherent energy, these different rays consistently arrive at Earth at the exact same time.
-**The GR/Particle Problem:** If light was simply an independent particle (a photon bullet) shot through an empty geometric void, it defies basic kinetics that a particle with a billion times more energy travels at the exact same velocity as a low-energy particle without any dispersion over billions of years.
-**Our Kinematic Verification:** In our model, space is not a void; it is a physical, polarizable Field Medium. In classical fluid dynamics, the propagation speed of a wave (like sound in water) is dictated *entirely by the density and elasticity of the medium*, not by how loud or energetic the source was. The fact that all light, regardless of its energy, travels at exactly $c$ and arrives simultaneously is the ultimate empirical proof that light is a mechanical resonance traveling through a universal fluid. The speed $c$ is simply the absolute "speed of sound" of the polarizable Field Medium.
+**The Observation:** When distant astrophysical events occur, they emit light across an enormous spectrum of energies—from ultra-high-energy Gamma rays to low-energy radio waves. Despite the massive difference in their inherent energy, these different rays consistently travel at exactly $c$ and arrive at Earth at the exact same time.
+**The Standard Interpretation:** Standard physics correctly identifies that all massless particles travel at $c$, but treats this as a brute-force mathematical axiom of empty space.
+**Our Kinematic Verification:** In classical physics, the fact that a wave's propagation speed is dictated *entirely by the elasticity of the environment*, and not by the energy of the source, is the absolute hallmark behavior of a physical medium (like sound in water). The fact that all electromagnetic waves, regardless of energy, propagate at identical speeds strongly supports the EFR premise that space is a structural Field Medium, not an empty void. The constant $c$ is simply the absolute "speed of sound" of the polarizable Field Medium.
 
 ### 9. Spectroscopic Violation of the Equivalence Principle (White Dwarfs)
 

@@ -1,5 +1,21 @@
 # Kinematic and Optical Equivalence to Spacetime Curvature: A Computational Proof-of-Concept for Euclidean Field Relativity
 
+**Foreword: The Case for Epistemic Pluralism**
+
+Physics does not advance through consensus, but through the competition of ideas.
+
+General Relativity is undeniably one of the most successful mathematical frameworks in the history of science. It predicts correctly, calibrates accurately, and operates reliably across an enormous spectrum of phenomena. No reasonable physicist proposes that we stop using it.
+
+However, history demonstrates a recurring pattern: Newton and Einstein's formulations existed concurrently for a long time. Heisenberg's matrix mechanics and Schrödinger's wave mechanics described the exact same quantum reality using two entirely different ontological frameworks. The competition between those frameworks did not harm physics; it profoundly enriched it.
+
+The purpose of what follows is not to convince the reader to abandon the geometric model of gravity. The goal is much simpler and perhaps far more useful: to rigorously demonstrate that there exist viable alternative computational frameworks—mechanical rather than purely geometric—that yield identical mathematically accurate results for established astronomical observations.
+
+Why is this valuable today? Because the next generation of computational physics and advanced AI-driven research models (approaching the 2030s and 2040s) no longer face the cognitive limits or processing bottlenecks of human researchers. Armed with an ocean of raw data from countless modern experiments, these future systems can, and entirely should, process that data through multiple competing theoretical frameworks simultaneously. The historical insistence on forcing a scientific consensus around a single "absolute truth" was merely a limitation of human bandwidth, not a requirement of nature. Today, we can easily afford to maintain multiple concurrent ontologies because each unique framework illuminates different hidden phenomena. It is vastly more productive to have twenty different computational models, utilizing twenty different physical intuitions, cross-analyzing the exact same ocean of data, than to have twenty research teams endlessly repeating the exact same dogma.
+
+More eyes see more. That is the only claim we make here with absolute certainty.
+
+---
+
 **Abstract**
 The prevailing astrophysical paradigm universally explains the anomalous orbital precession of Mercury, the deflection of starlight by gravity, the Shapiro time delay, and GPS temporal dissonance mathematically through the metric tensor formalism of General Relativity (curved 4-dimensional spacetime). 
 **The explicit goal of this paper is *not* to invalidate those well-documented astronomical observations, nor to alter empirical data, nor to falsify Einstein's highly successful mathematics.** Instead, the purpose of this work is to present a stringent proof-of-concept demonstrating that a functionally identical, overlapping mathematical alternative exists. We assert and demonstrate computationally that the observed relativistic outcomes can be immaculately modeled in a **flat Euclidean space**, treating gravitational anomalies mechanistically—through physical kinematics, specific angular momentum, and the optical resistance properties of a polarizable **Field Medium** (conceptually analogous to the ground state of a quantum vacuum or a classical aether).
