@@ -4,7 +4,7 @@
 
 ---
 
-## 📍 Phase 1: Raw Spectroscopic Extraction (Data Mining)
+##  Phase 1: Raw Spectroscopic Extraction (Data Mining)
 *Currently, we rely on averaged literature values for $\Delta v$. We must transition to raw, per-line analysis.*
 
 *   **Targets:**
@@ -16,7 +16,7 @@
     3.  Extract absolute velocities for each individual transition.
 *   **Timeline:** 2-3 weeks.
 
-## 🛡️ Phase 2: The Multi-Variable "Convective Shield" Fit
+## ️ Phase 2: The Multi-Variable "Convective Shield" Fit
 *Reviewers will claim the shifts are due to atmospheric convection (granulation). We must mathematically falsify this.*
 
 *   **Actions:**
@@ -37,7 +37,7 @@
         *   *The Control Fit:* $\Delta v$ vs EP (showing no correlation).
 *   **Timeline:** 2 weeks.
 
-## 🚀 Phase 4: Targeted Academic Outreach
+##  Phase 4: Targeted Academic Outreach
 *Executing the personalized email funnel.*
 
 *   **Actions:**
