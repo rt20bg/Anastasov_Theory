@@ -7,8 +7,8 @@ Before we can understand how subatomic particles move, we have to understand the
 In classical physics, we often imagine space as an empty box (a "Dead Vacuum"). If you put a particle in this box, there is nothing there to touch it, slow it down, or influence it unless another particle hits it. 
 
 However, modern physics—including the standard models of quantum field theory—readily admits that space is **never truly empty**. Even in the deepest void between galaxies, space has measurable physical properties:
-*   **Permittivity ($\varepsilon_0$):** How it resists electric fields.
-*   **Permeability ($\mu_0$):** How it responds to magnetic fields.
+*   **Permittivity ( $\varepsilon_0$ ):** How it resists electric fields.
+*   **Permeability ( $\mu_0$ ):** How it responds to magnetic fields.
 *   **Energy Density:** Quantum fluctuations bubbling in and out of existence.
 
 Despite knowing that space is full of these active properties, we still often teach physics using the word "vacuum," which forces our brains to picture "nothingness." 

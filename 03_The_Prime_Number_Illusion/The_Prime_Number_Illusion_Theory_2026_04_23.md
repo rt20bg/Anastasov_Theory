@@ -39,7 +39,7 @@ Let us test this hypothesis by mapping the "N-th" number in both sequences:
 * **Alien Sequence (Step 2.0):** 2, 4, 6, 8, 10, 12, 14, 16, 18...
 
 Look closely at the **9th number** in each sequence:
-* The 9th Human number is **9**. (Composite: $$3 \times 3$$).
+* The 9th Human number is **9**. (Composite:  $$3 \times 3$$ ).
 * The 9th Alien number is **18**. (Prime! Because $$18 = 2 \times 9$$, and 9 does not exist in their universe. $$4 \times X \neq 18$$. $$6 \times 3$$ is invalid because 3 doesn't exist.)
 
 The "holes" do not match up by sequence index. In the human sequence, primes become increasingly rare as numbers grow. In the Even-Stepper alien sequence, *every odd index is a prime number*, resulting in a prime density of exactly 50% extending to infinity.
@@ -52,7 +52,7 @@ This mathematical demonstration suggests that by altering the grid step from 1.0
 ## 3. The Fallacy of "Natural" Numbers: Pi vs. Three
 Mainstream mathematics refers to positive integers (1, 2, 3...) as the "Natural Numbers" because humans can conceptually hold 3 apples in their hand. But this is a limitation of human biological hardware and macroscopic perception, not a fundamental law of physics.
 
-At the quantum and cosmological levels, the universe does not operate in whole threes. It operates in waves, gradients, frequencies, and pressure differentials. Consider the constant Pi ($$\pi \approx 3.14159...$$). In nature, Pi is infinitely more "natural" than the number 3. Everywhere energy propagates, bends, curves, or orbits, Pi is fundamentally present. The number 3, on the other hand, is merely a rounded-down, low-resolution approximation of reality.
+At the quantum and cosmological levels, the universe does not operate in whole threes. It operates in waves, gradients, frequencies, and pressure differentials. Consider the constant Pi ( $$\pi \approx 3.14159...$$ ). In nature, Pi is infinitely more "natural" than the number 3. Everywhere energy propagates, bends, curves, or orbits, Pi is fundamentally present. The number 3, on the other hand, is merely a rounded-down, low-resolution approximation of reality.
 
 In a purely analog, continuous universe, the exact integer "3.00000000... (to infinity)" practically does not exist. It is a mathematical abstraction. In reality, any physical manifestation of "3" is actually 3.00000001 or 2.99999999. The exact integer 3 is just as statistically rare and arbitrary as any highly specific irrational number. We have digitized nature so our brains could comfortably process it into separate objects, and in our arrogance, we mistook this digital compression format for the fundamental source code of reality.
 
@@ -64,7 +64,7 @@ However, this entire paradigm forces both the encrypter and the hacker to play o
 If we approach primes as a relative property of the grid's step size, an alternative cryptographic paradigm emerges: **Dynamic Grid Cryptography (DGC)**.
 
 ### 4.1 The DGC Protocol
-Instead of relying on standard primes, a DGC system encrypts data using "Alien Primes" generated from a mathematically shifted, non-standard grid (e.g., an Even-Stepper monoid, or an irrational step like $$0.96347... \times \pi$$). 
+Instead of relying on standard primes, a DGC system encrypts data using "Alien Primes" generated from a mathematically shifted, non-standard grid (e.g., an Even-Stepper monoid, or an irrational step like $$ 0.96347... \times \pi $$ ). Thus, in this alien counting system, the Prime Numbers are: **2, 6, 10, 14, 18, 22...** (Mathematically, every number of the form $$ 4k+2 $$ ).  
 
 1. **The Key is the Ruler:** The secret key is no longer just a large number; the secret key is the *exact grid step size* and the *monoid ruleset*.
 2. **Encryption:** The message is encrypted using primes valid *only* within that specific mathematical dimension.

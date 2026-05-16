@@ -1,7 +1,7 @@
 # Test 8: Radial Dynamics and the Periodic Law (Inverse Optimization)
 
 ## Objective
-To demonstrate that the Rapid Alignment Kinematic Theory of Spin (RAKTS) naturally derives atomic and ionic radii purely through fluid dynamic principles, and to mathematically prove that the concept of Effective Nuclear Charge ($Z_{\text{eff}}$) is an emergent mechanical property of boundary layer friction.
+To demonstrate that the Rapid Alignment Kinematic Theory of Spin (RAKTS) naturally derives atomic and ionic radii purely through fluid dynamic principles, and to mathematically prove that the concept of Effective Nuclear Charge ( $Z_{\text{eff}}$ ) is an emergent mechanical property of boundary layer friction.
 
 ## Methodology
 Rather than calculating a forward model with arbitrary constants (which could be dismissed as "curve fitting"), we formulated a rigorous **Inverse Optimization Problem**:
@@ -9,7 +9,7 @@ Rather than calculating a forward model with arbitrary constants (which could be
 2. We fixed the central centrifugal shield parameter ($B$) for each period, reflecting the constant size of the inner closed fluid core shells.
 3. We asked the RAKTS computational engine to reverse-engineer the exact Vacuum Pull parameter ($A$) required to yield the empirical radius, utilizing the kinematic equilibrium equation:
 
-$$E_{\text{total}} = \sum_{i=1}^{N} \left( -\frac{A}{r_i} + \frac{B}{r_i^4} \right) + C \sum_{i<j} \left( e^{-2d_{ij}} + \frac{1}{d_{ij}^4} \right)$$
+$$E_{\text{total}} = \sum_{i=1}^{N} \left( -\frac{A}{r_i} + \frac{B}{r_i^4} \right) + C \sum_{i < j} \left( e^{-2d_{ij}} + \frac{1}{d_{ij}^4} \right)$$
    
 ## Results
 The algorithm completed the inverse optimization and made a striking discovery: in order to match reality, the required Vacuum Pull ($A$) must increase **linearly** as streams are added across a period.
