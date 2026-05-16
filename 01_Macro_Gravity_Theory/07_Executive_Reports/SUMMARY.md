@@ -29,7 +29,7 @@
    
    This linear relationship between $q$-coefficient and residual velocity 
    proves that the **Weak Equivalence Principle (WEP) is violated**. Gravity is 
-   not purely geometric; it is fundamentally optical (n-index) and quantum ($\varepsilon_0(\varphi)$).
+   not purely geometric; it is fundamentally optical (n-index) and quantum ( $\varepsilon_0(\varphi)$ ).
 
 3. **Macroscopic Validations (008, 010):** The Flyby Anomaly and Solar Limb Shift 
    are now physically explained by vacuum refractive index dragging, removing 
@@ -41,4 +41,4 @@
 |---|------|-------------|-------------------|-------------|
 | 009 | BepiColombo Mercury RS | ESA 2026+ | ~10 m/s | Medium |
 
-*Note: Old conflicting tests regarding GPS alpha-drift have been archived, as the new "Matter as Light" ($c_{loc} = c_0/n$) formulation correctly predicts standard macroscopic clock drift mechanically, leaving $z_{alpha}$ as a purely residual spectroscopic signature.*
+*Note: Old conflicting tests regarding GPS alpha-drift have been archived, as the new "Matter as Light" ( $c_{\text{loc}} = c_0/n$ ) formulation correctly predicts standard macroscopic clock drift mechanically, leaving $z_{\alpha}$ as a purely residual spectroscopic signature.*
