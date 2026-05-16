@@ -5,7 +5,7 @@
 
 This repository serves as an official digital "sandbox" for papers, theories, and hypotheses related to alternative physics, mathematical philosophy, and futurology.
 
-### 📜 How to Cite
+### How to Cite
 
 If you use these ideas or data in your research, please cite this repository as follows:
 
@@ -13,7 +13,7 @@ If you use these ideas or data in your research, please cite this repository as 
 
 ---
 
-## 🖋️ Author's Philosophical Note: The Spirit of "What If"
+## Author's Philosophical Note: The Spirit of "What If"
 
 The history of science shows us that the giants who built the foundations of our modern understanding—Maxwell, Newton, Faraday, and Einstein—were characterized by their intellectual bravery. They were not afraid to be wrong, and more importantly, they were not afraid to explore "What If" scenarios that challenged the established norms of their time. 
 
@@ -29,9 +29,9 @@ I invite you to treat these theories as exploratory blueprints. Let us see where
 
 ---
 
-## 🪐 Physics Branches (Alternative Relativity)
+## Physics Branches (Alternative Relativity)
 
-### 🌌 1. "Macro-Gravity" Branch: The $\varepsilon_0(\varphi)$ Model (COMPLETED)
+### 1. "Macro-Gravity" Branch: The $\varepsilon_0(\varphi)$ Model (COMPLETED)
 
 **Directory:** [`01_Macro_Gravity_Theory`](./01_Macro_Gravity_Theory)
 **Paper:** [`01_The_Core_Theory_Euclidean_Field_Relativity.md`](./01_Macro_Gravity_Theory/01_The_Core_Theory_Euclidean_Field_Relativity.md) | **PDF:** [`01_The_Core_Theory_Euclidean_Field_Relativity.pdf`](./01_Macro_Gravity_Theory/01_The_Core_Theory_Euclidean_Field_Relativity.pdf)
@@ -42,7 +42,7 @@ I invite you to treat these theories as exploratory blueprints. Let us see where
 * **Reports:** See the full [WEP Violation Report](./01_Macro_Gravity_Theory/07_Executive_Reports/WEP_VIOLATION_REPORT.md).
 * **Interactive Tests:** Run the [Jupyter Physics Engine](./01_Macro_Gravity_Theory/05_Interactive_Physics_Simulations/Gravitacia_Interactive.ipynb). [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rt20bg/Anastasov_Theory/blob/main/01_Macro_Gravity_Theory/05_Interactive_Physics_Simulations/Gravitacia_Interactive.ipynb)
 
-### 🔬 2. "Quantum Kinematics" Branch (COMPLETED)
+### 2. "Quantum Kinematics" Branch (COMPLETED)
 
 **Directory:** [`02_RAKTS_Quantum_Kinematics`](./02_RAKTS_Quantum_Kinematics)
 **Paper:** [`01_The Rapid Alignment Kinematic Theory of Spin (RAKTS).md`](./02_RAKTS_Quantum_Kinematics/01_The%20Rapid%20Alignment%20Kinematic%20Theory%20of%20Spin%20(RAKTS).md) | **PDF:** [`RAKTS_Whitepaper.pdf`](./02_RAKTS_Quantum_Kinematics/RAKTS_Whitepaper.pdf)
@@ -50,30 +50,30 @@ I invite you to treat these theories as exploratory blueprints. Let us see where
 * **Topic:** The Rapid Alignment Kinematic Theory of Spin (RAKTS). Proof that quantum superposition is an illusion caused by macroscopic magnetic-kinematic alignment. Replaces orbital hybridization with fluid mechanics.
 * **Interactive Tests:** See the [Validation Dashboard](./02_RAKTS_Quantum_Kinematics/Computational_Validations/RAKTS_Validation_Dashboard.html).
 
-### 🌊 3. "Fluid Gravitational Waves" Branch (PROPOSALS & APPLICATIONS)
+### 3. "Fluid Gravitational Waves" Branch (PROPOSALS & APPLICATIONS)
 
 * **Topic:** Gravitational waves as mechanical shockwaves.
 * **Research Roadmap:** [`01_Deep_Space_Mapping_and_Navigation_Roadmap.md`](./99_Upcoming_Research/01_Deep_Space_Mapping_and_Navigation_Roadmap.md)
 
-### 🚀 4. "Solar Kinematic Anomalies" Branch (PROPOSALS & APPLICATIONS)
+### 4. "Solar Kinematic Anomalies" Branch (PROPOSALS & APPLICATIONS)
 
 * **Topic:** Pioneer/Flyby anomalies via fluid vacuum friction.
 * **Experimental Proposal:** [`02_RAKTS_Falsification_Experiments.md`](./99_Upcoming_Research/02_RAKTS_Falsification_Experiments.md)
 
-### ⚡ 5. "Precision Kinematic Assembly" Branch (PROPOSALS & APPLICATIONS)
+### 5. "Precision Kinematic Assembly" Branch (PROPOSALS & APPLICATIONS)
 
 * **Topic:** Post-accelerator engineering. Energy production and hyper-dense materials via resonant atomic alignment.
 * **Technical Proposal:** [`03_Precision_Kinematic_Assembly_and_Energy.md`](./99_Upcoming_Research/03_Precision_Kinematic_Assembly_and_Energy.md)
 
-### 🔭 6. "Cosmology and Genesis" Branch (PROPOSALS & APPLICATIONS)
+### 6. "Cosmology and Genesis" Branch (PROPOSALS & APPLICATIONS)
 
 * **Topic:** Redefining the origin of matter. The universe as a self-regulating thermodynamic engine.
 
 ---
 
-## 🧠 Mathematics and Computer Science (Miscellaneous / Popular Articles)
+## Mathematics and Computer Science (Miscellaneous / Popular Articles)
 
-### 🔢 6. The Prime Number Illusion
+### 6. The Prime Number Illusion
 
 **Directory:** [`03_The_Prime_Number_Illusion`](./03_The_Prime_Number_Illusion)
 **Paper:** [`The_Prime_Number_Illusion_Theory_2026_04_23.md`](./03_The_Prime_Number_Illusion/The_Prime_Number_Illusion_Theory_2026_04_23.md)
