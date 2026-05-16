@@ -16,7 +16,7 @@ RAKTS replaces abstract quantum mechanical probabilities (such as wavefunction c
     *   **`Validation_Plan.md`**: The methodology and hypotheses for the tests.
     *   **`Tests/`**: Contains the Python simulation code, the official CSV data sets, and the generated visual plots for all 5 completed validations.
 
-## The 6 Empirical Validations
+## The Empirical Validations
 Inside the `Computational_Validations/Tests` folder, you will find Python simulations that successfully reproduce standard quantum behaviors using only classical drag and fluid geometry:
 
 0.  **Test 0: Stern-Gerlach Split (`Test0_Stern_Gerlach`)** - The foundational simulation proving the "Vector Snap". Atoms don't exist in superposition; they mechanically rotate against Field Medium drag into stable alignment axes.
@@ -25,7 +25,8 @@ Inside the `Computational_Validations/Tests` folder, you will find Python simula
 3.  **Test 3: Crystallography Bulk Modulus (`Test3_Crystallography`)** - Proves the "incompressibility of streams" using extreme pressure Diamond Anvil Cell data, outperforming Coulomb statics.
 4.  **Test 4: Molecular Geometry (`Test4_Methane`)** - Derives exact molecular angles (like Methane's 109.5° and Water's 104.5°) purely by minimizing Hydrodynamic Boundary Layer friction.
 5.  **Test 5: Paramagnetism (`Test5_Paramagnetism`)** - Replaces quantum "unpaired spin states" with continuous macroscopic vector alignment (Langevin function).
-6.  **Test 6: Electron Diffraction Paradox (`Test6_Diffraction`)** - ⚡ **NEW:** Proves that diffraction rings are a mechanical result of grid-steering, not probability waves. Demonstrates that a massive, chaotic electron beam produces the same crisp pattern as single electrons, despite massive Coulomb entropy.
+6.  **Test 6: Electron Diffraction Paradox (`Test6_Diffraction`)** - Proves that diffraction rings are a mechanical result of grid-steering, not probability waves. Demonstrates that a massive, chaotic electron beam produces the same crisp pattern as single electrons, despite massive Coulomb entropy.
+7.  **Test 8: Radial Dynamics & Periodic Law (`Test8_Radial_Dynamics`)** - ⚡ **NEW:** Computationally derives the concept of Effective Nuclear Charge ($Z_{\text{eff}}$) through inverse optimization. Proves that atomic and ionic radii are entirely dictated by a mechanical balance between vacuum pull and expanding lateral boundary friction.
 
 ## Getting Started
 To view the results immediately, simply open `Computational_Validations/RAKTS_Validation_Dashboard.html`.

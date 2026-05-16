@@ -45,7 +45,7 @@ I invite you to treat these theories as exploratory blueprints. Let us see where
 ### 🔬 2. "Quantum Kinematics" Branch (COMPLETED)
 
 **Directory:** [`02_RAKTS_Quantum_Kinematics`](./02_RAKTS_Quantum_Kinematics)
-**Paper:** [`The Rapid Alignment Kinematic Theory of Spin (RAKTS).md`](./02_RAKTS_Quantum_Kinematics/The%20Rapid%20Alignment%20Kinematic%20Theory%20of%20Spin%20(RAKTS).md) | **PDF:** [`RAKTS_Whitepaper.pdf`](./02_RAKTS_Quantum_Kinematics/RAKTS_Whitepaper.pdf)
+**Paper:** [`01_The Rapid Alignment Kinematic Theory of Spin (RAKTS).md`](./02_RAKTS_Quantum_Kinematics/01_The%20Rapid%20Alignment%20Kinematic%20Theory%20of%20Spin%20(RAKTS).md) | **PDF:** [`RAKTS_Whitepaper.pdf`](./02_RAKTS_Quantum_Kinematics/RAKTS_Whitepaper.pdf)
 
 * **Topic:** The Rapid Alignment Kinematic Theory of Spin (RAKTS). Proof that quantum superposition is an illusion caused by macroscopic magnetic-kinematic alignment. Replaces orbital hybridization with fluid mechanics.
 * **Interactive Tests:** See the [Validation Dashboard](./02_RAKTS_Quantum_Kinematics/Computational_Validations/RAKTS_Validation_Dashboard.html).
