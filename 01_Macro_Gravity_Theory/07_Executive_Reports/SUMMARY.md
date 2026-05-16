@@ -41,4 +41,4 @@
 |---|------|-------------|-------------------|-------------|
 | 009 | BepiColombo Mercury RS | ESA 2026+ | ~10 m/s | Medium |
 
-*Note: Old conflicting tests regarding GPS alpha-drift have been archived, as the new "Matter as Light" ( $c_{\text{loc}} = c_0/n$ ) formulation correctly predicts standard macroscopic clock drift mechanically, leaving $z_{\alpha}$ as a purely residual spectroscopic signature.*
+Note: Old conflicting tests regarding GPS alpha-drift have been archived, as the new "Matter as Light" (c<sub>loc</sub> = c<sub>0</sub>/n) formulation correctly predicts standard macroscopic clock drift mechanically, leaving z<sub>α</sub> as a purely residual spectroscopic signature.
