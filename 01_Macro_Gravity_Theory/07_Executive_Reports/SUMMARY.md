@@ -3,7 +3,7 @@
 
 **Last updated:** April 2026
 
-## ✅ Completed Tests
+## Completed Tests
 
 | # | Test | Target/Data | Key Metric | Result | Status |
 |---|------|-------------|------------|--------|--------|
@@ -14,7 +14,7 @@
 | **005** | **White Dwarf WEP Test** | **40 Eri B, G29-38, WD 1145** | **Mg II vs Si II RLS** | **+2.4 km/s detected** | **EVIDENCE CONFIRMED** |
 | **006** | **Q-Slope Validation** | **Archival WD Spectra** | **Linear Regression** | **Matches Da/a model** | **CONFIRMED** |
 
-##  Key Findings
+## Key Findings
 
 1. **Solar tests (001-004):** The alpha signal (~1 m/s) is buried under the 
    instrumental and convective noise floor of older historical data.
@@ -28,7 +28,7 @@
    proves that the **Weak Equivalence Principle (WEP) is violated**. Gravity is 
    not purely geometric; it is fundamentally optical (n-index) and quantum ($\varepsilon_0(\varphi)$).
 
-##  Planned Future Tests
+## Planned Future Tests
 
 | # | Test | Data Needed | Expected Precision | Feasibility |
 |---|------|-------------|-------------------|-------------|

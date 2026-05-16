@@ -2,13 +2,13 @@
 
 This repository contains the theoretical framework, simulations, and empirical testing suite for the **Variable Medium Permittivity Model of Gravity**.
 
-##  Theoretical Core
+## Theoretical Core
 The core hypothesis proposes that gravitational phenomena—traditionally described by the spacetime curvature of General Relativity (GR)—are instead the physical consequence of a variable vacuum permittivity $\varepsilon_0(\varphi)$ induced by mass.
 
 *   **Universal Redshift (Metric-like):** Matter, fundamentally composed of fields/light, experiences a kinematic delay proportional to the local refractive index $n(\varphi)$ of the vacuum. This produces the baseline Equivalence Principle (EP) expected by GR.
 *   **Differential Redshift (Quantum-like):** The variation in $\varepsilon_0$ inherently alters the fine-structure constant $\alpha$. This causes a secondary, element-specific shift in atomic energy levels depending on their $q$-sensitivity coefficient. **This violates the Weak Equivalence Principle (WEP).**
 
-##  Project Structure
+## Project Structure
 
 *   **`01_The_Core_Theory_Euclidean_Field_Relativity.pdf` / `.md`**: The foundational whitepaper outlining the "Matter as Light" resolution and the mechanical basis of Euclidean Field Relativity.
 *   **`02_Empirical_Evidence_and_Astronomical_Data.md`**: Compiles 9 distinct observational breakdowns of GR.
@@ -26,7 +26,7 @@ The core hypothesis proposes that gravitational phenomena—traditionally descri
     *   [`SUMMARY.md`](07_Executive_Reports/SUMMARY.md): The master ledger of all empirical tests.
     *   [`WEP_VIOLATION_REPORT.md`](07_Executive_Reports/WEP_VIOLATION_REPORT.md): The definitive scientific report detailing the confirmation of the WEP violation using archival Keck/VLT data.
 
-##  Key Milestone (April 2026)
+## Key Milestone (April 2026)
 **STATUS: EVIDENCE CONFIRMED**
 Analysis of archival high-resolution spectra from 40 Eri B, G29-38, and WD 1145+017 has successfully isolated the predicted $\Delta \alpha / \alpha$ signal. Metal lines (e.g., Mg II, Ca II) systematically exhibit a **~2 km/s residual velocity shift** compared to standard lines (Hydrogen, Si), aligning perfectly with their calculated $q$-coefficients. 
 
