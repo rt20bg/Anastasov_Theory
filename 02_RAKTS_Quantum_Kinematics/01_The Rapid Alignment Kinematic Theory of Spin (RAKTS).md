@@ -66,15 +66,27 @@ The orthodox interpretation claims that the Stern-Gerlach apparatus "passively m
 
 ### 2. Molecular Geometry (Deconstructing Orbital Hybridization)
 **Moment-by-Moment Kinematic Breakdown:**
-Orthodox chemistry relies on abstract mathematical constructs like $sp^3$ hybridized probability clouds to explain why molecules like methane (CH$_4$) form perfect 109.5° tetrahedral angles. RAKTS models this purely as aerodynamic efficiency.
+1. **Hydrodynamic Valency:** Atoms are not abstract spheres seeking "eight electrons"; they are complex, spinning fluid systems. An "unpaired electron" or "bonding site" is essentially a region of extreme kinematic tension—a zone of high or low pressure on the atom's surface boundary that creates turbulence in the Field Medium.
+2. **The Coupling:** When Hydrogen atoms approach Carbon, their localized energy streams are physically "sucked" into these pressure deficits. They lock together not through quantum entanglement, but like merging fluid vortices sharing angular momentum to neutralize the pressure gradient.
+3. **Kinematic Tensegrity:** Once bonded, the central Carbon atom is managing four massive, orbiting fluid extensions (the Hydrogens). As these extensions churn through the Field Medium, their boundary layers displace fluid and generate massive internal turbulence. To prevent the molecule from tearing itself apart, the streams push against each other through fluid displacement until they find the exact spatial arrangement where all turbulent friction is balanced. For four identical streams, this absolute minimum-drag configuration is naturally a 109.5° tetrahedron.
+4. **The Mathematical Equation (Total Kinematic Friction):** RAKTS calculates these angles not by hardcoding 109.5°, but by computationally minimizing the total structural friction of the system. 
 
-1. **Proximity:** Four localized Hydrogen streams are drawn into close orbital proximity around a central Carbon nucleus.
-2. **Aerodynamic Drag:** As these highly dynamic streams orbit, their outer volumes ("boundary layers") constantly interact, generating physical friction against each other and against the surrounding Field Medium.
-3. **Equilibration:** The streams repel each other and physically adjust their orbital trajectories. The system naturally seeks the state of absolute lowest resistance.
-4. **The Lock:** The streams bump and shift until the total "skin friction" of the entire system reaches its absolute mathematical minimum. This minimal-friction geometric state naturally locks the four streams into a perfect tetrahedron. The 109.5° angle is not a quantum mystery; it is simply the point of maximum aerodynamic efficiency for four orbiting fluid bodies.
+The governing equation is defined as:
+
+$$F_{\text{total}} = \sum_{i=1}^{3} \sum_{j=i+1}^{4} \left( e^{-2d_{ij}} + \frac{1}{d_{ij}^4} \right)$$
+
+where:
+* $F_{\text{total}}$ is the total structural friction.
+* $d_{ij} = |\vec{v}_i - \vec{v}_j|$ is the physical spatial distance between the fluid streams.
+* The $e^{-2d}$ term models the hydrodynamic drag of the boundary layer (which decays exponentially).
+* The $\frac{1}{d^4}$ term represents the mechanical incompressibility of the fluid cores (preventing the streams from overlapping).
+
+5. **The Thomson Problem Analogy:** There is no simple closed-form algebraic formula to magically yield 109.5°. Finding this angle is a 3D spatial optimization challenge, mathematically equivalent to the "Thomson problem" (distributing repelling charges on a sphere). The fluid medium constantly "pushes" the streams until $F_{\text{total}}$ hits its absolute mathematical minimum.
+6. **Calculating Complex Angles:** Using this exact equation, we can model complex molecules like Water (H$_2$O). The Oxygen atom manages two bonded Hydrogens and two "lone pairs." In RAKTS, a lone pair is simply a thicker, unbound fluid extension. By applying a larger weight multiplier to the lone pairs in the equation, the simulation mathematically shows them generating more friction, physically squeezing the two Hydrogen streams closer together, flawlessly yielding the empirical 104.5° angle.
+7. **Macroscopic Emergence (Rigid vs. Soft):** The strength of this "Kinematic Lock" dictates the material's macroscopic physical properties. If the fluid streams are deeply entangled and have high viscous tension, they lock firmly into specific angles, creating rigid crystal lattices (like diamond). If the boundary layers are "slippery" with low tension, they allow for angular deformation without the bond breaking, resulting in malleable or soft materials (like plastics and soft metals).
 
 ![Methane Geometry Optimization](./Computational_Validations/Tests/Test4_Methane/test4_geometry_result.png)
-*   **Result:** Reproduced the 109.5° (Methane) and 104.5° (Water) angles purely by minimizing fluid-dynamic boundary layer resistance.
+*   **Result:** Reproduced the 109.5° (Methane) and 104.5° (Water) angles purely by computationally minimizing fluid-dynamic boundary layer resistance.
 
 ### 3. Paramagnetism (Continuous Langevin Alignment)
 **Moment-by-Moment Kinematic Breakdown:**
