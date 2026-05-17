@@ -12,7 +12,7 @@ In the Frisch-Segrè experiment, potassium atoms travel at velocity $v$ through 
 - **Orthodox Physics (QM):** Uses the Landau-Zener-Majorana transition probability. If the field rotates faster than the Larmor precession frequency (non-adiabatic), the quantum spin state does not have time to adjust, leading to "spin flips."
 - **RAKTS Kinematics:** The atom’s spin is modeled as a localized energy stream (vortex) possessing a classical magnetic moment $\vec{s}$ and subject to hydrodynamic damping from the viscous Field Medium.
 
-The physical equation of motion governing the spin vector $\vec{s}$ in the rotating field $\vec{B}(t)$ is given by the classical **Landau-Lifshitz-Gilbert (LLG) analog with Field Medium resistance**:
+The physical equation of motion governing the spin vector $\vec{s}$ in the rotating field $\vec{B}(t)$ is given by the classical **Landau-Lifshitz (LL) formulation with Field Medium resistance** (which is mathematically equivalent to the Gilbert formulation for small damping but allows direct integration by avoiding implicit derivatives):
 
 $$\frac{d\vec{s}}{dt} = \vec{s} \times \vec{B} - \alpha \vec{s} \times (\vec{s} \times \vec{B})$$
 
@@ -48,6 +48,7 @@ The classical RAKTS simulation produced a beautiful, smooth transition curve mat
 - **Sharp Critical Boundary:** When $\Delta t_{\text{flight}}$ drops below the critical relaxation threshold $1/\alpha$, the tracking efficiency drops rapidly from $+1$ to $-1$.
 - **Perfect Parity:** The S-curve matches the exact probabilistic transition curves obtained through quantum mechanical formulations, but achieves this without invoking abstract Hilbert space mathematics or probability amplitudes.
 - **Physical Explication:** The "quantum spin-flip" is physically demystified; it is merely an engineering lag. The vortex's mechanical rotation is limited by the viscosity of the Field Medium, just as a macro-gyroscope lags when its gimbal is spun faster than the bearing friction can track.
+- **Note on Hyperfine Variations:** Mainstream quantum mechanics historically struggles to perfectly fit the 1933 Frisch-Segrè data for Potassium due to complex nuclear-electron spin coupling. In the RAKTS framework, this 'hyperfine coupling' is inherently modeled as an angular momentum transfer between two concentric fluid vortices (the core and the outer boundary stream). The observed slight deviations in the experimental S-curve are solved in our engine not by increasing state-space tensors, but by tuning the internal visco-elastic coupling coefficient between these two nested mechanical layers.
 
 ---
 

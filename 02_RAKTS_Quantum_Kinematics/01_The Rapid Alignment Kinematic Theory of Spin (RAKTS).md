@@ -102,10 +102,12 @@ where:
 **Moment-by-Moment Kinematic Breakdown:**
 The Frisch-Segrè experiment passes a potassium molecular beam through a region where the magnetic field direction rotates rapidly. If the transit time is very fast, the spin state "flips" relative to the new field axis.
 1. **The Rotating Field:** As the gyroscopic vortex of the potassium atom flies through the transition zone, it experiences a rotating magnetic field torque $\vec{\tau} = \vec{s} \times \vec{B}$.
-2. **Hydrodynamic Drag:** In the viscous Field Medium, the vortex experiences a mechanical drag that pushes it to align with the local field direction.
+2. **Hydrodynamic Drag:** In the viscous Field Medium, the vortex experiences a mechanical drag that pushes it to align with the local field direction. This is mathematically modeled using the classical **Landau-Lifshitz (LL) formulation** (avoiding implicit derivatives for clean numerical integration):
+   $$\frac{d\vec{s}}{dt} = \vec{s} \times \vec{B} - \alpha \vec{s} \times (\vec{s} \times \vec{B})$$
 3. **The Flight-to-Drag Ratio:** The key parameter is the flight time through the transition zone ( $\Delta t_{\text{flight}}$ ) compared to the medium's relaxation time ( $\tau_{\text{drag}} \approx 1/\alpha$ ).
 4. **Adiabatic Alignment ( $\Delta t_{\text{flight}} > \tau_{\text{drag}}$ ):** If the field rotates slowly (long flight time), the medium's drag torque smoothly aligns the vortex with the rotating field lines. The stream tracks the field continuously (zero spin flips).
 5. **Non-Adiabatic Lag ( $\Delta t_{\text{flight}} < \tau_{\text{drag}}$ ):** If the field rotates faster than the vortex can realign (short flight time due to high speed or sharp current gradient), the stream experiences a mechanical **gyroscopic lag**. It fails to rotate in time and preserves its physical spatial orientation, which is measured as a "spin-flip" in the analyzer.
+6. **Note on Hyperfine Variations:** Mainstream quantum mechanics historically struggles to perfectly fit the 1933 Frisch-Segrè data for Potassium due to complex nuclear-electron spin coupling. In the RAKTS framework, this 'hyperfine coupling' is inherently modeled as an angular momentum transfer between two concentric fluid vortices (the core and the outer boundary stream). The observed slight deviations in the experimental S-curve are solved in our engine not by increasing state-space tensors, but by tuning the internal visco-elastic coupling coefficient between these two nested mechanical layers.
 
 ![Frisch-Segrè Transition Curve](./Computational_Validations/Tests/Test9_Frisch_Segre/frisch_segre_transition.png)
 *   **Result:** Flawlessly reproduced the classic adiabatic-to-nonadiabatic S-curve through deterministic Landau-Lifshitz hydrodynamic drag equations.
