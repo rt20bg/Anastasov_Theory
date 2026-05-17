@@ -98,7 +98,19 @@ where:
 ![Inverse Optimization Results](./Computational_Validations/Tests/Test8_Radial_Dynamics/inverse_optimization_results.png)
 *   **Result:** Derived the linear Periodic Law and Effective Nuclear Charge strictly through mechanical fluid friction.
 
-### 4. Paramagnetism (Continuous Langevin Alignment)
+### 4. Frisch-Segrè 1933 Experiment (Deconstructing the Non-Adiabatic Illusion)
+**Moment-by-Moment Kinematic Breakdown:**
+The Frisch-Segrè experiment passes a potassium molecular beam through a region where the magnetic field direction rotates rapidly. If the transit time is very fast, the spin state "flips" relative to the new field axis.
+1. **The Rotating Field:** As the gyroscopic vortex of the potassium atom flies through the transition zone, it experiences a rotating magnetic field torque $\vec{\tau} = \vec{s} \times \vec{B}$.
+2. **Hydrodynamic Drag:** In the viscous Field Medium, the vortex experiences a mechanical drag that pushes it to align with the local field direction.
+3. **The Flight-to-Drag Ratio:** The key parameter is the flight time through the transition zone ( $\Delta t_{\text{flight}}$ ) compared to the medium's relaxation time ( $\tau_{\text{drag}} \approx 1/\alpha$ ).
+4. **Adiabatic Alignment ( $\Delta t_{\text{flight}} > \tau_{\text{drag}}$ ):** If the field rotates slowly (long flight time), the medium's drag torque smoothly aligns the vortex with the rotating field lines. The stream tracks the field continuously (zero spin flips).
+5. **Non-Adiabatic Lag ( $\Delta t_{\text{flight}} < \tau_{\text{drag}}$ ):** If the field rotates faster than the vortex can realign (short flight time due to high speed or sharp current gradient), the stream experiences a mechanical **gyroscopic lag**. It fails to rotate in time and preserves its physical spatial orientation, which is measured as a "spin-flip" in the analyzer.
+
+![Frisch-Segrè Transition Curve](./Computational_Validations/Tests/Test9_Frisch_Segre/frisch_segre_transition.png)
+*   **Result:** Flawlessly reproduced the classic adiabatic-to-nonadiabatic S-curve through deterministic Landau-Lifshitz hydrodynamic drag equations.
+
+### 5. Paramagnetism (Continuous Langevin Alignment)
 **Moment-by-Moment Kinematic Breakdown:**
 1. **The Vortex:** Oxygen molecules are modeled not with abstract "unpaired spin states," but as complex, continuously spinning internal fluid vortices.
 2. **Field Exposure:** When exposed to an external magnetic field, the field acts as a continuous directional current flowing through the medium.
@@ -108,7 +120,7 @@ where:
 ![Paramagnetism Results](./Computational_Validations/Tests/Test5_Paramagnetism/test5_paramagnetism_result.png)
 *   **Result:** Perfect match with NIST experimental data ($R^2 = 1.0000$) using classical statistics.
 
-### 5. Crystallography (Fluid Incompressibility)
+### 6. Crystallography (Fluid Incompressibility)
 **Moment-by-Moment Kinematic Breakdown:**
 1. **Lattice Formation:** Atoms settle into a geometric lattice structure, held in place by balanced electromagnetic tension within the Field Medium.
 2. **External Compression:** Extreme external pressure is applied to the crystal. Standard models rely solely on static electrostatic repulsion to explain resistance.
@@ -118,7 +130,7 @@ where:
 ![Crystal Compression Curve](./Computational_Validations/Tests/Test3_Crystallography/test3_compression_result.png)
 *   **Result:** Outperformed classical Coulomb models with an $R^2 = 0.9999$ correlation across 15 different crystal lattices.
 
-### 6. Vibrational Spectroscopy (Mechanical Buffer Resonance)
+### 7. Vibrational Spectroscopy (Mechanical Buffer Resonance)
 **Moment-by-Moment Kinematic Breakdown:**
 1. **Stimulation:** An infrared laser fires into a molecule, adding localized energy to the atomic bonds.
 2. **The Buffer:** The bond (a structural tension in the Field Medium) acts as a mechanical spring, absorbing the energy and oscillating. 
@@ -128,7 +140,7 @@ where:
 ![IR Spectroscopy Simulation](./Computational_Validations/Tests/Test1_IR_Spring/test1_ir_result.png)
 *   **Result:** Matched empirical IR vibrational signatures with <1.5% error margin.
 
-### 7. The Double-Slit Paradox (Deconstructing Wave-Particle Duality)
+### 8. The Double-Slit Paradox (Deconstructing Wave-Particle Duality)
 **Moment-by-Moment Kinematic Breakdown:**
 The orthodox interpretation claims a single electron passes through both slits simultaneously as a probability wave, interfering with itself. RAKTS posits deterministic trajectory funneling, akin to a macroscopic Galton Board.
 

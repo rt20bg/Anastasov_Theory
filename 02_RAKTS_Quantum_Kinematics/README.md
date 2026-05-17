@@ -27,6 +27,7 @@ Inside the `Computational_Validations/Tests` folder, you will find Python simula
 5.  **Test 5: Paramagnetism (`Test5_Paramagnetism`)** - Replaces quantum "unpaired spin states" with continuous macroscopic vector alignment (Langevin function).
 6.  **Test 6: Electron Diffraction Paradox (`Test6_Diffraction`)** - Proves that diffraction rings are a mechanical result of grid-steering, not probability waves. Demonstrates that a massive, chaotic electron beam produces the same crisp pattern as single electrons, despite massive Coulomb entropy.
 7.  **Test 8: Radial Dynamics & Periodic Law (`Test8_Radial_Dynamics`)** - Computationally derives the concept of Effective Nuclear Charge ( $Z_{\text{eff}}$ ) through inverse optimization. Proves that atomic and ionic radii are entirely dictated by a mechanical balance between vacuum pull and expanding lateral boundary friction.
+8.  **Test 9: Frisch-Segrè 1933 Experiment (`Test9_Frisch_Segre`)** - Computationally solves the classical dynamic real-time tracking of spin vortices in rotating magnetic fields. Mathematically proves that the transition from adiabatic tracking to non-adiabatic "spin flips" is a direct result of hydrodynamic drag lag ($\Delta t_{\text{flight}} < \tau_{\text{drag}}$) in the viscous Field Medium.
 
 ## Getting Started
 To view the results immediately, simply open `Computational_Validations/RAKTS_Validation_Dashboard.html`.
