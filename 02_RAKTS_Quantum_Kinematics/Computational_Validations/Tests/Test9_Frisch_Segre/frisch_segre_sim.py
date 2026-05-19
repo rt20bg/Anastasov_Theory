@@ -3,8 +3,9 @@ import matplotlib.pyplot as plt
 from scipy.integrate import solve_ivp
 import os
 
-# Ensure the output directory exists
-os.makedirs("02_RAKTS_Quantum_Kinematics/Computational_Validations/Tests/Test9_Frisch_Segre", exist_ok=True)
+# Ensure the output directory is the file's own directory
+output_dir = os.path.dirname(os.path.abspath(__file__))
+
 
 def llg_equation(t, s, B_func, alpha):
     """
@@ -83,9 +84,6 @@ plt.legend(loc='lower right', frameon=True, facecolor='white', edgecolor='#e0e0e
 plt.tight_layout()
 
 # Save the plot
-output_dir = "02_RAKTS_Quantum_Kinematics/Computational_Validations/Tests/Test9_Frisch_Segre"
-if not os.path.exists(output_dir):
-    os.makedirs(output_dir)
 output_path = os.path.join(output_dir, "frisch_segre_transition.png")
 plt.savefig(output_path, dpi=300)
 plt.close()

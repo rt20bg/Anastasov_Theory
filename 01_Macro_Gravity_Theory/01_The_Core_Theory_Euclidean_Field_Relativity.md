@@ -61,7 +61,7 @@ $$ \vec{h} = \vec{r} \times \vec{v} $$
 
 This leads to the precise, corrected acceleration equation acting fundamentally within a **flat Euclidean grid**:
 
-$$ \vec{a} = -\frac{GM}{r^3}\vec{r} \cdot \left[ 1 + K(v) \frac{h^2}{c^2 r^2} \right] $$
+$$ \vec{a} = -\frac{GM}{r^3}\vec{r} \left[ 1 + K(v) \frac{h^2}{c^2 r^2} \right] $$
 
 ### 2.3 The Dynamic K-Factor: Unifying Matter and Light
 Physics encounters a conflict: to rotate Mercury correctly, $K = 3.0$; to deflect starlight, $K = 1.5$. We bridge both states seamlessly by attributing the difference to the intrinsic speed of the body $v$:

@@ -15,7 +15,7 @@ This document presents the direct computational outputs of the Euclidean Field k
 | **Earth**   | $3.84^{\prime\prime}$/cy | $3.84^{\prime\prime}$/cy             | $3.84^{\prime\prime}$/cy                  | **0.00%**   |
 | **Mars**    | $1.35^{\prime\prime}$/cy | $1.35^{\prime\prime}$/cy             | $1.35^{\prime\prime}$/cy                  | **0.00%**   |
 
-> **Conclusion:** The $K=3.0$ factor scales precisely utilizing angular momentum $h = r \times v$. No ad hoc adjustments per planet are required.
+> **Conclusion:** The $K=3.0$ factor scales precisely utilizing angular momentum $\vec{h} = \vec{r} \times \vec{v}$. No ad hoc adjustments per planet are required.
 
 ## 2. Solar Limb Light Deflection
 
