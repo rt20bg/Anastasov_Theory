@@ -152,11 +152,8 @@ The orthodox interpretation claims a single electron passes through both slits s
 4. **The Single-Electron Accumulation:** Orthodox physics argues that firing electrons "one by one" proves superposition. RAKTS demonstrates that the electromagnetic grooves of the slit material are stationary and waiting. Just like dropping balls one by one into a Galton Board deterministically produces a predictable wave-like distribution, firing electrons one by one into a stationary electromagnetic grating produces a perfect interference pattern.
 5. **The Observer Effect:** Standard theory claims that "looking" at the electron magically collapses its wave-function. RAKTS models measurement mechanically: any detector placed at the slit acts as a massive active energy source. This injected energy violently disrupts the delicate standing waves of the Field Medium, destroying the resonant grating and scattering the electron trajectories into a chaotic, non-interfering cluster.
 
-![RAKTS Trajectory Funneling](./Computational_Validations/Visualizations/rakts_double_slit_galton.png)
-*   **Figure 6a: Deterministic Trajectory Funneling.** The Field Medium (blue) is pre-structured by the atomic lattice of the slits. The lines show distinct, physical electrons following the low-resistance resonant grooves.
-
 ![Electron Beam Diffraction Pattern](./Computational_Validations/Tests/Test6_Diffraction/test6_electron_beam_result.png)
-*   **Figure 6b: Statistical Accumulation.** The final macroscopic interference pattern on the screen is not a single wave interfering with itself, but the statistical accumulation of thousands of solid, deterministic trajectories landing at the resonant maxima.
+*   **Figure 6: Statistical Accumulation.** The final macroscopic interference pattern on the screen is not a single wave interfering with itself, but the statistical accumulation of thousands of solid, deterministic trajectories landing at the resonant maxima.
 
 
 ---
