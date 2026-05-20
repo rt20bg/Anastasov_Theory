@@ -7,7 +7,7 @@ RAKTS replaces abstract quantum mechanical probabilities (such as wavefunction c
 
 ## Repository Structure
 
-*   **`The Rapid Alignment Kinematic Theory of Spin (RAKTS).md`**
+*   **`01_The Rapid Alignment Kinematic Theory of Spin (RAKTS).md`**
     *   The core theoretical paper/manifesto. It outlines the philosophy, the new terminology (Field Medium vs. Dead Vacuum), and the core postulates regarding the nature of matter, discrete charges, and molecular bounds.
 *   **`Computational_Validations/`**
     *   The "Laboratory" folder where the theoretical concepts are put to the test against publicly available empirical data.
@@ -19,15 +19,15 @@ RAKTS replaces abstract quantum mechanical probabilities (such as wavefunction c
 ## The Empirical Validations
 Inside the `Computational_Validations/Tests` folder, you will find Python simulations that successfully reproduce standard quantum behaviors using only classical drag and fluid geometry:
 
-0.  **Test 0: Stern-Gerlach Split (`Test0_Stern_Gerlach`)** - The foundational simulation proving the "Vector Snap". Atoms don't exist in superposition; they mechanically rotate against Field Medium drag into stable alignment axes.
-1.  **Test 1: IR Spectroscopy (`Test1_IR_Spring`)** - Replaces the quantum harmonic oscillator with classical damped mechanical springs.
-2.  **Test 2: Enthalpy of Dissociation (`Test2_Enthalpy`)** - Proves bond strength is purely a function of geometric fluid cross-sections ( $1/d$ ).
-3.  **Test 3: Crystallography Bulk Modulus (`Test3_Crystallography`)** - Proves the "incompressibility of streams" using extreme pressure Diamond Anvil Cell data, outperforming Coulomb statics.
-4.  **Test 4: Molecular Geometry (`Test4_Methane`)** - Derives exact molecular angles (like Methane's 109.5° and Water's 104.5°) purely by minimizing Hydrodynamic Boundary Layer friction.
-5.  **Test 5: Paramagnetism (`Test5_Paramagnetism`)** - Replaces quantum "unpaired spin states" with continuous macroscopic vector alignment (Langevin function).
-6.  **Test 6: Electron Diffraction Paradox (`Test6_Diffraction`)** - Proves that diffraction rings are a mechanical result of grid-steering, not probability waves. Demonstrates that a massive, chaotic electron beam produces the same crisp pattern as single electrons, despite massive Coulomb entropy.
-7.  **Test 8: Radial Dynamics & Periodic Law (`Test8_Radial_Dynamics`)** - Computationally derives the concept of Effective Nuclear Charge ( $Z_{\text{eff}}$ ) through inverse optimization. Proves that atomic and ionic radii are entirely dictated by a mechanical balance between vacuum pull and expanding lateral boundary friction.
-8.  **Test 9: Frisch-Segrè 1933 Experiment (`Test9_Frisch_Segre`)** - Computationally solves the classical dynamic real-time tracking of spin vortices in rotating magnetic fields. Mathematically proves that the transition from adiabatic tracking to non-adiabatic "spin flips" is a direct result of hydrodynamic drag lag ($\Delta t_{\text{flight}} < \tau_{\text{drag}}$) in the viscous Field Medium.
+*   **Test 0: Stern-Gerlach Split (`Test0_Stern_Gerlach`)** - The foundational simulation proving the "Vector Snap". Atoms don't exist in superposition; they mechanically rotate against Field Medium drag into stable alignment axes.
+*   **Test 1: IR Spectroscopy (`Test1_IR_Spring`)** - Replaces the quantum harmonic oscillator with classical damped mechanical springs.
+*   **Test 2: Enthalpy of Dissociation (`Test2_Enthalpy`)** - Proves bond strength is purely a function of geometric fluid cross-sections ( $1/d$ ).
+*   **Test 3: Crystallography Bulk Modulus (`Test3_Crystallography`)** - Proves the "incompressibility of streams" using extreme pressure Diamond Anvil Cell data, outperforming Coulomb statics.
+*   **Test 4: Molecular Geometry (`Test4_Methane`)** - Derives exact molecular angles (like Methane's 109.5° and Water's 104.5°) purely by minimizing Hydrodynamic Boundary Layer friction.
+*   **Test 5: Paramagnetism (`Test5_Paramagnetism`)** - Replaces quantum "unpaired spin states" with continuous macroscopic vector alignment (Langevin function).
+*   **Test 6: Electron Diffraction Paradox (`Test6_Diffraction`)** - Proves that diffraction rings are a mechanical result of grid-steering, not probability waves. Demonstrates that a massive, chaotic electron beam produces the same crisp pattern as single electrons, despite massive Coulomb entropy.
+*   **Test 8: Radial Dynamics & Periodic Law (`Test8_Radial_Dynamics`)** - Computationally derives the concept of Effective Nuclear Charge ( $Z_{\text{eff}}$ ) through inverse optimization. Proves that atomic and ionic radii are entirely dictated by a mechanical balance between vacuum pull and expanding lateral boundary friction.
+*   **Test 9: Frisch-Segrè 1933 Experiment (`Test9_Frisch_Segre`)** - Computationally solves the classical dynamic real-time tracking of spin vortices in rotating magnetic fields. Mathematically proves that the transition from adiabatic tracking to non-adiabatic "spin flips" is a direct result of hydrodynamic drag lag ($\Delta t_{\text{flight}} < \tau_{\text{drag}}$) in the viscous Field Medium.
 
 ## Getting Started
 To view the results immediately, simply open `Computational_Validations/RAKTS_Validation_Dashboard.html`.
