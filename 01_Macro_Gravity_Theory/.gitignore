@@ -14,3 +14,4 @@ _archive/
 *.synctex.gz
 *.fls
 *.fdb_latexmk
+*Notes.bib

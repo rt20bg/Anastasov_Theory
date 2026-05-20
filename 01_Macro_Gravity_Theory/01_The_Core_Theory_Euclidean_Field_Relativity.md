@@ -71,7 +71,7 @@ $$ K_{dynamic}(v) = 3.0 - 1.5 \left( \frac{v^2}{c^2} \right) $$
 - **For Massive Planets ($v \ll c$):** $K \approx 3.0$. Yields precisely $43^{\prime\prime}$/cy.
 - **For Light ($v = c$):** $K = 1.5$. Yields precisely $1.75^{\prime\prime}$ deflection. 
 
-*Note: The vector acceleration modifier $K_{\text{dynamic}}(v)$ and the scalar refractive index $n(r)$ are dual expressions of the same localized field density; $n(r)$ dictates the wave-front phase velocity change, while $K$ governs the kinetic trajectory deflection, preventing double-counting.*
+> **Note:** The vector acceleration modifier $K_{\text{dynamic}}(v)$ and the scalar refractive index $n(r)$ are dual expressions of the same localized field density; $n(r)$ dictates the wave-front phase velocity change, while $K$ governs the kinetic trajectory deflection, preventing double-counting.
 
 ---
 
@@ -81,7 +81,7 @@ To preserve strict flat-space logic, we invoke the **Polarizable Field Medium** 
 
 $$ n(r) = 1 + \frac{2GM}{rc^2} $$
 
-*Note: The formulation $n(r) = 1 + \frac{2GM}{rc^2}$ is utilized here as the first-order linear approximation of the medium's polarization. In extreme potentials, the full non-linear behavior of $\varepsilon_0(\varphi)$ takes precedence.*
+> **Note:** The formulation $n(r) = 1 + \frac{2GM}{rc^2}$ is utilized here as the first-order linear approximation of the medium's polarization. In extreme potentials, the full non-linear behavior of $\varepsilon_0(\varphi)$ takes precedence.
 
 The coordinate speed of light locally becomes $v_{light} = c / n(r)$. When modeled via differential propagation between Earth and Venus, the simulation retrieved identical empirical data: exactly **$\sim 115 \ \mu s$ of round-trip radar delay**. 
 
@@ -96,7 +96,7 @@ If matter is fundamentally composed of field excitations or "trapped light" in s
 
 $$ \lambda_{\text{loc}} = \frac{\lambda_0}{\sqrt{n}} $$
 
-*Note: Spatial scale contraction ($\lambda_{\text{loc}} = \lambda_0/\sqrt{n}$) is explicitly a physical deformation of the atomic probe under localized medium pressure, not an alteration of the underlying flat Euclidean space matrix.*
+> **Note:** Spatial scale contraction ($\lambda_{\text{loc}} = \lambda_0/\sqrt{n}$) is explicitly a physical deformation of the atomic probe under localized medium pressure, not an alteration of the underlying flat Euclidean space matrix.
 
 This yields the clock frequency scaling relation:
 

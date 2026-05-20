@@ -44,11 +44,13 @@ To understand subatomic mechanics, we must distinguish between the container and
 
 RAKTS abandons the "billiard ball" concept of point-particles. Instead, an electron is modeled as a localized energy field or a continuous stream of varying density. Because it is a flexible field, it interacts with the **Field Medium** much like a fluid vortex. 
 
-When a stream enters a magnetic or electric gradient (a measurement device), it is subjected to massive external pressure. To maintain structural integrity, the stream's vector forcefully "snaps" into the nearest stable orientation relative to the external field. This **Vector Snap** occurs at light-speed, appearing discrete and instantaneous to our current low-frequency measurement instruments. *Note: $c$ ($c = 1/\sqrt{\mu_0 \varepsilon_0}$) represents the intrinsic propagation speed of transverse shear waves within the Field Medium's bulk modulus. Therefore, the Vector Snap is not instantaneously magical, but mechanically limited by the medium's maximum structural relaxation speed, which is exactly $c$.*
+When a stream enters a magnetic or electric gradient (a measurement device), it is subjected to massive external pressure. To maintain structural integrity, the stream's vector forcefully "snaps" into the nearest stable orientation relative to the external field. This **Vector Snap** occurs at light-speed, appearing discrete and instantaneous to our current low-frequency measurement instruments.
+
+> **Note:** $c$ ($c = 1/\sqrt{\mu_0 \varepsilon_0}$) represents the intrinsic propagation speed of transverse shear waves within the Field Medium's bulk modulus. Therefore, the Vector Snap is not instantaneously magical, but mechanically limited by the medium's maximum structural relaxation speed, which is exactly $c$.
 
 ## 5. Empirical & Computational Validation: From Probability to Mechanics
 
-*Note: The parameters used in these computational models (e.g., friction coefficients, medium impedance) are intrinsic, universal visco-elastic properties of the Field Medium. Once calibrated to a single baseline system (such as Methane geometry), the exact same coefficients satisfy the broader Periodic Table without ad-hoc adjustments.*
+> **Note:** The parameters used in these computational models (e.g., friction coefficients, medium impedance) are intrinsic, universal visco-elastic properties of the Field Medium. Once calibrated to a single baseline system (such as Methane geometry), the exact same coefficients satisfy the broader Periodic Table without ad-hoc adjustments.
 
 The RAKTS simulation engine replaces the abstract wave-functions of the Copenhagen Interpretation with deterministic classical kinematics. This framework has been rigorously tested against standard empirical datasets, achieving mathematical parity ($R^2 > 0.99$) through strictly mechanical interaction laws.
 
