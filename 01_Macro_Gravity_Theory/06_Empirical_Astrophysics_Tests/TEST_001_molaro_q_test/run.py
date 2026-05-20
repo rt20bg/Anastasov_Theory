@@ -348,7 +348,7 @@ def run_analysis():
         color=text_col, fontsize=13, fontweight='bold', y=0.98
     )
 
-    out_path = r'E:\Antigravity projects\Macro_Gravity\solar_q_test_result.png'
+    out_path = os.path.join(os.path.dirname(__file__), 'solar_q_test_result.png')
     plt.savefig(out_path, dpi=150, bbox_inches='tight', facecolor='#0d1117')
     print(f"\nPlot saved: {out_path}")
     plt.show()

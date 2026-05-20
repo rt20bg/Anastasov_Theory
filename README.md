@@ -9,7 +9,7 @@ This repository serves as an official digital "sandbox" for papers, theories, an
 
 If you use these ideas or data in your research, please cite this repository as follows:
 
-> Anastasov, R. (2026). *Anastasov Theory: Unified Research on Alternative Physics, Mathematics, and Futurology*. Zenodo. DOI: 10.5281/zenodo.20072608
+> Anastasov, I. (2026). *Anastasov Theory: Unified Research on Alternative Physics, Mathematics, and Futurology*. Zenodo. DOI: 10.5281/zenodo.20072608
 
 ---
 
@@ -38,7 +38,7 @@ I invite you to treat these theories as exploratory blueprints. Let us see where
 
 * **Topic:** Proof that local kinematics (Euclidean Space) and a Variable Medium Permittivity $\varepsilon_0(\varphi)$ replace Einstein's geometric General Relativity.
 * **Key Tests:** Mercury's precession, light deflection, Shapiro delay, GPS synchronization.
-* **Empirical Milestone:** Identified a definitive **Spectroscopic Violation of the Equivalence Principle** in White Dwarfs, confirming the theory's quantum predictions.
+* **Empirical Milestone:** Identified a systematic **Spectroscopic Anomaly Associated with the Equivalence Principle** in White Dwarfs, consistent with the theory's quantum predictions.
 * **Reports:** See the full [WEP Violation Report](./01_Macro_Gravity_Theory/07_Executive_Reports/WEP_VIOLATION_REPORT.md).
 * **Interactive Tests:** Run the [Jupyter Physics Engine](./01_Macro_Gravity_Theory/05_Interactive_Physics_Simulations/Gravitacia_Interactive.ipynb). [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rt20bg/Anastasov_Theory/blob/main/01_Macro_Gravity_Theory/05_Interactive_Physics_Simulations/Gravitacia_Interactive.ipynb)
 

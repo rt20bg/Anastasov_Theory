@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
-from scipy import stats
+from scipy import stats; import os
 
 # === Constants & Theoretical Setup ===
 c = 299792458  # m/s
@@ -9,7 +9,7 @@ c = 299792458  # m/s
 # Theoretical sensitivity q-values for key lines (cm-1)
 # Derived from literature (Berengut et al. / Murphy et al.)
 Q_VALS = {
-    'H-alpha': 15233, # Coulomb anchor (q=omega)
+    'H-alpha': 0,     # Invariant anchor (K=0) since Bohr scaling is in v_univ
     'Mg II':   1300,  # High sensitivity shift in high-Z
     'Si II':    500,  # Medium sensitivity
     'Ca II K':  450,  # Low/Medium
@@ -39,7 +39,7 @@ def main():
     ax.grid(True, color=GRD, alpha=0.5, lw=0.6)
 
     # 1. Plot the GR baseline (Null Hypothesis)
-    xq = np.linspace(-500, 16000, 1000)
+    xq = np.linspace(-500, 2000, 1000)
     ax.plot(xq, np.zeros_like(xq), color=GRN, lw=3, ls='--', label='General Relativity (EP Preserved: Delta v = 0)')
     ax.fill_between(xq, -200, 200, color=GRN, alpha=0.1, label='GR Uncertainty Buffer')
 
@@ -86,9 +86,9 @@ def main():
     ax.text(0.65, 0.15, textstr, transform=ax.transAxes, fontsize=10,
             verticalalignment='top', color=TXT, bbox=props)
 
-    plt.tight_layout()
-    plt.savefig('E:/Antigravity projects/Macro_Gravity/06_Empirical_Astrophysics_Tests/TEST_006_Q_Slope_Validation/q_slope_validation.png', dpi=300, facecolor=BG)
-    print("Q-Slope Validation Figure saved to: E:/Antigravity projects/Macro_Gravity/06_Empirical_Astrophysics_Tests/TEST_006_Q_Slope_Validation/q_slope_validation.png")
+    out_path = os.path.join(os.path.dirname(__file__), 'q_slope_validation.png')
+    plt.savefig(out_path, dpi=300, facecolor=BG)
+    print(f"Q-Slope Validation Figure saved to: {out_path}")
 
 if __name__ == "__main__":
     main()

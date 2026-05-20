@@ -1,4 +1,4 @@
-TEST_010: Spacecraft Flyby Anomaly (Refined)
+TEST_009: Spacecraft Flyby Anomaly (Refined)
 
 **Date:** 2026-04-26
 **Status:** Completed (Strongly Confirming)

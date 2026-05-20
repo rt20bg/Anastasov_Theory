@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-TEST_010: Spacecraft Flyby Anomaly (Refined)
+TEST_009: Spacecraft Flyby Anomaly (Refined)
 ============================================
 Data: Anderson et al. (2008)
 Theory: Fractional Velocity Shift (Delta V / V)
@@ -59,7 +59,7 @@ def main():
 
     ax.set_xlabel('Geometric Factor: [cos(delta_in) - cos(delta_out)]', color=TXT)
     ax.set_ylabel('Fractional Anomaly (Delta V / V) [mm/s per km/s]', color=TXT)
-    ax.set_title('TEST_010 (REFINED): Flyby Anomaly vs. Vacuum Viscosity', color=ACC, fontweight='bold', pad=20)
+    ax.set_title('TEST_009 (REFINED): Flyby Anomaly vs. Vacuum Viscosity', color=ACC, fontweight='bold', pad=20)
     
     ax.tick_params(colors=TXT); ax.spines[:].set_color(GRD); ax.grid(True, color=GRD, alpha=0.3)
     ax.legend(facecolor=PAN, labelcolor=TXT, edgecolor=GRD)
@@ -82,7 +82,7 @@ def main():
     plt.savefig(out, dpi=150, facecolor=BG)
     
     with open('REPORT.md', 'w') as f:
-        f.write("TEST_010: Spacecraft Flyby Anomaly (Refined)\n\n")
+        f.write("TEST_009: Spacecraft Flyby Anomaly (Refined)\n\n")
         f.write("**Date:** 2026-04-26\n")
         f.write("**Status:** Completed (Strongly Confirming)\n\n")
         f.write("## Hypothesis\n")

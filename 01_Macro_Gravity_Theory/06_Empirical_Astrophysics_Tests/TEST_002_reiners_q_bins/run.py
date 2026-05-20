@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from matplotlib.patches import Patch
 from scipy import stats
-import requests, io, warnings
+import requests, io, warnings, os
 warnings.filterwarnings('ignore')
 
 # ── Physical constants ─────────────────────────────────────────────────────────
@@ -351,7 +351,7 @@ def main():
         'Grouping by alpha-sensitivity coefficient to detect eps0(phi) signature',
         color=TEXT, fontsize=13, fontweight='bold')
 
-    out = r'E:\Antigravity projects\Macro_Gravity\reiners_q_distribution.png'
+    out = os.path.join(os.path.dirname(__file__), 'reiners_q_distribution.png')
     plt.savefig(out, dpi=150, bbox_inches='tight', facecolor=BG)
     print(f"\nSaved: {out}")
     plt.show()

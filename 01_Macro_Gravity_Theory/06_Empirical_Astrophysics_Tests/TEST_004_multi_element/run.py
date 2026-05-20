@@ -12,7 +12,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from scipy import stats
-import requests, gzip, warnings
+import requests, gzip, warnings, os
 warnings.filterwarnings('ignore')
 
 G, M_sun, R_sun, c = 6.674e-11, 1.989e30, 6.957e8, 2.998e8
@@ -359,7 +359,7 @@ def main():
         'Same EP, different q: does vacuum permittivity leave a fingerprint?',
         color=TXT, fontsize=13, fontweight='bold')
 
-    out = r'E:\Antigravity projects\Macro_Gravity\multi_element_q_result.png'
+    out = os.path.join(os.path.dirname(__file__), 'multi_element_q_result.png')
     plt.savefig(out, dpi=150, bbox_inches='tight', facecolor=BG)
     print(f"\nSaved: {out}")
     plt.show()

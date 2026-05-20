@@ -29,7 +29,7 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from scipy import stats
 from scipy.stats import t as t_dist
-import requests, gzip, io, warnings
+import requests, gzip, io, warnings, os
 warnings.filterwarnings('ignore')
 
 # ── Constants ──────────────────────────────────────────────────────────────────
@@ -327,7 +327,7 @@ def main():
         'ConvBS = a0 + a1*EP + a2*K_sens   |   K_sens = 2q/omega(lam)',
         color=TXT, fontsize=13, fontweight='bold')
 
-    out = r'E:\Antigravity projects\Macro_Gravity\two_factor_final_result.png'
+    out = os.path.join(os.path.dirname(__file__), 'two_factor_final_result.png')
     plt.savefig(out, dpi=150, bbox_inches='tight', facecolor=BG)
     print(f"\nSaved: {out}")
     plt.show()

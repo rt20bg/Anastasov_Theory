@@ -12,3 +12,4 @@ potential_reviewers.csv
 # Local IDE settings
 .vscode/
 .idea/
+reports/

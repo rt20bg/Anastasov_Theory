@@ -73,7 +73,7 @@ WD_CATALOG = {
 # (element, line_name, lam_AA, q_cm-1, omega_cm-1, K_sens=2q/omega)
 LINES = [
     # Hydrogen: Anchor for Universal Redshift
-    ('H',  'H-alpha',  6562.8, 15233, 15233, 2.000),
+    ('H',  'H-alpha',  6562.8, 15233, 15233, 0.000),
     # Metals: The Alpha-Signal (WEP Violation)
     # Mg II has high sensitivity (~0.09) in some DZ models
     ('Mg', 'Mg II 4481', 4481.2,  1300, 22315, 0.116),

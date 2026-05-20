@@ -24,10 +24,10 @@ The core hypothesis proposes that gravitational phenomena—traditionally descri
 *   **`07_Executive_Reports/`**
     *   Aggregated findings and executive summaries.
     *   [`SUMMARY.md`](07_Executive_Reports/SUMMARY.md): The master ledger of all empirical tests.
-    *   [`WEP_VIOLATION_REPORT.md`](07_Executive_Reports/WEP_VIOLATION_REPORT.md): The definitive scientific report detailing the confirmation of the WEP violation using archival Keck/VLT data.
+    *   [`WEP_VIOLATION_REPORT.md`](07_Executive_Reports/WEP_VIOLATION_REPORT.md): The scientific report detailing the predicted WEP anomaly identified in archival Keck/VLT data.
 
-## Key Milestone (April 2026)
-**STATUS: EVIDENCE CONFIRMED**
-Analysis of archival high-resolution spectra from 40 Eri B, G29-38, and WD 1145+017 has successfully isolated the predicted $\Delta \alpha / \alpha$ signal. Metal lines (e.g., Mg II, Ca II) systematically exhibit a **~2 km/s residual velocity shift** compared to standard lines (Hydrogen, Si), aligning perfectly with their calculated $q$-coefficients. 
+## Key Milestone (May 2026)
+**STATUS: PREDICTION / ANOMALY IDENTIFIED**
+Analysis of archival high-resolution spectra from 40 Eri B, G29-38, and WD 1145+017 has identified a systematic anomaly consistent with the predicted $\Delta \alpha / \alpha$ signal. Metal lines (e.g., Mg II, Ca II) systematically exhibit a **~2 km/s residual velocity shift** compared to standard lines (Hydrogen, Si), aligning with their calculated $q$-coefficients. 
 
-This persistent linear deviation represents a **Spectroscopic Violation of the Equivalence Principle**, rendering pure metric gravity models (like GR) as low-precision approximations.
+This persistent linear deviation indicates a potential **Spectroscopic Anomaly Associated with the Equivalence Principle**, suggesting that pure metric gravity models (like GR) may be low-precision approximations in high-gravity environments.

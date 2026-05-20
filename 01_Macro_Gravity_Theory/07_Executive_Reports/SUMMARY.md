@@ -1,7 +1,7 @@
 # Empirical Tests Summary
 ## Anastasov eps0(phi) Theory -- Macro Gravity
 
-**Last updated:** April 2026
+**Last updated:** May 2026
 
 ## Completed Tests
 
@@ -11,11 +11,11 @@
 | 002 | Reiners q-bins | Solar (Reiners 2016) | 1249 lines | ANOVA p=0.0003 | Inconclusive (Noise) |
 | 003 | Two-factor EP+q | Solar (Reiners/Allende) | 82 lines | a2=+1085, p=0.75 | Inconclusive |
 | 004 | Multi-element | Solar (Molaro 2012) | 1688 pairs | r=-0.0002, p=0.99 | Inconclusive |
-| **005** | **White Dwarf WEP Test** | **40 Eri B, G29-38, WD 1145** | **Mg II vs Si II RLS** | **+2.4 km/s detected** | **EVIDENCE CONFIRMED** |
+| **005** | **White Dwarf WEP Test** | **40 Eri B, G29-38, WD 1145** | **Mg II vs Si II RLS** | **+2.4 km/s detected** | **PREDICTION / ANOMALY IDENTIFIED** |
 | **006** | **Q-Slope Validation** | **Archival WD Spectra** | **Linear Regression** | **Matches Da/a model** | **CONFIRMED** |
 | 007 | Master Solar Test | Molaro 2012 (3-factor) | 17 lines | R^2 = 0.0769 | Inconclusive (Noise) |
-| 008 | Solar Limb Shift | Solar limb observations | Path-length n(r) | Confirmed | **SUCCESS** |
-| 010 | Flyby Anomaly | Rosetta/Juno Flybys | V_inf scaling | Matches n(r) drag | **SUCCESS** |
+| **008** | **Solar Limb Shift** | **Fe I 5123.7** | **$z_{gr} + conv + k/\mu$** | **Matches $k$ path drag** | **SUCCESS** |
+| **009** | **Flyby Anomaly** | **Rosetta/Juno Flybys** | **V_inf scaling** | **Matches n(r) drag** | **SUCCESS** |
 
 ## Key Findings
 
@@ -31,7 +31,7 @@
    proves that the **Weak Equivalence Principle (WEP) is violated**. Gravity is 
    not purely geometric; it is fundamentally optical (n-index) and quantum ( $\varepsilon_0(\varphi)$ ).
 
-3. **Macroscopic Validations (008, 010):** The Flyby Anomaly and Solar Limb Shift 
+3. **Macroscopic Validations (008, 009):** The Flyby Anomaly and Solar Limb Shift 
    are now physically explained by vacuum refractive index dragging, removing 
    the need for "dark" forces or ad-hoc geometric patches.
 
@@ -39,6 +39,6 @@
 
 | # | Test | Data Needed | Expected Precision | Feasibility |
 |---|------|-------------|-------------------|-------------|
-| 009 | BepiColombo Mercury RS | ESA 2026+ | ~10 m/s | Medium |
+| 010 | BepiColombo Mercury RS | ESA 2026+ | ~10 m/s | Medium |
 
 Note: Old conflicting tests regarding GPS alpha-drift have been archived, as the new "Matter as Light" (c<sub>loc</sub> = c<sub>0</sub>/n) formulation correctly predicts standard macroscopic clock drift mechanically, leaving z<sub>α</sub> as a purely residual spectroscopic signature.
