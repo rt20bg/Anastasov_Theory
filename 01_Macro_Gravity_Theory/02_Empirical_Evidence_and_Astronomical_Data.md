@@ -12,11 +12,7 @@ Below is a compiled list of established experimental and observational data that
 
 - **The GR Problem:** To save GR, physicists invented "Dark Matter" — a hypothetical invisible particle that supposedly makes up 85% of the universe. However, after 40+ years of billion-dollar underground experiments (XENON1T, LUX, LZ), **zero dark matter particles have ever been found.**
 
-- **Our Kinematic Verification:** Within our theoretical framework, the model does not need invisible particles. We physically derive the fast outer rotation by correctly modeling Euclidean space as a dense medium. In a highly dense Field Medium, gravitational tension (the K-factor impedance) does not strictly dissipate at:
-
-$$\frac{1}{r^2}$$
-
-over vast galactic scales. Furthermore, **Vacuum Refractive Distortion** means the Doppler shifts we measure are optically distorted by the dense vacuum gradient $n(r)$. Dark matter is an illusion caused by treating the vacuum as empty, frictionless geometry rather than a structured medium.
+- **Our Kinematic Verification:** Within our theoretical framework, the model does not need invisible particles. We physically derive the fast outer rotation by correctly modeling Euclidean space as a dense medium. In a highly dense Field Medium, gravitational tension (the K-factor impedance) does not strictly dissipate at $1/r^2$ over vast galactic scales. Furthermore, **Vacuum Refractive Distortion** means the Doppler shifts we measure are optically distorted by the dense vacuum gradient $n(r)$. Dark matter is an illusion caused by treating the vacuum as empty, frictionless geometry rather than a structured medium.
 
 ---
 
@@ -44,9 +40,9 @@ over vast galactic scales. Furthermore, **Vacuum Refractive Distortion** means t
 
 - **The Observation:** LIGO and Virgo detect discrete, isolated gravitational wave bursts (e.g., from merging neutron stars), followed by complete silence.
 
-- **The GR Problem:** GR models space as the frictionless geometry of the metric tensor. Mechanical waves in a frictionless void should never lose thermal energy. The universe should be filled with a deafening, continuous baseline "roar" of overlapping gravitational waves from every collision in history.
+- **The GR Problem:** GR models space as the frictionless geometry of the metric tensor. While wave amplitude naturally decreases strictly due to geometric spherical spreading ($1/r$), the waves themselves never experience thermodynamic friction. Without a damping mechanism, the accumulated background "noise" from billions of years of distant cosmic events should theoretically produce a much higher stochastic gravitational wave background than observed.
 
-- **Our Kinematic Verification:** Our model requires that the vacuum is a physical medium with bulk viscosity. Gravitational waves expend energy to stress this medium and therefore attenuate exponentially over distance. The silence between LIGO events is direct proof that the vacuum possesses physical mechanical viscosity, refuting the concept of frictionless geometric spacetime.
+- **Our Kinematic Verification:** Our model requires that the vacuum is a physical medium with bulk viscosity. Gravitational waves expend energy to physically stress this medium, causing them to attenuate exponentially over distance (beyond mere geometric spreading). The stark silence between LIGO events is a consequence of this viscous damping, refuting the concept of frictionless geometric spacetime.
 
 ---
 
