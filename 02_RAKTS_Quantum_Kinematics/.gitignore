@@ -1,0 +1,17 @@
+# Ignore archive directory and its contents
+_archive/
+
+# Ignore backups
+*.zip
+*.bak
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*Notes.bib
