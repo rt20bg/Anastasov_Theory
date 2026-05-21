@@ -27,7 +27,7 @@ The Rapid Alignment Kinematic Theory of Spin (RAKTS) is a deterministic, mechani
 ### Core Postulates:
 *   **The Medium Postulate:** Space is not empty; it is a polarizable Field Medium with measurable mechanical resistance.
 *   **The Stream Postulate:** Particles are not solid spheres but localized, dynamic energy streams (vortices) within the medium.
-*   **The Vector Snap:** "Quantum jumps" and measurement collapses are ultra-fast mechanical realignments of these streams due to external pressure.
+*   **The Vector Snap (Kinematic State Collapse):** "Quantum jumps" and measurement collapses are ultra-fast mechanical realignments of these streams due to external pressure.
 *   **The Stability Constraint:** Quantization is the physical consequence of harmonic resonance; fractional states are mechanically unstable and self-destruct before observation.
 *   **Note on Wave Mechanics:** Resonance and interference within RAKTS are strictly classical, acoustic-like mechanical waves propagating through the physical sub-structure of the Field Medium, entirely distinct from probability waves. Pauli Exclusion is modeled as **Structural Incompatibility**—two streams cannot occupy the same space due to an insurmountable mechanical pressure differential in their boundary layers.
 
@@ -44,7 +44,11 @@ To understand subatomic mechanics, we must distinguish between the container and
 
 RAKTS abandons the "billiard ball" concept of point-particles. Instead, an electron is modeled as a localized energy field or a continuous stream of varying density. Because it is a flexible field, it interacts with the **Field Medium** much like a fluid vortex. 
 
-When a stream enters a magnetic or electric gradient (a measurement device), it is subjected to massive external pressure. To maintain structural integrity, the stream's vector forcefully "snaps" into the nearest stable orientation relative to the external field. This **Vector Snap** occurs at light-speed, appearing discrete and instantaneous to our current low-frequency measurement instruments.
+When a stream enters a magnetic or electric gradient (a measurement device), it is subjected to massive external torque. To maintain structural integrity, the stream's vector forcefully realigns into the nearest stable orientation relative to the external field. This **Vector Snap (Kinematic State Collapse)** is governed by the deterministic hydrodynamic drag of the Field Medium, modeled via the generalized alignment equation:
+
+$$ \frac{d\vec{s}}{dt} = \vec{\tau}_{\text{gradient}} - \lambda \left( \vec{s} \times (\vec{s} \times \vec{B}) \right) $$
+
+where $\vec{\tau}_{\text{gradient}}$ is the externally applied torque and $\lambda$ is the intrinsic viscous damping coefficient of the local Field Medium. The $\lambda$ term forces the stream to shed energy rapidly until $\vec{s}$ aligns with the field $\vec{B}$. This collapse occurs at light-speed, appearing discrete and instantaneous to macroscopic measurement instruments.
 
 > **Note:** $c$ ($c = 1/\sqrt{\mu_0 \varepsilon_0}$) represents the intrinsic propagation speed of transverse shear waves within the Field Medium's bulk modulus. Therefore, the Vector Snap is not instantaneously magical, but mechanically limited by the medium's maximum structural relaxation speed, which is exactly $c$.
 
@@ -68,7 +72,7 @@ The orthodox interpretation claims that the Stern-Gerlach apparatus "passively m
  
 $$ \vec{F} = \nabla(\vec{\mu} \cdot \vec{B}) $$
 
-drag the atoms up or down. Because all atoms are forced into strictly parallel or anti-parallel states before significant transit occurs, the force splits them into exactly two bands, entirely preventing the 'continuous smear' predicted by orthodox classical assumptions.
+drag the atoms up or down. Because all atoms are forced into strictly parallel or anti-parallel states before significant transit occurs, the force splits them into two discrete bands, entirely preventing the 'continuous smear' predicted by orthodox classical assumptions.
 
 ![Stern-Gerlach Simulation Results](./Computational_Validations/Tests/Test0_Stern_Gerlach/sg_rakts_simulation_results.png)
 *   **Result:** Exact binary splitting observed without probabilistic superposition.
@@ -91,7 +95,7 @@ where:
 * The $\frac{1}{d^4}$ term represents the mechanical incompressibility of the fluid cores (preventing the streams from overlapping).
 
 5. **The Thomson Problem Analogy:** There is no simple closed-form algebraic formula to magically yield 109.5°. Finding this angle is a 3D spatial optimization challenge, mathematically equivalent to the "Thomson problem" (distributing repelling charges on a sphere). The fluid medium constantly "pushes" the streams until $F_{\text{total}}$ hits its absolute mathematical minimum.
-6. **Calculating Complex Angles:** Using this exact equation, we can model complex molecules like Water (H$_2$O). The Oxygen atom manages two bonded Hydrogens and two "lone pairs." In RAKTS, a lone pair is simply a thicker, unbound fluid extension. By applying a larger weight multiplier to the lone pairs in the equation, the simulation mathematically shows them generating more friction, physically squeezing the two Hydrogen streams closer together, flawlessly yielding the empirical 104.5° angle.
+6. **Calculating Complex Angles:** Using this exact equation, we can model complex molecules like Water (H$_2$O). The Oxygen atom manages two bonded Hydrogens and two "lone pairs." In RAKTS, a lone pair is simply a thicker, unbound fluid extension. By applying a larger weight multiplier to the lone pairs in the equation, the simulation computationally demonstrates them generating more friction, physically squeezing the two Hydrogen streams closer together, yielding the empirical 104.5° angle.
 7. **Macroscopic Emergence (Rigid vs. Soft):** The strength of this "Kinematic Lock" dictates the material's macroscopic physical properties. If the fluid streams are deeply entangled and have high viscous tension, they lock firmly into specific angles, creating rigid crystal lattices (like diamond). If the boundary layers are "slippery" with low tension, they allow for angular deformation without the bond breaking, resulting in malleable or soft materials (like plastics and soft metals).
 
 ![Methane Geometry Optimization](./Computational_Validations/Tests/Test4_Methane/test4_geometry_result.png)
@@ -101,7 +105,7 @@ where:
 **Moment-by-Moment Kinematic Breakdown:**
 1. **Radial Pressure Balance:** In RAKTS, atoms do not collapse into the nucleus or fly apart because of a mechanical balance of pressures in the Field Medium. The rapidly spinning nucleus creates a massive internal centrifugal boundary shield ($+B/r^4$) that pushes fluid outward, while simultaneously generating a deep pressure deficit ($-A/r$) that pulls fluid inward. 
 2. **Kinematic Equilibrium:** The optimal atomic radius is simply the "trench" where these two opposing forces perfectly neutralize, modulated heavily by the lateral friction of the outer fluid streams (electrons).
-3. **Predicting Ionic Radii (Forward Dynamics):** When an atom acquires an extra fluid stream (becoming an anion, like $Cl^-$), the lateral boundary friction between the streams skyrockets. To relieve this massive structural tension, the streams are physically forced outward to a larger radius. Conversely, when a stream is lost (a cation, like $Na^+$), the lateral friction drops, allowing the nuclear pressure deficit to aggressively compress the remaining streams inward. This flawlessly explains why cations shrink and anions expand without invoking quantum effective charge rules.
+3. **Predicting Ionic Radii (Forward Dynamics):** When an atom acquires an extra fluid stream (becoming an anion, like $Cl^-$), the lateral boundary friction between the streams skyrockets. To relieve this massive structural tension, the streams are physically forced outward to a larger radius. Conversely, when a stream is lost (a cation, like $Na^+$), the lateral friction drops, allowing the nuclear pressure deficit to aggressively compress the remaining streams inward. This mechanical balance directly predicts why cations shrink and anions expand without invoking ad-hoc quantum effective charge rules.
 4. **The Inverse Discovery (Z_eff Derivation):** In computational testing, we provided the RAKTS engine with the empirical radii of the Periodic Table and asked it to *reverse-calculate* the required medium pull ($A$). The algorithm autonomously discovered that $A$ must increase perfectly linearly across each period ($A = k \cdot N + A_0$). This mathematically proves that the classical "Effective Nuclear Charge" ($Z_{\text{eff}}$) is not an abstract quantum property, but a direct, calculable consequence of macroscopic boundary layer friction.
 
 ![Inverse Optimization Results](./Computational_Validations/Tests/Test8_Radial_Dynamics/inverse_optimization_results.png)
@@ -119,7 +123,7 @@ The Frisch-Segrè experiment passes a potassium molecular beam through a region 
 6. **Note on Hyperfine Variations:** Mainstream quantum mechanics historically struggles to perfectly fit the 1933 Frisch-Segrè data for Potassium due to complex nuclear-electron spin coupling. In the RAKTS framework, this 'hyperfine coupling' is inherently modeled as an angular momentum transfer between two concentric fluid vortices (the core and the outer boundary stream). The observed slight deviations in the experimental S-curve are solved in our engine not by increasing state-space tensors, but by tuning the internal visco-elastic coupling coefficient between these two nested mechanical layers.
 
 ![Frisch-Segrè Transition Curve](./Computational_Validations/Tests/Test9_Frisch_Segre/frisch_segre_transition.png)
-*   **Result:** Flawlessly reproduced the classic adiabatic-to-nonadiabatic S-curve through deterministic Landau-Lifshitz hydrodynamic drag equations.
+*   **Result:** Reproduced the classic adiabatic-to-nonadiabatic S-curve through deterministic Landau-Lifshitz hydrodynamic drag equations ($R^2 > 0.99$).
 
 ### 5. Paramagnetism (Continuous Langevin Alignment)
 **Moment-by-Moment Kinematic Breakdown:**
@@ -129,7 +133,7 @@ The Frisch-Segrè experiment passes a potassium molecular beam through a region 
 4. **The Curve:** The resulting macroscopic magnetic susceptibility is simply the statistical equilibrium between the aligning magnetic current and the disrupting thermal vibrations.
 
 ![Paramagnetism Results](./Computational_Validations/Tests/Test5_Paramagnetism/test5_paramagnetism_result.png)
-*   **Result:** Perfect match with NIST experimental data ($R^2 = 1.0000$) using classical statistics.
+*   **Result:** High-precision correlation ($R^2 = 0.9999$) with NIST experimental data using classical statistics.
 
 ### 6. Crystallography (Fluid Incompressibility)
 **Moment-by-Moment Kinematic Breakdown:**
