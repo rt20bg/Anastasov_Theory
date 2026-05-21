@@ -60,7 +60,7 @@ The RAKTS simulation engine replaces the abstract wave-functions of the Copenhag
 
 Below is the moment-by-moment kinematic breakdown of how fundamental quantum experiments are resolved deterministically.
 
-### 1. Stern-Gerlach Split (Deconstructing the Measurement Illusion)
+### 5.1 Stern-Gerlach Split (Deconstructing the Measurement Illusion)
 **Moment-by-Moment Kinematic Breakdown:**
 The orthodox interpretation claims that the Stern-Gerlach apparatus "passively measures" a particle in superposition, causing its wave-function to collapse randomly into two distinct states. RAKTS posits that the machine is not a passive observer; it is an active, forceful binary sorting funnel.
 
@@ -77,7 +77,7 @@ drag the atoms up or down. Because all atoms are forced into strictly parallel o
 ![Stern-Gerlach Simulation Results](./Computational_Validations/Tests/Test0_Stern_Gerlach/sg_rakts_simulation_results.png)
 *   **Result:** Exact binary splitting observed without probabilistic superposition.
 
-### 2. Molecular Geometry (Deconstructing Orbital Hybridization)
+### 5.2 Molecular Geometry (Deconstructing Orbital Hybridization)
 **Moment-by-Moment Kinematic Breakdown:**
 1. **Hydrodynamic Valency:** Atoms are not abstract spheres seeking "eight electrons"; they are complex, spinning fluid systems. An "unpaired electron" or "bonding site" is essentially a region of extreme kinematic tension—a zone of high or low pressure on the atom's surface boundary that creates turbulence in the Field Medium.
 2. **The Coupling:** When Hydrogen atoms approach Carbon, their localized energy streams are physically "sucked" into these pressure deficits. They lock together not through quantum entanglement, but like merging fluid vortices sharing angular momentum to neutralize the pressure gradient.
@@ -101,7 +101,7 @@ where:
 ![Methane Geometry Optimization](./Computational_Validations/Tests/Test4_Methane/test4_geometry_result.png)
 *   **Result:** Reproduced the 109.5° (Methane) and 104.5° (Water) angles purely by computationally minimizing fluid-dynamic boundary layer resistance.
 
-### 3. Atomic Radii and The Periodic Law (Deconstructing Effective Nuclear Charge)
+### 5.3 Atomic Radii and The Periodic Law (Deconstructing Effective Nuclear Charge)
 **Moment-by-Moment Kinematic Breakdown:**
 1. **Radial Pressure Balance:** In RAKTS, atoms do not collapse into the nucleus or fly apart because of a mechanical balance of pressures in the Field Medium. The rapidly spinning nucleus creates a massive internal centrifugal boundary shield ($+B/r^4$) that pushes fluid outward, while simultaneously generating a deep pressure deficit ($-A/r$) that pulls fluid inward. 
 2. **Kinematic Equilibrium:** The optimal atomic radius is simply the "trench" where these two opposing forces perfectly neutralize, modulated heavily by the lateral friction of the outer fluid streams (electrons).
@@ -111,7 +111,7 @@ where:
 ![Inverse Optimization Results](./Computational_Validations/Tests/Test8_Radial_Dynamics/inverse_optimization_results.png)
 *   **Result:** Derived the linear Periodic Law and Effective Nuclear Charge strictly through mechanical fluid friction.
 
-### 4. Frisch-Segrè 1933 Experiment (Deconstructing the Non-Adiabatic Illusion)
+### 5.4 Frisch-Segrè 1933 Experiment (Deconstructing the Non-Adiabatic Illusion)
 **Moment-by-Moment Kinematic Breakdown:**
 The Frisch-Segrè experiment passes a potassium molecular beam through a region where the magnetic field direction rotates rapidly. If the transit time is very fast, the spin state "flips" relative to the new field axis.
 1. **The Rotating Field:** As the gyroscopic vortex of the potassium atom flies through the transition zone, it experiences a rotating magnetic field torque $\vec{\tau} = \vec{s} \times \vec{B}$.
@@ -125,7 +125,7 @@ The Frisch-Segrè experiment passes a potassium molecular beam through a region 
 ![Frisch-Segrè Transition Curve](./Computational_Validations/Tests/Test9_Frisch_Segre/frisch_segre_transition.png)
 *   **Result:** Reproduced the classic adiabatic-to-nonadiabatic S-curve through deterministic Landau-Lifshitz hydrodynamic drag equations ($R^2 > 0.99$).
 
-### 5. Paramagnetism (Continuous Langevin Alignment)
+### 5.5 Paramagnetism (Continuous Langevin Alignment)
 **Moment-by-Moment Kinematic Breakdown:**
 1. **The Vortex:** Oxygen molecules are modeled not with abstract "unpaired spin states," but as complex, continuously spinning internal fluid vortices.
 2. **Field Exposure:** When exposed to an external magnetic field, the field acts as a continuous directional current flowing through the medium.
@@ -135,7 +135,7 @@ The Frisch-Segrè experiment passes a potassium molecular beam through a region 
 ![Paramagnetism Results](./Computational_Validations/Tests/Test5_Paramagnetism/test5_paramagnetism_result.png)
 *   **Result:** High-precision correlation ($R^2 = 0.9999$) with NIST experimental data using classical statistics.
 
-### 6. Crystallography (Fluid Incompressibility)
+### 5.6 Crystallography (Fluid Incompressibility)
 **Moment-by-Moment Kinematic Breakdown:**
 1. **Lattice Formation:** Atoms settle into a geometric lattice structure, held in place by balanced electromagnetic tension within the Field Medium.
 2. **External Compression:** Extreme external pressure is applied to the crystal. Standard models rely solely on static electrostatic repulsion to explain resistance.
@@ -145,7 +145,7 @@ The Frisch-Segrè experiment passes a potassium molecular beam through a region 
 ![Crystal Compression Curve](./Computational_Validations/Tests/Test3_Crystallography/test3_compression_result.png)
 *   **Result:** Outperformed classical Coulomb models with an $R^2 = 0.9999$ correlation across 15 different crystal lattices.
 
-### 7. Vibrational Spectroscopy (Mechanical Buffer Resonance)
+### 5.7 Vibrational Spectroscopy (Mechanical Buffer Resonance)
 **Moment-by-Moment Kinematic Breakdown:**
 1. **Stimulation:** An infrared laser fires into a molecule, adding localized energy to the atomic bonds.
 2. **The Buffer:** The bond (a structural tension in the Field Medium) acts as a mechanical spring, absorbing the energy and oscillating. 
@@ -155,7 +155,7 @@ The Frisch-Segrè experiment passes a potassium molecular beam through a region 
 ![IR Spectroscopy Simulation](./Computational_Validations/Tests/Test1_IR_Spring/test1_ir_result.png)
 *   **Result:** Matched empirical IR vibrational signatures with <1.5% error margin.
 
-### 8. The Double-Slit Paradox (Deconstructing Wave-Particle Duality)
+### 5.8 The Double-Slit Paradox (Deconstructing Wave-Particle Duality)
 **Moment-by-Moment Kinematic Breakdown:**
 The orthodox interpretation claims a single electron passes through both slits simultaneously as a probability wave, interfering with itself. RAKTS posits deterministic trajectory funneling, akin to a macroscopic Galton Board.
 
