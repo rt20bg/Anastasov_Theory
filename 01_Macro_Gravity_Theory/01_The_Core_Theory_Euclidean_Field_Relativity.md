@@ -64,16 +64,22 @@ This leads to the precise, corrected acceleration equation acting fundamentally 
 $$ \vec{a} = -\frac{GM}{r^3}\vec{r} \left[ 1 + K(v) \frac{h^2}{c^2 r^2} \right] $$
 
 ### 2.3 The Dynamic K-Factor: Unifying Matter and Light
-Physics encounters a conflict: to rotate Mercury correctly, $K = 3.0$; to deflect starlight, $K = 1.5$. We bridge both states seamlessly by attributing the difference to the intrinsic speed of the body $v$:
+
+Standard calculations require a structural coefficient $K \approx 3.0$ to reproduce Mercury's perihelion precession and $K = 1.5$ to reproduce the deflection of starlight. Rather than treating this as two separate phenomena, we interpret the difference as arising from the distinct physical nature of the propagating entities within the same polarizable Field Medium.
+
+- **Free photons ($K = 1.5$)** propagate as unbound electromagnetic wave-fronts. Their trajectory is deflected solely by the refractive gradient of the medium.
+- **Massive bodies ($K \approx 3.0$)** are modeled as confined standing-wave vortex structures ("trapped light"). These vortices carry intrinsic specific angular momentum ($\vec{h} = \vec{r} \times \vec{v}$). As they move transversely through the polarized medium, the bound vortex structure induces an additional kinematic polarization drag. This dual-layer kinematic torque effectively double-counts the gravitational resistance relative to free photons.
+
+The continuous transition between the two regimes is expressed as:
 
 $$ K_{dynamic}(v) = 3.0 - 1.5 \left( \frac{v^2}{c^2} \right) $$
+
+This velocity dependence reflects the gradual suppression of the vortex angular momentum contribution as the object's speed approaches the local wave speed in the medium.
 
 - **For Massive Planets ($v \ll c$):** $K \approx 3.0$. Yields precisely $43^{\prime\prime}$/cy.
 - **For Light ($v = c$):** $K = 1.5$. Yields precisely $1.75^{\prime\prime}$ deflection. 
 
 > **Note:** The vector acceleration modifier $K_{\text{dynamic}}(v)$ and the scalar refractive index $n(r)$ are dual expressions of the same localized field density; $n(r)$ dictates the wave-front phase velocity change, while $K$ governs the kinetic trajectory deflection, preventing double-counting.
-
-> **Note on K-Factor Physical Ontology:** The transition between $K = 1.5$ and $K = 3.0$ is not an empirical fit, but a direct mechanical consequence of the object's physical nature. Light ($K = 1.5$) propagates as a free, unconfined electromagnetic wave-front, deflecting purely according to the local refractive gradient of the medium. Conversely, massive matter ($K = 3.0$) is modeled as "trapped light"—confined standing wave vortices locked into the Field Medium. When moving transversely, these bound vortices carry intrinsic specific angular momentum ($\vec{h}$), actively dragging and interacting with the medium's local viscosity. This dual-layer kinematic torque double-counts the effective gravitational resistance on matter relative to free photons, naturally shifting the structural modifier from $1.5$ to $3.0$.
 
 ---
 
