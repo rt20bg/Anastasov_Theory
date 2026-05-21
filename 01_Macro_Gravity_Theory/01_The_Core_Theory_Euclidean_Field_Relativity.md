@@ -1,5 +1,10 @@
 # Kinematic and Optical Equivalence to Spacetime Curvature: A Computational Proof-of-Concept for Euclidean Field Relativity
 
+**Author:** I. Anastasov  
+**Affiliation:** Anastasov Theory Research Initiative  
+**Repository:** [github.com/rt20bg/Anastasov\_Theory](https://github.com/rt20bg/Anastasov_Theory)  
+*(Dated: May 4, 2026)*
+
 **Foreword: The Case for Epistemic Pluralism**
 
 Physics does not advance through consensus, but through the competition of ideas.

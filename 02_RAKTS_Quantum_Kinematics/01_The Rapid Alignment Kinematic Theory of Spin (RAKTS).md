@@ -1,7 +1,8 @@
 **The Rapid Alignment Kinematic Theory of Spin (RAKTS)**
 
-**Author:** I. Anastasov 
-**Affiliation:** Anastasov Theory Research Initiative
+**Author:** I. Anastasov  
+**Affiliation:** Anastasov Theory Research Initiative  
+**Repository:** [github.com/rt20bg/Anastasov\_Theory](https://github.com/rt20bg/Anastasov_Theory)  
 *(Dated: May 4, 2026)*
 
 ---
