@@ -1,33 +1,29 @@
-# Macro Gravity Project: The $\varepsilon_0(\varphi)$ Model
+# Anastasov Theory: Euclidean Field Relativity (EFR)
 
-This repository contains the theoretical framework, simulations, and empirical testing suite for the **Variable Medium Permittivity Model of Gravity**.
+This repository contains the theoretical framework, simulations, and empirical testing suite for **Euclidean Field Relativity**, which models gravitational phenomena not through the geometric curvature of spacetime, but through the mechanical kinematics of a polarizable Field Medium operating in a flat Euclidean background.
 
 ## Theoretical Core
-The core hypothesis proposes that gravitational phenomena—traditionally described by the spacetime curvature of General Relativity (GR)—are instead the physical consequence of a variable vacuum permittivity $\varepsilon_0(\varphi)$ induced by mass.
 
-*   **Universal Redshift (Metric-like):** Matter, fundamentally composed of fields/light, experiences a kinematic delay proportional to the local refractive index $n(\varphi)$ of the vacuum. This produces the baseline Equivalence Principle (EP) expected by GR.
-*   **Differential Redshift (Quantum-like):** The variation in $\varepsilon_0$ inherently alters the fine-structure constant $\alpha$. This causes a secondary, element-specific shift in atomic energy levels depending on their $q$-sensitivity coefficient. **This violates the Weak Equivalence Principle (WEP).**
+The core hypothesis proposes that massive celestial bodies polarize the surrounding vacuum, altering its electromagnetic permittivity $\varepsilon_0(\varphi)$.
+
+*   **Macroscopic Isomorphism:** The resulting density gradient induces kinematic drag and optical impedance on moving bodies. In the weak-field limit, this vector mechanics is strictly algebraically isomorphic to the tensor geometry of General Relativity (GR), yielding mathematically identical predictions for Mercury's anomalous precession, Shapiro time delay, and GPS temporal dilation.
+*   **Microscopic Falsification:** Because variations in $\varepsilon_0$ inherently alter the fine-structure constant $\alpha$, the model predicts a secondary, element-specific shift in atomic energy levels depending on their $q$-sensitivity coefficient. This predicts a microscopic violation of the Weak Equivalence Principle (WEP) at the quantum level in extreme gravitational fields.
 
 ## Project Structure
 
-*   **`01_The_Core_Theory_Euclidean_Field_Relativity.pdf` / `.md`**: The foundational whitepaper outlining the "Matter as Light" resolution and the mechanical basis of Euclidean Field Relativity.
-*   **`02_Empirical_Evidence_and_Astronomical_Data.md`**: Compiles 9 distinct observational breakdowns of GR.
-*   **`03_Computational_Simulations_and_Mathematical_Scorers.md`**: Explanation of the python simulations that validate the Euclidean Field mathematics against classical GR formulas.
-*   **`04_Defending_the_Theory_Preemptive_Rebuttals.md`**: Anticipated critiques, FAQs, and physical rebuttals.
-*   **`05_Interactive_Physics_Simulations/`**: The dynamic Python sandbox containing the code for planetary orbits, light deflection, and Shapiro delay.
-*   `/shared/`
-    *   Constants, data fetchers, and the $q$-coefficient catalog (`q_coefficients.py`) for various elements.
-*   **`06_Empirical_Astrophysics_Tests/`**
-    *   The empirical testing suite. Each folder contains a `run.py` simulation and a generated `REPORT.md`.
-    *   **TEST_005_white_dwarf:** The pivotal test isolating the differential alpha-signal in high-gravity DZ/DAZ white dwarfs.
-    *   **TEST_006_Q_Slope_Validation:** The final validation script producing the empirical "Q-Slope" which contradicts GR.
-*   **`07_Executive_Reports/`**
-    *   Aggregated findings and executive summaries.
-    *   [`SUMMARY.md`](07_Executive_Reports/SUMMARY.md): The master ledger of all empirical tests.
-    *   [`WEP_VIOLATION_REPORT.md`](07_Executive_Reports/WEP_VIOLATION_REPORT.md): The scientific report detailing the predicted WEP anomaly identified in archival Keck/VLT data.
+*   **`Ontological_Duality_in_Weak_Field_Gravity` (.md / .pdf / .tex)**: The foundational whitepaper introducing EFR, deriving the 1-to-1 algebraic isomorphism, and establishing the empirical bounds for quantum falsification.
+*   **`Future_Horizons_Cosmological_Hypotheses.md`**: Theoretical extrapolations exploring how the Field Medium paradigm might naturally resolve broader cosmological mysteries (e.g., Dark Matter, the Hubble Tension, and CMB Anisotropy) in future simulations.
+*   **`Interactive_Physics_Simulations/`**: The dynamic Python sandbox containing the computational code for planetary orbits, light deflection, and Shapiro delay numerical simulations.
+*   **`Empirical_Astrophysics_Tests/`**: The empirical testing suite for extracting parameters from high-resolution differential spectroscopy.
+*   **`shared/`**: Core Python libraries (`constants.py`, `q_coefficients.py`, etc.) and the raw archival spectral datasets (`.fits`, `.xml`, `.csv`).
+*   **`assets/legacy_figures/`**: Archived visual diagrams and historical charts.
 
 ## Key Milestone (May 2026)
-**STATUS: PREDICTION / ANOMALY IDENTIFIED**
-Analysis of archival high-resolution spectra from 40 Eri B, G29-38, and WD 1145+017 has identified a systematic anomaly consistent with the predicted $\Delta \alpha / \alpha$ signal. Metal lines (e.g., Mg II, Ca II) systematically exhibit a **~2 km/s residual velocity shift** compared to standard lines (Hydrogen, Si), aligning with their calculated $q$-coefficients. 
 
-This persistent linear deviation indicates a potential **Spectroscopic Anomaly Associated with the Equivalence Principle**, suggesting that pure metric gravity models (like GR) may be low-precision approximations in high-gravity environments.
+**STATUS: MACROSCOPIC PARITY CONFIRMED / QUANTUM LIMIT ESTABLISHED**
+
+An archival high-resolution differential spectroscopic analysis of the white dwarf WD 0738-172 (using VLT/UVES data) successfully verified the absolute macroscopic gravitational redshift ($+34.430$ km/s) predicted by both geometric and kinematic frameworks.
+
+Crucially, the relative shift between light metallic elements (Mg I and Ca II) was measured at $0.000 \pm 0.100$ km/s. This null result places a rigorous empirical upper bound on the non-linear coupling constant of the medium's permittivity gradient, constraining the local variation of the fine-structure constant to $\le 4.1 \times 10^{-6}$. 
+
+This establishes absolute macroscopic mathematical parity with General Relativity in the weak-to-intermediate field regime. It confirms that definitive quantum falsification of the Weak Equivalence Principle requires targeting heavy elements (e.g., Fe) with next-generation high-stability spectrographs (like ESPRESSO) to pierce the current instrumental noise floor.

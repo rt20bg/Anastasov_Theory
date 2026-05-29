@@ -34,18 +34,17 @@ I invite you to treat these theories as exploratory blueprints. Let us see where
 ### 1. "Macro-Gravity" Branch: The $\varepsilon_0(\varphi)$ Model (COMPLETED)
 
 **Directory:** [`01_Macro_Gravity_Theory`](./01_Macro_Gravity_Theory)
-**Paper:** [`01_The_Core_Theory_Euclidean_Field_Relativity.md`](./01_Macro_Gravity_Theory/01_The_Core_Theory_Euclidean_Field_Relativity.md) | **PDF:** [`01_The_Core_Theory_Euclidean_Field_Relativity.pdf`](./01_Macro_Gravity_Theory/01_The_Core_Theory_Euclidean_Field_Relativity.pdf)
+**Paper:** [`Ontological_Duality_in_Weak_Field_Gravity.md`](./01_Macro_Gravity_Theory/Ontological_Duality_in_Weak_Field_Gravity.md) | **PDF:** [`Ontological_Duality_in_Weak_Field_Gravity.pdf`](./01_Macro_Gravity_Theory/Ontological_Duality_in_Weak_Field_Gravity.pdf)
 
-* **Topic:** Proof that local kinematics (Euclidean Space) and a Variable Medium Permittivity $\varepsilon_0(\varphi)$ replace Einstein's geometric General Relativity.
-* **Key Tests:** Mercury's precession, light deflection, Shapiro delay, GPS synchronization.
-* **Empirical Milestone:** Identified a systematic **Spectroscopic Anomaly Associated with the Equivalence Principle** in White Dwarfs, consistent with the theory's quantum predictions.
-* **Reports:** See the full [WEP Violation Report](./01_Macro_Gravity_Theory/07_Executive_Reports/WEP_VIOLATION_REPORT.md).
-* **Interactive Tests:** Run the [Jupyter Physics Engine](./01_Macro_Gravity_Theory/05_Interactive_Physics_Simulations/Gravitacia_Interactive.ipynb). [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rt20bg/Anastasov_Theory/blob/main/01_Macro_Gravity_Theory/05_Interactive_Physics_Simulations/Gravitacia_Interactive.ipynb)
+* **Topic:** Proof that local vector kinematics (Euclidean Space) and a Variable Medium Permittivity $\varepsilon_0(\varphi)$ are algebraically isomorphic to Einstein's geometric General Relativity.
+* **Key Tests:** Mercury's precession, Shapiro delay, GPS synchronization.
+* **Empirical Milestone:** Constrained the quantum falsification limit ($\le \pm 100$ m/s for Mg/Ca) using archival VLT/UVES White Dwarf data, proving macroscopic parity and directing future analysis toward heavy elements.
+* **Interactive Tests:** Run the [Jupyter Physics Engine](./01_Macro_Gravity_Theory/Interactive_Physics_Simulations/Gravitacia_Interactive.ipynb). [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rt20bg/Anastasov_Theory/blob/main/01_Macro_Gravity_Theory/Interactive_Physics_Simulations/Gravitacia_Interactive.ipynb)
 
 ### 2. "Quantum Kinematics" Branch (COMPLETED)
 
 **Directory:** [`02_RAKTS_Quantum_Kinematics`](./02_RAKTS_Quantum_Kinematics)
-**Paper:** [`01_The Rapid Alignment Kinematic Theory of Spin (RAKTS).md`](./02_RAKTS_Quantum_Kinematics/01_The%20Rapid%20Alignment%20Kinematic%20Theory%20of%20Spin%20(RAKTS).md) | **PDF:** [`01_The Rapid Alignment Kinematic Theory of Spin (RAKTS).pdf`](./02_RAKTS_Quantum_Kinematics/01_The%20Rapid%20Alignment%20Kinematic%20Theory%20of%20Spin%20(RAKTS).pdf)
+**Paper:** [`The_Rapid_Alignment_Kinematic_Theory_of_Spin.md`](./02_RAKTS_Quantum_Kinematics/The_Rapid_Alignment_Kinematic_Theory_of_Spin.md) | **PDF:** [`The_Rapid_Alignment_Kinematic_Theory_of_Spin.pdf`](./02_RAKTS_Quantum_Kinematics/The_Rapid_Alignment_Kinematic_Theory_of_Spin.pdf)
 
 * **Topic:** The Rapid Alignment Kinematic Theory of Spin (RAKTS). Proof that quantum superposition is an illusion caused by macroscopic magnetic-kinematic alignment. Replaces orbital hybridization with fluid mechanics.
 * **Interactive Tests:** See the [Validation Dashboard](./02_RAKTS_Quantum_Kinematics/Computational_Validations/RAKTS_Validation_Dashboard.html).
@@ -76,6 +75,6 @@ I invite you to treat these theories as exploratory blueprints. Let us see where
 ### 6. The Prime Number Illusion
 
 **Directory:** [`03_The_Prime_Number_Illusion`](./03_The_Prime_Number_Illusion)
-**Paper:** [`The_Prime_Number_Illusion_Theory_2026_04_23.md`](./03_The_Prime_Number_Illusion/The_Prime_Number_Illusion_Theory_2026_04_23.md)
+**Paper:** [`The_Relativity_of_Prime_Numbers.md`](./03_The_Prime_Number_Illusion/The_Relativity_of_Prime_Numbers.md)
 
 * **Topic:** A popular science/philosophical exploration proving that prime numbers are artifacts of perception and artificial discrete mathematics ("step 1.0"), rather than fundamental properties of the analog universe. Has potential implications for modern cryptography.

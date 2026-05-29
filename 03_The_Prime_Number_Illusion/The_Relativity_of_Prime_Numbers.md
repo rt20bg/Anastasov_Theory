@@ -1,7 +1,7 @@
 # The Relativity of Prime Numbers: Grid-Dependent Distributions and Cryptographic Applications
 
 ## Abstract
-For centuries, mathematics has revered prime numbers as the fundamental, unbreakable "atoms" of reality. Enormous computational power and human intellect are expended mapping their chaotic distribution. However, this paper proposes a paradigm-shifting perspective: prime numbers are not intrinsic properties of the universe, but rather optical illusions created by an arbitrary measurement system. We argue that the universe operates as an analog, continuous spectrum, and the anomalies we observe as "primes" are merely artifacts of an artificially imposed "Step 1.0" integer grid.
+For centuries, mathematics has revered prime numbers as the fundamental, unbreakable "atoms" of reality. Enormous computational power and human intellect are expended mapping their chaotic distribution. However, this paper proposes a paradigm-shifting perspective: prime numbers are not intrinsic properties of the universe, but rather optical illusions created by an arbitrary measurement system. Consistent with the continuous "Field Medium" ontology established in our preceding physical frameworks (EFR and RAKTS), we argue that the universe operates as an analog, continuous spectrum. The anomalies we observe as "primes" are not fundamental physical constants, but merely artifacts of an artificially imposed "Step 1.0" integer grid.
 
 ## 1. The Trap of the "Step 1.0" Grid
 The entire foundation of number theory, and prime numbers specifically, relies on an anthropocentric and unproven assumption: that reality fundamentally counts in rigid, discrete steps of exactly 1.0. Because humans evolved with ten fingers, we constructed a mathematical framework based on distinct whole integers: 1, 2, 3, 4, etc. 
@@ -10,7 +10,7 @@ Within this framework, a prime number is defined simply as a number that cannot 
 
 Consider laying a rigid, square metal grid over a flowing, continuous river. The grid represents our integer-based mathematics. The continuous flow of the water represents the energetic reality of the physical universe. In this analogy, prime numbers are not magical points of power within the water; they are simply the awkward, mathematically irreducible spots where the rigid squares of the grid fail to cleanly intersect with the natural waves. They are not emergent properties of nature; they are the friction points of a poorly chosen coordinate system applied to a dynamic medium.
 
-## 2. Extraterrestrial Epistemology: The Relativity of Counting
+## 2. Alternative Epistemology: Non-Unitary Grids
 To understand the arbitrary nature of our prime numbers, we must engage in an epistemic exercise. Consider an advanced extraterrestrial civilization that evolved in a different physical environment. Suppose their cognitive architecture naturally led them to base their mathematics on a fundamental step size of exactly 0.96 (relative to our base 1), or perhaps they inherently count in increments of what we call 2: 2, 4, 6, 8...
 
 If an alien species counts with a base unit of 2, their "integers" are our even numbers. In their reality, what we call the number 3, they would conceptualize as a bizarre decimal or fraction (1.5 in their units). Their concept of "indivisibility" would fundamentally shift. Our prime numbers would completely disappear from their mathematical foundation. Depending on their chosen baseline, their primes would fall in entirely different locations, or the very concept of a "prime number" might never emerge in their civilization.
@@ -54,7 +54,7 @@ Mainstream mathematics refers to positive integers (1, 2, 3...) as the "Natural 
 
 At the quantum and cosmological levels, the universe does not operate in whole threes. It operates in waves, gradients, frequencies, and pressure differentials. Consider the constant Pi ( $$\pi \approx 3.14159...$$ ). In nature, Pi is infinitely more "natural" than the number 3. Everywhere energy propagates, bends, curves, or orbits, Pi is fundamentally present. The number 3, on the other hand, is merely a rounded-down, low-resolution approximation of reality.
 
-In a purely analog, continuous universe, the exact integer "3.00000000... (to infinity)" practically does not exist. It is a mathematical abstraction. In reality, any physical manifestation of "3" is actually 3.00000001 or 2.99999999. The exact integer 3 is just as statistically rare and arbitrary as any highly specific irrational number. We have digitized nature so our brains could comfortably process it into separate objects, and in our arrogance, we mistook this digital compression format for the fundamental source code of reality.
+In a purely analog, continuous universe, the exact integer "3.00000000... (to infinity)" practically does not exist. It is a mathematical abstraction. In reality, any physical manifestation of "3" is actually 3.00000001 or 2.99999999. The exact integer 3 is just as statistically rare and arbitrary as any highly specific irrational number. We have digitized nature so our biological hardware could comfortably process it into separate objects, and historically, this digital compression format has been conflated with the fundamental source code of reality.
 
 ## 4. Practical Applications: Defeating Quantum Decryption via Dynamic Grids
 Modern digital security infrastructure, primarily RSA encryption, relies heavily on the factorization of massive prime numbers. It operates on the premise that it is easy to multiply two primes, but incredibly computationally intensive to factor them back out. 
@@ -64,7 +64,7 @@ However, this entire paradigm forces both the encrypter and the hacker to play o
 If we approach primes as a relative property of the grid's step size, an alternative cryptographic paradigm emerges: **Dynamic Grid Cryptography (DGC)**.
 
 ### 4.1 The DGC Protocol
-Instead of relying on standard primes, a DGC system encrypts data using "Alien Primes" generated from a mathematically shifted, non-standard grid (e.g., an Even-Stepper monoid, or an irrational step like $$ 0.96347... \times \pi $$ ). Thus, in this alien counting system, the Prime Numbers are: **2, 6, 10, 14, 18, 22...** (Mathematically, every number of the form $$ 4k+2 $$ ).  
+Instead of relying on standard primes, a DGC system encrypts data using "Alien Primes" generated from a mathematically shifted, non-standard grid (e.g., an Even-Stepper monoid, or an irrational step like $$ 0.96347... \times \pi $$ ).
 
 1. **The Key is the Ruler:** The secret key is no longer just a large number; the secret key is the *exact grid step size* and the *monoid ruleset*.
 2. **Encryption:** The message is encrypted using primes valid *only* within that specific mathematical dimension.

@@ -12,4 +12,12 @@ potential_reviewers.csv
 # Local IDE settings
 .vscode/
 .idea/
+.obsidian/
 reports/
+
+# LaTeX and temp files
+*.aux
+*.out
+*.bak
+*.backup
+scratch/

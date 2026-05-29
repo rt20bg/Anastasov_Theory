@@ -7,7 +7,7 @@ RAKTS replaces abstract quantum mechanical probabilities (such as wavefunction c
 
 ## Repository Structure
 
-*   **`01_The Rapid Alignment Kinematic Theory of Spin (RAKTS).md`**
+*   **`The_Rapid_Alignment_Kinematic_Theory_of_Spin.md`**
     *   The core theoretical paper/manifesto. It outlines the philosophy, the new terminology (Field Medium vs. Dead Vacuum), and the core postulates regarding the nature of matter, discrete charges, and molecular bounds.
 *   **`Computational_Validations/`**
     *   The "Laboratory" folder where the theoretical concepts are put to the test against publicly available empirical data.
