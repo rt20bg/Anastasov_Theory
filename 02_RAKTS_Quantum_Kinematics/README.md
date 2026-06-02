@@ -3,7 +3,12 @@
 Welcome to the central repository for **RAKTS**, a classical computational framework for quantum phenomena.
 
 ## Overview
-RAKTS replaces abstract quantum mechanical probabilities (such as wavefunction collapse, orbital hybridization, and discrete spin states) with **pure fluid kinematics and mechanical friction**. By modeling subatomic matter not as solid point-particles, but as dynamic energy streams interacting with a viscous "Field Medium", RAKTS provides classical mechanical derivations for standard empirical benchmarks in quantum chemistry and physics.
+
+Rather than challenging the empirical validity of Quantum Mechanics, RAKTS advocates for epistemic pluralism—testing whether we can maintain a concurrent, deterministic theoretical ontology to process subatomic data. 
+
+By acting as a rigorous **intellectual stress-test**, RAKTS replaces abstract probability wavefunctions (such as orbital hybridization and discrete spin states) with localized, continuous energy streams interacting within a resistive "Field Medium." It achieves mathematical parity with standard QM outcomes through deterministic fluid-dynamic mechanics, vector snap, and continuous Landau-Lifshitz hydrodynamic drag.
+
+This provides an alternative paradigm: visualizing and computing quantum interactions without probabilistic superposition, utilizing strictly classical mechanics to reproduce established empirical benchmarks.
 
 ## Repository Structure
 
@@ -26,11 +31,13 @@ Inside the `Computational_Validations/Tests` folder, you will find Python simula
 *   **Test 4: Molecular Geometry (`Test4_Methane`)** - Derives exact molecular angles (like Methane's 109.5° and Water's 104.5°) purely by minimizing Hydrodynamic Boundary Layer friction.
 *   **Test 5: Paramagnetism (`Test5_Paramagnetism`)** - Replaces quantum "unpaired spin states" with continuous macroscopic vector alignment (Langevin function).
 *   **Test 6: Electron Diffraction Paradox (`Test6_Diffraction`)** - Proves that diffraction rings are a mechanical result of grid-steering, not probability waves. Demonstrates that a massive, chaotic electron beam produces the same crisp pattern as single electrons, despite massive Coulomb entropy.
-*   **Test 8: Radial Dynamics & Periodic Law (`Test8_Radial_Dynamics`)** - Computationally derives the concept of Effective Nuclear Charge ( $Z_{\text{eff}}$ ) through inverse optimization. Proves that atomic and ionic radii are entirely dictated by a mechanical balance between vacuum pull and expanding lateral boundary friction.
-*   **Test 9: Frisch-Segrè 1933 Experiment (`Test9_Frisch_Segre`)** - Simulates the Frisch-Segrè (1933) S-curve without probabilistic superposition. Mathematically proves that the transition from adiabatic tracking to non-adiabatic "spin flips" is a direct result of hydrodynamic drag lag ($\Delta t_{\text{flight}} < \tau_{\text{drag}}$) in the viscous Field Medium.
+*   **Test 8: Radial Dynamics & Periodic Law (`Test7_Radial_Dynamics`)** - Computationally derives the concept of Effective Nuclear Charge ( $Z_{\text{eff}}$ ) through inverse optimization. Proves that atomic and ionic radii are entirely dictated by a mechanical balance between vacuum pull and expanding lateral boundary friction.
+*   **Test 9: Frisch-Segrè 1933 Experiment (`Test8_Frisch_Segre`)** - Simulates the Frisch-Segrè (1933) S-curve without probabilistic superposition. Mathematically proves that the transition from adiabatic tracking to non-adiabatic "spin flips" is a direct result of hydrodynamic drag lag ($\Delta t_{\text{flight}} < \tau_{\text{drag}}$) in the viscous Field Medium.
 
 ## Getting Started
-To view the results immediately, simply open `Computational_Validations/RAKTS_Validation_Dashboard.html`.
+To view the results online immediately, click here: **[View Interactive Dashboard](https://htmlpreview.github.io/?https://github.com/rt20bg/Anastasov_Theory/blob/main/02_RAKTS_Quantum_Kinematics/Computational_Validations/RAKTS_Validation_Dashboard.html)**.
+
+If you have cloned the repository, simply double-click `Computational_Validations/RAKTS_Validation_Dashboard.html` to open it in your local browser.
 
 To run the tests yourself:
 1. Ensure you have Python installed with `numpy`, `scipy`, and `matplotlib`.

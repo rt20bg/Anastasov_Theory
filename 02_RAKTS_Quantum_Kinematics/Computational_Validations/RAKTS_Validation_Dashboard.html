@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RAKTS: Empirical Validation Dashboard</title>
-    <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>RAKTS: Empirical Validation Dashboard</title>
+<style>
         :root {
             --bg-color: #0f172a;
             --text-color: #f8fafc;
@@ -101,156 +102,148 @@
             color: #cbd5e1;
             line-height: 1.5;
         }
-    </style>
+    
+        .card-link { text-decoration: none; color: inherit; display: block; }
+        .card { transition: all 0.3s ease; }
+        .card-link:hover .card { border-color: var(--accent); box-shadow: 0 4px 20px rgba(56, 189, 248, 0.2); transform: translateY(-2px); }
+</style>
 </head>
 <body>
-
-    <header>
-        <h1>RAKTS Empirical Validation</h1>
-        <p class="subtitle">A unified dashboard showcasing the computational validation of the Rapid Alignment Kinematic Theory of Spin. All 7 fundamental tests replace abstract quantum mechanics with pure fluid kinematic friction, perfectly matching official empirical data.</p>
-    </header>
-
-    <div class="grid-container">
-        
-        <!-- Test 0 -->
-        <div class="card">
-            <h2>0. Stern-Gerlach (Vector Snap)</h2>
-            <p class="description">The foundational test of RAKTS. Proves that quantum superposition isn't needed to explain the discrete splitting of atoms in a magnetic gradient. It is simply a hydrodynamic "Snap" to a stable tension axis.</p>
-            <img src="./Tests/Test0_Stern_Gerlach/rakts_flight_delay_simulation.png" alt="Stern Gerlach Vector Snap">
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-value">Hydrodynamic</div>
-                    <div class="stat-label">Rotation Method</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value">Deterministic</div>
-                    <div class="stat-label">Trajectory</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Test 1 -->
-        <div class="card">
-            <h2>1. IR Spectroscopy (Damped Spring)</h2>
-            <p class="description">Models the molecular bond as a physical spring oscillating within a viscous Field Medium. Eliminates the need for quantum harmonic oscillators and Heisenberg Uncertainty.</p>
-            <img src="./Tests/Test1_IR_Spring/test1_ir_result.png" alt="IR Spectroscopy Result">
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-value">2201.5 cm⁻¹</div>
-                    <div class="stat-label">Simulated Peak</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value">1.46%</div>
-                    <div class="stat-label">Error Margin</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Test 2 -->
-        <div class="card">
-            <h2>2. Bond Enthalpy (Kinematic Tension)</h2>
-            <p class="description">Proves that Bond Dissociation Energy across the periodic table is directly proportional to the geometric cross-sectional area of the shared fluid stream (1/d tension factor).</p>
-            <img src="./Tests/Test2_Enthalpy/test2_enthalpy_result.png" alt="Enthalpy Result">
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-value">0.8307</div>
-                    <div class="stat-label">Linear Correlation (R²)</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value">Fluid Mechanics</div>
-                    <div class="stat-label">Framework</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Test 3 -->
-        <div class="card">
-            <h2>3. Crystallography (Extreme Pressure)</h2>
-            <p class="description">Validates the 'Barrier of Incompressibility'. Under extreme pressure, crystal lattices resist compression via exponential fluid resistance, significantly outperforming classical Coulomb electrostatics.</p>
-            <img src="./Tests/Test3_Crystallography/test3_compression_result.png" alt="Crystallography Result">
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-value">0.9999</div>
-                    <div class="stat-label">RAKTS R²</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value">0.9884</div>
-                    <div class="stat-label">Coulomb R²</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Test 4 -->
-        <div class="card">
-            <h2>4. Molecular Geometry (Boundary Layers)</h2>
-            <p class="description">Replaces orbital hybridization (sp3). Methane naturally forms a 109.5° tetrahedron purely by minimizing the physical friction between the Hydrodynamic Boundary Layers of its streams.</p>
-            <img src="./Tests/Test4_Methane/test4_geometry_result.png" alt="Geometry Result">
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-value">109.47°</div>
-                    <div class="stat-label">Simulated Angle</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value">0.02%</div>
-                    <div class="stat-label">Error Margin</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Test 5 -->
-        <div class="card">
-            <h2>5. Paramagnetism (Classical Alignment)</h2>
-            <p class="description">Rejects the notion of quantum "unpaired spins". Models O2 gas as continuous macroscopic gyroscopes aligning mechanically against thermal drag (Langevin function).</p>
-            <img src="./Tests/Test5_Paramagnetism/test5_paramagnetism_result.png" alt="Paramagnetism Result">
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-value">1.0000</div>
-                    <div class="stat-label">Classical Curve Fit (R²)</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value">O₂ Gas</div>
-                    <div class="stat-label">Target Data</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Test 6 -->
-        <div class="card">
-            <h2>6. Electron Diffraction Paradox (Entropy)</h2>
-            <p class="description">Proves that massive Coulomb entropy in dense beams does not destroy the interference pattern, validating the kinematic 'sieve' model of the crystal lattice.</p>
-            <img src="./Tests/Test6_Diffraction/test6_electron_beam_result.png" alt="Diffraction Paradox Result">
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-value">Deterministic</div>
-                    <div class="stat-label">Framework</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value">Stable</div>
-                    <div class="stat-label">Beam Pattern</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Test 8 -->
-        <div class="card">
-            <h2>8. Radial Dynamics (Inverse Z_eff)</h2>
-            <p class="description">⚡ NEW: Autonomously derives the linear Periodic Law and Effective Nuclear Charge (Z_eff) by computationally reverse-engineering empirical atomic radii using boundary friction.</p>
-            <img src="./Tests/Test8_Radial_Dynamics/inverse_optimization_results.png" alt="Radial Dynamics Result">
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-value">Linear</div>
-                    <div class="stat-label">Z_eff Derivation</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value">Inverse</div>
-                    <div class="stat-label">Optimization</div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    </div>
+<header>
+<a href="https://github.com/rt20bg/Anastasov_Theory" style="display: inline-block; margin-bottom: 20px; padding: 8px 16px; background-color: rgba(255,255,255,0.05); color: var(--accent); text-decoration: none; border-radius: 4px; font-weight: 600; border: 1px solid var(--accent); transition: all 0.2s;">← Back to GitHub Repository</a>
+<h1>RAKTS Empirical Validation</h1>
+<p class="subtitle">A unified dashboard showcasing the computational validation of the Rapid Alignment Kinematic Theory of Spin. All 7 fundamental tests replace abstract quantum mechanics with pure fluid kinematic friction, perfectly matching official empirical data.</p>
+</header>
+<div class="grid-container">
+<!-- Test 0 -->
+<a class="card-link" href="https://github.com/rt20bg/Anastasov_Theory/tree/main/02_RAKTS_Quantum_Kinematics/Computational_Validations/Tests/Test0_Stern_Gerlach" target="_blank"><div class="card">
+<h2>0. Stern-Gerlach (Vector Snap)</h2>
+<p class="description">The foundational test of RAKTS. Proves that quantum superposition isn't needed to explain the discrete splitting of atoms in a magnetic gradient. It is simply a hydrodynamic "Snap" to a stable tension axis.</p>
+<img alt="Stern Gerlach Vector Snap" src="./Tests/Test0_Stern_Gerlach/rakts_flight_delay_simulation.png"/>
+<div class="stats">
+<div class="stat-item">
+<div class="stat-value">Hydrodynamic</div>
+<div class="stat-label">Rotation Method</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">Deterministic</div>
+<div class="stat-label">Trajectory</div>
+</div>
+</div>
+</div></a>
+<!-- Test 1 -->
+<a class="card-link" href="https://github.com/rt20bg/Anastasov_Theory/tree/main/02_RAKTS_Quantum_Kinematics/Computational_Validations/Tests/Test1_IR_Spring" target="_blank"><div class="card">
+<h2>1. IR Spectroscopy (Damped Spring)</h2>
+<p class="description">Models the molecular bond as a physical spring oscillating within a viscous Field Medium. Eliminates the need for quantum harmonic oscillators and Heisenberg Uncertainty.</p>
+<img alt="IR Spectroscopy Result" src="./Tests/Test1_IR_Spring/test1_ir_result.png"/>
+<div class="stats">
+<div class="stat-item">
+<div class="stat-value">2201.5 cm⁻¹</div>
+<div class="stat-label">Simulated Peak</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">1.46%</div>
+<div class="stat-label">Error Margin</div>
+</div>
+</div>
+</div></a>
+<!-- Test 2 -->
+<a class="card-link" href="https://github.com/rt20bg/Anastasov_Theory/tree/main/02_RAKTS_Quantum_Kinematics/Computational_Validations/Tests/Test2_Enthalpy" target="_blank"><div class="card">
+<h2>2. Bond Enthalpy (Kinematic Tension)</h2>
+<p class="description">Proves that Bond Dissociation Energy across the periodic table is directly proportional to the geometric cross-sectional area of the shared fluid stream (1/d tension factor).</p>
+<img alt="Enthalpy Result" src="./Tests/Test2_Enthalpy/test2_enthalpy_result.png"/>
+<div class="stats">
+<div class="stat-item">
+<div class="stat-value">0.8307</div>
+<div class="stat-label">Linear Correlation (R²)</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">Fluid Mechanics</div>
+<div class="stat-label">Framework</div>
+</div>
+</div>
+</div></a>
+<!-- Test 3 -->
+<a class="card-link" href="https://github.com/rt20bg/Anastasov_Theory/tree/main/02_RAKTS_Quantum_Kinematics/Computational_Validations/Tests/Test3_Crystallography" target="_blank"><div class="card">
+<h2>3. Crystallography (Extreme Pressure)</h2>
+<p class="description">Validates the 'Barrier of Incompressibility'. Under extreme pressure, crystal lattices resist compression via exponential fluid resistance, significantly outperforming classical Coulomb electrostatics.</p>
+<img alt="Crystallography Result" src="./Tests/Test3_Crystallography/test3_compression_result.png"/>
+<div class="stats">
+<div class="stat-item">
+<div class="stat-value">0.9999</div>
+<div class="stat-label">RAKTS R²</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">0.9884</div>
+<div class="stat-label">Coulomb R²</div>
+</div>
+</div>
+</div></a>
+<!-- Test 4 -->
+<a class="card-link" href="https://github.com/rt20bg/Anastasov_Theory/tree/main/02_RAKTS_Quantum_Kinematics/Computational_Validations/Tests/Test4_Methane" target="_blank"><div class="card">
+<h2>4. Molecular Geometry (Boundary Layers)</h2>
+<p class="description">Replaces orbital hybridization (sp3). Methane naturally forms a 109.5° tetrahedron purely by minimizing the physical friction between the Hydrodynamic Boundary Layers of its streams.</p>
+<img alt="Geometry Result" src="./Tests/Test4_Methane/test4_geometry_result.png"/>
+<div class="stats">
+<div class="stat-item">
+<div class="stat-value">109.47°</div>
+<div class="stat-label">Simulated Angle</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">0.02%</div>
+<div class="stat-label">Error Margin</div>
+</div>
+</div>
+</div></a>
+<!-- Test 5 -->
+<a class="card-link" href="https://github.com/rt20bg/Anastasov_Theory/tree/main/02_RAKTS_Quantum_Kinematics/Computational_Validations/Tests/Test5_Paramagnetism" target="_blank"><div class="card">
+<h2>5. Paramagnetism (Classical Alignment)</h2>
+<p class="description">Rejects the notion of quantum "unpaired spins". Models O2 gas as continuous macroscopic gyroscopes aligning mechanically against thermal drag (Langevin function).</p>
+<img alt="Paramagnetism Result" src="./Tests/Test5_Paramagnetism/test5_paramagnetism_result.png"/>
+<div class="stats">
+<div class="stat-item">
+<div class="stat-value">1.0000</div>
+<div class="stat-label">Classical Curve Fit (R²)</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">O₂ Gas</div>
+<div class="stat-label">Target Data</div>
+</div>
+</div>
+</div></a>
+<!-- Test 6 -->
+<a class="card-link" href="https://github.com/rt20bg/Anastasov_Theory/tree/main/02_RAKTS_Quantum_Kinematics/Computational_Validations/Tests/Test6_Diffraction" target="_blank"><div class="card">
+<h2>6. Electron Diffraction Paradox (Entropy)</h2>
+<p class="description">Proves that massive Coulomb entropy in dense beams does not destroy the interference pattern, validating the kinematic 'sieve' model of the crystal lattice.</p>
+<img alt="Diffraction Paradox Result" src="./Tests/Test6_Diffraction/test6_electron_beam_result.png"/>
+<div class="stats">
+<div class="stat-item">
+<div class="stat-value">Deterministic</div>
+<div class="stat-label">Framework</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">Stable</div>
+<div class="stat-label">Beam Pattern</div>
+</div>
+</div>
+</div></a>
+<!-- Test 8 -->
+<a class="card-link" href="https://github.com/rt20bg/Anastasov_Theory/tree/main/02_RAKTS_Quantum_Kinematics/Computational_Validations/Tests/Test7_Radial_Dynamics" target="_blank"><div class="card">
+<h2>8. Radial Dynamics (Inverse Z_eff)</h2>
+<p class="description">⚡ NEW: Autonomously derives the linear Periodic Law and Effective Nuclear Charge (Z_eff) by computationally reverse-engineering empirical atomic radii using boundary friction.</p>
+<img alt="Radial Dynamics Result" src="./Tests/Test7_Radial_Dynamics/inverse_optimization_results.png"/>
+<div class="stats">
+<div class="stat-item">
+<div class="stat-value">Linear</div>
+<div class="stat-label">Z_eff Derivation</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">Inverse</div>
+<div class="stat-label">Optimization</div>
+</div>
+</div>
+</div></a>
+</div>
 
 </body>
 </html>

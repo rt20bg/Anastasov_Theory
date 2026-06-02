@@ -97,7 +97,7 @@ where:
 3. **Predicting Ionic Radii (Forward Dynamics):** When an atom acquires an extra fluid stream (becoming an anion, like $Cl^-$), the lateral boundary friction between the streams skyrockets. To relieve this massive structural tension, the streams are physically forced outward to a larger radius. Conversely, when a stream is lost (a cation, like $Na^+$), the lateral friction drops, allowing the nuclear pressure deficit to aggressively compress the remaining streams inward. This mechanical balance directly predicts why cations shrink and anions expand without invoking ad-hoc quantum effective charge rules.
 4. **The Inverse Discovery (Z_eff Derivation):** In computational testing, we provided the RAKTS engine with the empirical radii of the Periodic Table and asked it to *reverse-calculate* the required medium pull ($A$). The algorithm autonomously discovered that $A$ must increase perfectly linearly across each period ($A = k \cdot N + A_0$). This mathematically proves that the classical "Effective Nuclear Charge" ($Z_{\text{eff}}$) is not an abstract quantum property, but a direct, calculable consequence of macroscopic boundary layer friction.
 
-![Inverse Optimization Results](./Computational_Validations/Tests/Test8_Radial_Dynamics/inverse_optimization_results.png)
+![Inverse Optimization Results](./Computational_Validations/Tests/Test7_Radial_Dynamics/inverse_optimization_results.png)
 *   **Result:** Derived the linear Periodic Law and Effective Nuclear Charge strictly through mechanical fluid friction.
 
 ### 4.4 Frisch-Segrè 1933 Experiment (Hydrodynamic Gyroscopic Lag)
@@ -111,7 +111,7 @@ The Frisch-Segrè experiment passes a potassium molecular beam through a region 
 5. **Non-Adiabatic Lag ( $\Delta t_{\text{flight}} < \tau_{\text{drag}}$ ):** If the field rotates faster than the vortex can realign (short flight time due to high speed or sharp current gradient), the stream experiences a mechanical **gyroscopic lag**. It fails to rotate in time and preserves its physical spatial orientation, which is measured as a "spin-flip" in the analyzer.
 6. **Note on Hyperfine Variations:** Mainstream quantum mechanics historically struggles to perfectly fit the 1933 Frisch-Segrè data for Potassium due to complex nuclear-electron spin coupling. In the RAKTS framework, this 'hyperfine coupling' is inherently modeled as an angular momentum transfer between two concentric fluid vortices (the core and the outer boundary stream). The observed slight deviations in the experimental S-curve are solved in our engine not by increasing state-space tensors, but by tuning the internal visco-elastic coupling coefficient between these two nested mechanical layers.
 
-![Frisch-Segrè Transition Curve](./Computational_Validations/Tests/Test9_Frisch_Segre/frisch_segre_transition.png)
+![Frisch-Segrè Transition Curve](./Computational_Validations/Tests/Test8_Frisch_Segre/frisch_segre_transition.png)
 *   **Result:** Reproduced the classic adiabatic-to-nonadiabatic S-curve through deterministic Landau-Lifshitz hydrodynamic drag equations ($R^2 > 0.99$).
 
 ### 4.5 Paramagnetism (Continuous Langevin Alignment)
