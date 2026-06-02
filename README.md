@@ -1,80 +1,76 @@
-# Anastasov Theory: The Ideas Sandbox
+# Anastasov Theory: Computational Physics Frameworks
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20072608.svg)](https://doi.org/10.5281/zenodo.20072608)
 [![License: All Rights Reserved](https://img.shields.io/badge/License-All_Rights_Reserved-red.svg)](https://github.com/rt20bg/Anastasov_Theory)
 
-This repository serves as an official digital "sandbox" for papers, theories, and hypotheses related to alternative physics, mathematical philosophy, and futurology.
+This repository serves as a centralized collection of computational physics models, theoretical frameworks, and validation scripts exploring classical analogues to standard General Relativity and Quantum Mechanics benchmarks.
 
 ### How to Cite
 
-If you use these ideas or data in your research, please cite this repository as follows:
+If you use these implementations or data in your research, please cite this repository as follows:
 
 > Anastasov, I. (2026). *Anastasov Theory: Unified Research on Alternative Physics, Mathematics, and Futurology*. Zenodo. DOI: 10.5281/zenodo.20072608
 
 ---
 
-## Author's Philosophical Note: The Spirit of "What If"
+## Independent Research & Computational Benchmarking
 
-The history of science shows us that the giants who built the foundations of our modern understanding—Maxwell, Newton, Faraday, and Einstein—were characterized by their intellectual bravery. They were not afraid to be wrong, and more importantly, they were not afraid to explore "What If" scenarios that challenged the established norms of their time. 
+The history of science relies on continuous, rigorous stress-testing of established paradigms. This repository presents a series of computational models designed as **intellectual stress-tests** for standard theories. 
 
-This repository is born from that same spirit of intellectual freedom. 
+Rather than proposing a single unified theory of everything, these tracks explore independent classical, fluid-dynamic frameworks to determine how accurately well-established benchmarks can be reproduced without resorting to non-local quantum probabilities or non-Euclidean spacetime geometries.
 
-I want to be clear: I do not claim to hold the absolute, final truth of the universe. Instead, I am presenting a series of rigorous "What If" simulations. These models are offered as **intellectual stress-tests** for established theories. Some parts may survive, some may break—and I believe both outcomes are scientifically valuable. 
-
-In the following papers, I argue as if these kinematic and Euclidean models are the definitive reality. I do this because the only way to truly test a model’s limits is to push its logic to the absolute extreme. 
-
-Exploring these alternative paths is inherently valuable for the progress of science. In this independent research, the only cost is my personal time—not taxpayer-funded grants. I believe it is far better for humanity to have 20 working, non-refuted models for future data than to be locked into a single dogmatic path. 
-
-I invite you to treat these theories as exploratory blueprints. Let us see where the logic leads, not because we want to tear down the past, but because we want to secure the future of pluralistic scientific inquiry.
+We invite researchers and students to treat these implementations as exploratory blueprints. Clone the repository, run the Python validation scripts against the empirical data, and attempt to falsify these models.
 
 ---
 
-## Physics Branches (Alternative Relativity)
-
-### 1. "Macro-Gravity" Branch: The $\varepsilon_0(\varphi)$ Model (COMPLETED)
+## Track 1: Euclidean Field Relativity (EFR)
 
 **Directory:** [`01_Macro_Gravity_Theory`](./01_Macro_Gravity_Theory)
 **Paper:** [`Ontological_Duality_in_Weak_Field_Gravity.md`](./01_Macro_Gravity_Theory/Ontological_Duality_in_Weak_Field_Gravity.md) | **PDF:** [`Ontological_Duality_in_Weak_Field_Gravity.pdf`](./01_Macro_Gravity_Theory/Ontological_Duality_in_Weak_Field_Gravity.pdf)
 
-* **Topic:** Proof that local vector kinematics (Euclidean Space) and a Variable Medium Permittivity $\varepsilon_0(\varphi)$ are algebraically isomorphic to Einstein's geometric General Relativity.
-* **Key Tests:** Mercury's precession, Shapiro delay, GPS synchronization.
-* **Empirical Milestone:** Constrained the quantum falsification limit ($\le \pm 100$ m/s for Mg/Ca) using archival VLT/UVES White Dwarf data, proving macroscopic parity and directing future analysis toward heavy elements.
+* **Topic:** Proof that local vector kinematics in a flat 3D space with a variable medium permittivity $\varepsilon_0(\varphi)$ can achieve strict algebraic isomorphism with Einstein's geometric General Relativity.
+* **Key Tests:** Recovers the exact 43.0"/century anomalous precession of Mercury and maps the Shapiro time delay curve using index of refraction gradients.
+* **Empirical Milestone:** Includes a raw data audit of VLT/UVES archival spectra (WD 0738-172), establishing a rigorous upper bound of $|\Delta\alpha/\alpha| \le 4.1 \times 10^{-6}$ for testing microscopic divergences.
 * **Interactive Tests:** Run the [Jupyter Physics Engine](./01_Macro_Gravity_Theory/Interactive_Physics_Simulations/Gravitacia_Interactive.ipynb). [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rt20bg/Anastasov_Theory/blob/main/01_Macro_Gravity_Theory/Interactive_Physics_Simulations/Gravitacia_Interactive.ipynb)
 
-### 2. "Quantum Kinematics" Branch (COMPLETED)
+## Track 2: Quantum Kinematics (RAKTS)
 
 **Directory:** [`02_RAKTS_Quantum_Kinematics`](./02_RAKTS_Quantum_Kinematics)
 **Paper:** [`The_Rapid_Alignment_Kinematic_Theory_of_Spin.md`](./02_RAKTS_Quantum_Kinematics/The_Rapid_Alignment_Kinematic_Theory_of_Spin.md) | **PDF:** [`The_Rapid_Alignment_Kinematic_Theory_of_Spin.pdf`](./02_RAKTS_Quantum_Kinematics/The_Rapid_Alignment_Kinematic_Theory_of_Spin.pdf)
 
-* **Topic:** The Rapid Alignment Kinematic Theory of Spin (RAKTS). Proof that quantum superposition is an illusion caused by macroscopic magnetic-kinematic alignment. Replaces orbital hybridization with fluid mechanics.
+* **Topic:** The Rapid Alignment Kinematic Theory of Spin (RAKTS). Replaces abstract quantum probabilities (e.g., orbital hybridization, discrete spin states) with classical fluid kinematics, continuous Landau-Lifshitz hydrodynamic drag, and mechanical friction.
+* **Key Benchmarks:** 
+  * Derives the precise 109.5° tetrahedral bond angle for Methane by minimizing fluid boundary layer friction.
+  * Matches NIST IR vibrational frequencies within a <1.5% average deviation using classical damped mechanics.
+  * Simulates the Stern-Gerlach split and Frisch-Segrè (1933) S-curve without probabilistic superposition.
 * **Interactive Tests:** See the [Validation Dashboard](./02_RAKTS_Quantum_Kinematics/Computational_Validations/RAKTS_Validation_Dashboard.html).
 
-### 3. "Fluid Gravitational Waves" Branch (PROPOSALS & APPLICATIONS)
+---
 
+## Proposals & Engineering Applications
+
+### 3. "Fluid Gravitational Waves" Branch
 * **Topic:** Gravitational waves as mechanical shockwaves.
 * **Research Roadmap:** [`01_Deep_Space_Mapping_and_Navigation_Roadmap.md`](./99_Upcoming_Research/01_Deep_Space_Mapping_and_Navigation_Roadmap.md)
 
-### 4. "Solar Kinematic Anomalies" Branch (PROPOSALS & APPLICATIONS)
-
+### 4. "Solar Kinematic Anomalies" Branch
 * **Topic:** Pioneer/Flyby anomalies via fluid vacuum friction.
 * **Experimental Proposal:** [`02_RAKTS_Falsification_Experiments.md`](./99_Upcoming_Research/02_RAKTS_Falsification_Experiments.md)
 
-### 5. "Precision Kinematic Assembly" Branch (PROPOSALS & APPLICATIONS)
-
+### 5. "Precision Kinematic Assembly" Branch
 * **Topic:** Post-accelerator engineering. Energy production and hyper-dense materials via resonant atomic alignment.
 * **Technical Proposal:** [`03_Precision_Kinematic_Assembly_and_Energy.md`](./99_Upcoming_Research/03_Precision_Kinematic_Assembly_and_Energy.md)
 
-### 6. "Cosmology and Genesis" Branch (PROPOSALS & APPLICATIONS)
-
+### 6. "Cosmology and Genesis" Branch
 * **Topic:** Redefining the origin of matter. The universe as a self-regulating thermodynamic engine.
 
 ---
 
-## Mathematics and Computer Science (Miscellaneous / Popular Articles)
+## Mathematics and Computer Science
 
-### 6. The Prime Number Illusion
+### 7. The Prime Number Illusion
 
 **Directory:** [`03_The_Prime_Number_Illusion`](./03_The_Prime_Number_Illusion)
 **Paper:** [`The_Relativity_of_Prime_Numbers.md`](./03_The_Prime_Number_Illusion/The_Relativity_of_Prime_Numbers.md)
 
-* **Topic:** A popular science/philosophical exploration proving that prime numbers are artifacts of perception and artificial discrete mathematics ("step 1.0"), rather than fundamental properties of the analog universe. Has potential implications for modern cryptography.
+* **Topic:** An exploration proving that prime numbers are artifacts of perception and artificial discrete mathematics ("step 1.0"), rather than fundamental properties of the analog universe. Has potential implications for modern cryptography.

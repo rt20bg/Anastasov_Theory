@@ -1,6 +1,6 @@
 # The Rapid Alignment Kinematic Theory of Spin (RAKTS)
 
-Welcome to the central repository for **RAKTS**, a post-quantum theoretical framework.
+Welcome to the central repository for **RAKTS**, a classical computational framework for quantum phenomena.
 
 ## Overview
 RAKTS replaces abstract quantum mechanical probabilities (such as wavefunction collapse, orbital hybridization, and discrete spin states) with **pure fluid kinematics and mechanical friction**. By modeling subatomic matter not as solid point-particles, but as dynamic energy streams interacting with a viscous "Field Medium", RAKTS provides intuitive, classical mechanical explanations for the most mysterious phenomena in quantum chemistry and physics.
@@ -19,7 +19,7 @@ RAKTS replaces abstract quantum mechanical probabilities (such as wavefunction c
 ## The Empirical Validations
 Inside the `Computational_Validations/Tests` folder, you will find Python simulations that successfully reproduce standard quantum behaviors using only classical drag and fluid geometry:
 
-*   **Test 0: Stern-Gerlach Split (`Test0_Stern_Gerlach`)** - The foundational simulation proving the "Vector Snap". Atoms don't exist in superposition; they mechanically rotate against Field Medium drag into stable alignment axes.
+*   **Test 0: Stern-Gerlach Split (`Test0_Stern_Gerlach`)** - The foundational simulation proving the "Vector Snap". Simulates the split without probabilistic superposition, utilizing continuous Landau-Lifshitz hydrodynamic drag to rotate atoms into stable alignment axes.
 *   **Test 1: IR Spectroscopy (`Test1_IR_Spring`)** - Replaces the quantum harmonic oscillator with classical damped mechanical springs.
 *   **Test 2: Enthalpy of Dissociation (`Test2_Enthalpy`)** - Proves bond strength is purely a function of geometric fluid cross-sections ( $1/d$ ).
 *   **Test 3: Crystallography Bulk Modulus (`Test3_Crystallography`)** - Proves the "incompressibility of streams" using extreme pressure Diamond Anvil Cell data, outperforming Coulomb statics.
@@ -27,7 +27,7 @@ Inside the `Computational_Validations/Tests` folder, you will find Python simula
 *   **Test 5: Paramagnetism (`Test5_Paramagnetism`)** - Replaces quantum "unpaired spin states" with continuous macroscopic vector alignment (Langevin function).
 *   **Test 6: Electron Diffraction Paradox (`Test6_Diffraction`)** - Proves that diffraction rings are a mechanical result of grid-steering, not probability waves. Demonstrates that a massive, chaotic electron beam produces the same crisp pattern as single electrons, despite massive Coulomb entropy.
 *   **Test 8: Radial Dynamics & Periodic Law (`Test8_Radial_Dynamics`)** - Computationally derives the concept of Effective Nuclear Charge ( $Z_{\text{eff}}$ ) through inverse optimization. Proves that atomic and ionic radii are entirely dictated by a mechanical balance between vacuum pull and expanding lateral boundary friction.
-*   **Test 9: Frisch-Segrè 1933 Experiment (`Test9_Frisch_Segre`)** - Computationally solves the classical dynamic real-time tracking of spin vortices in rotating magnetic fields. Mathematically proves that the transition from adiabatic tracking to non-adiabatic "spin flips" is a direct result of hydrodynamic drag lag ($\Delta t_{\text{flight}} < \tau_{\text{drag}}$) in the viscous Field Medium.
+*   **Test 9: Frisch-Segrè 1933 Experiment (`Test9_Frisch_Segre`)** - Simulates the Frisch-Segrè (1933) S-curve without probabilistic superposition. Mathematically proves that the transition from adiabatic tracking to non-adiabatic "spin flips" is a direct result of hydrodynamic drag lag ($\Delta t_{\text{flight}} < \tau_{\text{drag}}$) in the viscous Field Medium.
 
 ## Getting Started
 To view the results immediately, simply open `Computational_Validations/RAKTS_Validation_Dashboard.html`.
