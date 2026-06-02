@@ -3,7 +3,7 @@
 Welcome to the central repository for **RAKTS**, a classical computational framework for quantum phenomena.
 
 ## Overview
-RAKTS replaces abstract quantum mechanical probabilities (such as wavefunction collapse, orbital hybridization, and discrete spin states) with **pure fluid kinematics and mechanical friction**. By modeling subatomic matter not as solid point-particles, but as dynamic energy streams interacting with a viscous "Field Medium", RAKTS provides intuitive, classical mechanical explanations for the most mysterious phenomena in quantum chemistry and physics.
+RAKTS replaces abstract quantum mechanical probabilities (such as wavefunction collapse, orbital hybridization, and discrete spin states) with **pure fluid kinematics and mechanical friction**. By modeling subatomic matter not as solid point-particles, but as dynamic energy streams interacting with a viscous "Field Medium", RAKTS provides classical mechanical derivations for standard empirical benchmarks in quantum chemistry and physics.
 
 ## Repository Structure
 
