@@ -35,3 +35,9 @@ This establishes absolute macroscopic mathematical parity with General Relativit
 If you use this framework or the simulations in your research, please cite the parent project:
 
 > Anastasov, I. (2026). *Anastasov Theory: Unified Research on Alternative Physics, Mathematics, and Futurology*. Zenodo. DOI: 10.5281/zenodo.19707919
+
+## Contact
+
+For questions, feedback, or collaboration regarding this theoretical framework, please reach out via email:
+
+![Contact Email](../email_contact.png)

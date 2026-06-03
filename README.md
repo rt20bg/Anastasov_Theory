@@ -60,3 +60,9 @@ While the core modules (EFR and RAKTS) are computationally anchored to establish
 **Paper:** [`The_Relativity_of_Prime_Numbers.md`](./03_The_Prime_Number_Illusion/The_Relativity_of_Prime_Numbers.md)
 
 A mathematical exploration demonstrating that prime numbers are artifacts of artificial discrete perception (base unit definitions) rather than fundamental, structurally immutable properties of an analog universe. This module investigates the transition boundaries between discrete mathematics and continuous field mechanics, with potential implications for modern cryptographic assumptions.
+
+## Contact
+
+For questions, feedback, or collaboration regarding these theoretical frameworks, please reach out via email:
+
+![Contact Email](./email_contact.png)
