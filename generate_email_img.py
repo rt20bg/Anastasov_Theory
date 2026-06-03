@@ -22,12 +22,12 @@ padding_y = 5
 image_width = width + 2 * padding_x
 image_height = height + 2 * padding_y
 
-# Create an image with a solid white background for visibility on dark mode
-img = PIL.Image.new('RGBA', (image_width, image_height), color=(255, 255, 255, 255))
+# Create an image with an explicitly solid RGB background (no alpha channel)
+img = PIL.Image.new('RGB', (image_width, image_height), color=(246, 248, 250))
 d = PIL.ImageDraw.Draw(img)
 
-# Draw the text in black or dark gray
-d.text((padding_x, padding_y - top), text, fill=(0, 0, 0, 255), font=font)
+# Draw the text in a vibrant GitHub link blue
+d.text((padding_x, padding_y - top), text, fill=(9, 105, 218), font=font)
 
 # Save the image
 output_path = r"e:\Antigravity projects\email_contact.png"
