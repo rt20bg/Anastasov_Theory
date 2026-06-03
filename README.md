@@ -1,6 +1,6 @@
 # Field Medium Initiative: Computational Physics Frameworks
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20072608.svg)](https://doi.org/10.5281/zenodo.20072608)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19707919.svg)](https://doi.org/10.5281/zenodo.19707919)
 [![License: All Rights Reserved](https://img.shields.io/badge/License-All_Rights_Reserved-red.svg)](https://github.com/rt20bg/Anastasov_Theory)
 
 This repository serves as a centralized archive for computational physics models, theoretical frameworks, and validation scripts exploring mechanical, flat-space analogues to standard geometric and probabilistic physics.
@@ -11,7 +11,7 @@ Rather than challenging the empirical validity of General Relativity or Quantum 
 
 If you utilize these theoretical frameworks, simulation scripts, or data audits in your research, please cite this repository:
 
-> Anastasov, I. (2026). *Anastasov Theory: Unified Research on Alternative Physics, Mathematics, and Futurology*. Zenodo. DOI: 10.5281/zenodo.20072608
+> Anastasov, I. (2026). *Anastasov Theory: Unified Research on Alternative Physics, Mathematics, and Futurology*. Zenodo. DOI: 10.5281/zenodo.19707919
 
 ---
 

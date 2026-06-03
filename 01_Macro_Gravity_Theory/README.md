@@ -1,5 +1,7 @@
 # Anastasov Theory: Euclidean Field Relativity (EFR)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19707919.svg)](https://doi.org/10.5281/zenodo.19707919)
+
 This repository contains the theoretical framework, simulations, and empirical testing suite for **Euclidean Field Relativity**, which models gravitational phenomena not through the geometric curvature of spacetime, but through the mechanical kinematics of a polarizable Field Medium operating in a flat Euclidean background.
 
 ## Theoretical Core
@@ -27,3 +29,9 @@ An archival high-resolution differential spectroscopic analysis of the white dwa
 Crucially, the relative shift between light metallic elements (Mg I and Ca II) was measured at $0.000 \pm 0.100$ km/s. This null result places a rigorous empirical upper bound on the non-linear coupling constant of the medium's permittivity gradient, constraining the local variation of the fine-structure constant to $\le 4.1 \times 10^{-6}$. 
 
 This establishes absolute macroscopic mathematical parity with General Relativity in the weak-to-intermediate field regime. It confirms that definitive quantum falsification of the Weak Equivalence Principle requires targeting heavy elements (e.g., Fe) with next-generation high-stability spectrographs (like ESPRESSO) to pierce the current instrumental noise floor.
+
+## Citation
+
+If you use this framework or the simulations in your research, please cite the parent project:
+
+> Anastasov, I. (2026). *Anastasov Theory: Unified Research on Alternative Physics, Mathematics, and Futurology*. Zenodo. DOI: 10.5281/zenodo.19707919

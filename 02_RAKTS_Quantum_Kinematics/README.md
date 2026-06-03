@@ -1,5 +1,7 @@
 # The Rapid Alignment Kinematic Theory of Spin (RAKTS)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19707919.svg)](https://doi.org/10.5281/zenodo.19707919)
+
 Welcome to the central repository for **RAKTS**, a classical computational framework for quantum phenomena.
 
 ## Overview
@@ -43,3 +45,9 @@ To run the tests yourself:
 1. Ensure you have Python installed with `numpy`, `scipy`, and `matplotlib`.
 2. Navigate into any test folder inside `Computational_Validations/Tests/`.
 3. Run the python script (e.g., `python test4_methane_geometry.py`). The script will automatically load the local `.csv` data, run the fluid kinematic optimization, and output the charts.
+
+## Citation
+
+If you use this framework or the simulations in your research, please cite the parent project:
+
+> Anastasov, I. (2026). *Anastasov Theory: Unified Research on Alternative Physics, Mathematics, and Futurology*. Zenodo. DOI: 10.5281/zenodo.19707919
