@@ -22,8 +22,8 @@ padding_y = 5
 image_width = width + 2 * padding_x
 image_height = height + 2 * padding_y
 
-# Create an image with transparent background (or white)
-img = PIL.Image.new('RGBA', (image_width, image_height), color=(255, 255, 255, 0))
+# Create an image with a solid white background for visibility on dark mode
+img = PIL.Image.new('RGBA', (image_width, image_height), color=(255, 255, 255, 255))
 d = PIL.ImageDraw.Draw(img)
 
 # Draw the text in black or dark gray
