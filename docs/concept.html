@@ -88,29 +88,17 @@
             <p>The Field Medium Initiative serves as an intellectual stress-test for established physics. By demonstrating that General Relativistic and Quantum benchmarks can be recovered with classical flat-space vector kinematics, we show that the boundaries of classical mechanics can be extended much further than previously assumed—opening up new paths for future simulation, computation, and physical engineering.</p>
         </section>
 
-        <section class="faq-section">
+        <section>
             <h2>Frequently Asked Questions</h2>
             
-            <div class="faq-item">
-                <button class="faq-question">Is the Field Medium an absolute mechanical aether?</button>
-                <div class="faq-answer">
-                    <p>No. The Field Medium is not a throwback to 19th-century stationary aether models (such as those of Lorentz or Maxwell). It does not assume a rigid mechanical substrate, billiard-ball gears, or a privileged reference frame that violates Special Relativity. Instead, it is modeled as a continuous, polarizable mathematical field of interaction. Special and General Relativistic effects (such as time dilation and gravitational redshifting) are mathematically reproduced as localized impedance and density gradients within a flat Euclidean coordinate space rather than geometric distortions of space itself.</p>
-                </div>
-            </div>
+            <h3>Is the Field Medium an absolute mechanical aether?</h3>
+            <p>No. The Field Medium is not a throwback to 19th-century stationary aether models (such as those of Lorentz or Maxwell). It does not assume a rigid mechanical substrate, billiard-ball gears, or a privileged reference frame that violates Special Relativity. Instead, it is modeled as a continuous, polarizable mathematical field of interaction. Special and General Relativistic effects (such as time dilation and gravitational redshifting) are mathematically reproduced as localized impedance and density gradients within a flat Euclidean coordinate space rather than geometric distortions of space itself.</p>
 
-            <div class="faq-item">
-                <button class="faq-question">How does EFR explain the Shapiro Time Delay without curved spacetime?</button>
-                <div class="faq-answer">
-                    <p>In Euclidean Field Relativity (EFR), the apparent slowing of light near a massive body is modeled as a physical refraction rather than the stretching of space. EFR postulates that the Field Medium behaves like a variable index of refraction $n(r)$ that increases in density near massive objects. As light passes through this localized gradient, its velocity is reduced by $v = c/n(r)$. In the weak-field limit, this index is derived directly from the gravitational potential, yielding the exact same time delay equation as General Relativity without requiring geometric curvature.</p>
-                </div>
-            </div>
+            <h3>How does EFR explain the Shapiro Time Delay without curved spacetime?</h3>
+            <p>In Euclidean Field Relativity (EFR), the apparent slowing of light near a massive body is modeled as a physical refraction rather than the stretching of space. EFR postulates that the Field Medium behaves like a variable index of refraction $n(r)$ that increases in density near massive objects. As light passes through this localized gradient, its velocity is reduced by $v = c/n(r)$. In the weak-field limit, this index is derived directly from the gravitational potential, yielding the exact same time delay equation as General Relativity without requiring geometric curvature.</p>
 
-            <div class="faq-item">
-                <button class="faq-question">Can Kinematic Computing completely replace Quantum computers?</button>
-                <div class="faq-answer">
-                    <p>No. They are complementary technologies with different engineering trade-offs. While Quantum computing relies on fragile subatomic superposition (requiring near absolute zero temperatures and massive error-correction overhead), Kinematic Computing uses Continuous-Variable (CV) analog hardware operating at room temperature. It exploits environmental thermal noise and hydrodynamic-like damping (Landau-Lifshitz damping) to naturally stabilize computational states instead of fighting decoherence. While quantum computers excel at specific subatomic calculations (like Shor's factoring), Kinematic Computing acts as a highly efficient, low-power analog hardware accelerator for continuous optimizations, neural network models, and physical system simulations.</p>
-                </div>
-            </div>
+            <h3>Can Kinematic Computing completely replace Quantum computers?</h3>
+            <p>No. They are complementary technologies with different engineering trade-offs. While Quantum computing relies on fragile subatomic superposition (requiring near absolute zero temperatures and massive error-correction overhead), Kinematic Computing uses Continuous-Variable (CV) analog hardware operating at room temperature. It exploits environmental thermal noise and hydrodynamic-like damping (Landau-Lifshitz damping) to naturally stabilize computational states instead of fighting decoherence. While quantum computers excel at specific subatomic calculations (like Shor's factoring), Kinematic Computing acts as a highly efficient, low-power analog hardware accelerator for continuous optimizations, neural network models, and physical system simulations.</p>
         </section>
 
         <section style="margin-top: 3rem; border-top: 1px solid var(--border-color); padding-top: 2rem;">
@@ -127,24 +115,7 @@
         <p>&copy; 2026 Anastasov Theory Research</p>
     </footer>
 
-    <script>
-        document.querySelectorAll('.faq-question').forEach(button => {
-            button.addEventListener('click', () => {
-                const faqItem = button.parentElement;
-                const answer = button.nextElementSibling;
-                
-                // Toggle active class on item
-                faqItem.classList.toggle('active');
-                
-                // Toggle max-height for accordion animation
-                if (faqItem.classList.contains('active')) {
-                    answer.style.maxHeight = answer.scrollHeight + "px";
-                } else {
-                    answer.style.maxHeight = null;
-                }
-            });
-        });
-    </script>
+
 
 </body>
 </html>
