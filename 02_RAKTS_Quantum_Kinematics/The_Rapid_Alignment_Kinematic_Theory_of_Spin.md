@@ -33,7 +33,7 @@ To understand subatomic mechanics, we must distinguish between the container and
 
 RAKTS abandons the "billiard ball" concept of point-particles. Instead, an electron is modeled as a localized energy field or a continuous stream of varying density. Because it is a flexible field, it interacts with the **Field Medium** much like a fluid vortex. 
 
-When a stream enters a magnetic or electric gradient (a measurement device), it is subjected to massive external torque. To maintain structural integrity, the stream's vector forcefully realigns into the nearest stable orientation relative to the external field. This **Vector Snap (Kinematic State Collapse)** is governed by the deterministic hydrodynamic drag of the Field Medium, modeled via the generalized alignment equation:
+When a stream enters a magnetic or electric gradient (a measurement device), it is subjected to massive external torque. To maintain structural integrity, the stream's vector forcefully realigns into the nearest stable orientation relative to the external field. This **Vector Snap (Kinematic State Collapse)** is governed by the deterministic hydrodynamic drag of the Field Medium, modeled via the **Anastasov-RAKTS Vector Snap Equation**:
 
 $$ \frac{d\vec{s}}{dt} = \vec{\tau}_{\text{gradient}} - \lambda \left( \vec{s} \times (\vec{s} \times \vec{B}) \right) $$
 
@@ -71,9 +71,7 @@ drag the atoms up or down. Because all atoms are forced into strictly parallel o
 1. **Hydrodynamic Valency:** Atoms are not abstract spheres seeking "eight electrons"; they are complex, spinning fluid systems. An "unpaired electron" or "bonding site" is essentially a region of extreme kinematic tension—a zone of high or low pressure on the atom's surface boundary that creates turbulence in the Field Medium.
 2. **The Coupling:** When Hydrogen atoms approach Carbon, their localized energy streams are physically "sucked" into these pressure deficits. They lock together not through quantum entanglement, but like merging fluid vortices sharing angular momentum to neutralize the pressure gradient.
 3. **Kinematic Tensegrity:** Once bonded, the central Carbon atom is managing four massive, orbiting fluid extensions (the Hydrogens). As these extensions churn through the Field Medium, their boundary layers displace fluid and generate massive internal turbulence. To prevent the molecule from tearing itself apart, the streams push against each other through fluid displacement until they find the exact spatial arrangement where all turbulent friction is balanced. For four identical streams, this absolute minimum-drag configuration is naturally a 109.5° tetrahedron.
-4. **The Mathematical Equation (Total Kinematic Friction):** RAKTS calculates these angles not by hardcoding 109.5°, but by computationally minimizing the total structural friction of the system. 
-
-The governing equation is defined as:
+4. **The Mathematical Equation (Total Kinematic Friction):** RAKTS calculates these angles not by hardcoding 109.5°, but by computationally minimizing the total structural friction of the system. The governing equation, named the **Anastasov-RAKTS Tensegrity Formula**, is defined as:
 
 $$F_{\text{total}} = \sum_{i=1}^{3} \sum_{j=i+1}^{4} \left( e^{-2d_{ij}} + \frac{1}{d_{ij}^4} \right)$$
 
@@ -104,7 +102,7 @@ where:
 **Moment-by-Moment Kinematic Breakdown:**
 The Frisch-Segrè experiment passes a potassium molecular beam through a region where the magnetic field direction rotates rapidly. If the transit time is very fast, the spin state "flips" relative to the new field axis.
 1. **The Rotating Field:** As the gyroscopic vortex of the potassium atom flies through the transition zone, it experiences a rotating magnetic field torque $\vec{\tau} = \vec{s} \times \vec{B}$.
-2. **Hydrodynamic Drag:** In the viscous Field Medium, the vortex experiences a mechanical drag that pushes it to align with the local field direction. This is mathematically modeled using the classical **Landau-Lifshitz (LL) formulation** (avoiding implicit derivatives for clean numerical integration):
+2. **Hydrodynamic Drag:** In the viscous Field Medium, the vortex experiences a mechanical drag that pushes it to align with the local field direction. This is mathematically modeled using the **Anastasov-RAKTS Spin Damping Equation** (an adaptation of the classical Landau-Lifshitz formulation for the viscous Field Medium, avoiding implicit derivatives for clean numerical integration):
    $$\frac{d\vec{s}}{dt} = \vec{s} \times \vec{B} - \alpha \vec{s} \times (\vec{s} \times \vec{B})$$
 3. **The Flight-to-Drag Ratio:** The key parameter is the flight time through the transition zone ( $\Delta t_{\text{flight}}$ ) compared to the medium's relaxation time ( $\tau_{\text{drag}} \approx 1/\alpha$ ).
 4. **Adiabatic Alignment ( $\Delta t_{\text{flight}} > \tau_{\text{drag}}$ ):** If the field rotates slowly (long flight time), the medium's drag torque smoothly aligns the vortex with the rotating field lines. The stream tracks the field continuously (zero spin flips).
