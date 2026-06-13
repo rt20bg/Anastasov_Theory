@@ -21,3 +21,6 @@ reports/
 *.bak
 *.backup
 scratch/
+
+# Chemistry (UNDER DEVELOPMENT - DO NOT PUBLISH)
+05_RAKTS_Kinematic_Chemistry/

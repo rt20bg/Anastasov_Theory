@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kinematic Computing | Anastasov Theory</title>
-    <meta name="description" content="Continuous-Variable Kinematic Computing: A Hydrodynamic Architecture.">
+    <title>Continuous-Variable Kinematic Computing: A Hydrodynamic Architecture | Anastasov Theory</title>
+    <meta name="description" content="Continuous-Variable Kinematic Computing: A Hydrodynamic Architecture based on the Rapid Alignment Kinematic Theory of Spin (RAKTS).">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://rakts-research.org/kinematic_computing.html">
-    <meta property="og:title" content="Kinematic Computing: Noise as a Stabilizer | Anastasov Theory">
-    <meta property="og:description" content="Room-temperature analog hardware architecture utilizing Landau-Lifshitz hydrodynamic drag instead of fragile quantum superposition.">
-    <meta property="og:image" content="https://rakts-research.org/preview-computing.png">
+    <meta property="og:title" content="Continuous-Variable Kinematic Computing: A Hydrodynamic Architecture | Anastasov Theory">
+    <meta property="og:description" content="Continuous-Variable Kinematic Computing: A Hydrodynamic Architecture based on the Rapid Alignment Kinematic Theory of Spin (RAKTS).">
+    <meta property="og:image" content="https://rakts-research.org/preview-main.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://rakts-research.org/kinematic_computing.html">
-    <meta property="twitter:title" content="Kinematic Computing: Noise as a Stabilizer">
-    <meta property="twitter:description" content="Continuous-Variable Analog Hardware Accelerator immune to decoherence.">
-    <meta property="twitter:image" content="https://rakts-research.org/preview-computing.png">
+    <meta property="twitter:title" content="Continuous-Variable Kinematic Computing: A Hydrodynamic Architecture">
+    <meta property="twitter:description" content="Continuous-Variable Kinematic Computing: A Hydrodynamic Architecture based on the Rapid Alignment Kinematic Theory of Spin (RAKTS).">
+    <meta property="twitter:image" content="https://rakts-research.org/preview-main.png">
 
     <link rel="stylesheet" href="style.css">
     <script>
         window.MathJax = {
             tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']]
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
             }
         };
     </script>
@@ -48,63 +49,49 @@
     </nav>
 
     <div class="container">
-        <h1>Continuous-Variable Kinematic Computing: A Hydrodynamic Architecture</h1>
-        <p style="font-size: 0.95rem; color: var(--muted-color); margin-bottom: 1.5rem;">
-            <strong>Author:</strong> I. Anastasov &nbsp;|&nbsp; <strong>Research Initiative:</strong> Anastasov Theory &nbsp;|&nbsp; <strong>Date:</strong> June 2026
-        </p>
-
-        <div class="repo-meta">
-            <strong>GitHub Directory:</strong> <a href="https://github.com/rt20bg/Anastasov_Theory/tree/main/04_RAKTS_Kinematic_Computing" target="_blank"><code>04_RAKTS_Kinematic_Computing</code></a><br>
-            <strong>Research Paper (PDF):</strong> <a href="https://github.com/rt20bg/Anastasov_Theory/blob/main/04_RAKTS_Kinematic_Computing/Kinematic_Computing_Architecture.pdf" target="_blank"><code>Kinematic_Computing_Architecture.pdf</code></a>
+        <div class="zenodo-citation-box" style="background: #f1f8ff; border: 1px solid #c8e1ff; padding: 1.5rem; border-radius: 6px; margin-bottom: 2.5rem; box-shadow: 0 1px 3px rgba(27,31,35,0.08);">
+            <p style="margin-bottom: 0.5rem; font-weight: bold; color: #0366d6; font-size: 1.1rem;">Official Peer-Reviewed Archive / Timestamp:</p>
+            <p style="margin-bottom: 1.2rem; font-family: monospace; font-size: 0.95rem; color: #24292e;">
+                Anastasov, I. (2026). <em>Continuous-Variable Kinematic Computing: A Hydrodynamic Architecture</em>. Zenodo. DOI: <a href="https://doi.org/10.5281/zenodo.20583015" target="_blank">10.5281/zenodo.20583015</a>
+            </p>
+            <a href="https://doi.org/10.5281/zenodo.20583015" class="btn" style="background-color: #0366d6; color: white; border: none; font-weight: bold; padding: 6px 18px;" target="_blank">Download Official PDF from Zenodo</a>
+            <a href="https://github.com/rt20bg/Anastasov_Theory" class="btn" style="margin-left: 0.5rem; padding: 6px 18px;" target="_blank">GitHub Source Code</a>
         </div>
 
-        <section>
-            <h2>Abstract</h2>
-            <blockquote style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 2rem;">
-                The rapid development of modern computing has historically focused on the manipulation of discrete logic states—first through classical binary transistors (0 and 1), and more recently through the probabilistic superposition of qubits. While discrete-state quantum computing offers profound theoretical advantages, the practical engineering of these systems faces significant challenges, most notably environmental decoherence and quantum noise. This paper proposes a complementary computing architecture inspired by the Rapid Alignment Kinematic Theory of Spin (RAKTS). Rather than attempting to isolate discrete probability states from a noisy environment, this architecture embraces the environment as a continuous computational medium. By modeling information not as probabilistic amplitudes, but as continuous geometric vectors subject to physical hydrodynamic drag, we outline the theoretical foundation and Turing completeness for an Analog Kinematic Processor.
-            </blockquote>
-        </section>
-
-        <section>
-            <h2>1. Vector Nodes vs. Qubits</h2>
-            <p>In standard quantum computing, information is encoded in a qubit as a superposition of two orthogonal states ($|0\rangle$ and $|1\rangle$). In the RAKTS Kinematic Computing paradigm, the fundamental unit of information is the <strong>Vector Node</strong>.</p>
-            <ul>
-                <li><strong>Continuous State:</strong> A Vector Node stores data as a physical, geometric orientation (a 3D spatial vector $\vec{s}$) interacting continuously with a localized background stress-tensor field. It represents a continuous topological state rather than a discrete superposition.</li>
-                <li><strong>Gradient Gating:</strong> Logic operations (gates) are not executed by multiplying unitary matrices. Instead, we induce a localized gradient in the Field Medium. The Vector Node naturally and deterministically realigns itself to minimize local field resistance, yielding the computational output without discrete wave collapse.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>2. The Hydrodynamic Advantage: Noise as a Stabilizer</h2>
-            <p>The primary engineering obstacle in discrete quantum computing is <em>decoherence</em>—the destruction of fragile qubit states by thermal and electromagnetic environmental noise, which currently requires near-absolute-zero cryogenic cooling and massive error-correction overhead.</p>
-            <p>Kinematic Computing treats interaction with the environment as the primary computational mechanism rather than a source of noise. Through the non-linear <strong>Landau-Lifshitz hydrodynamic drag</strong>, the Field Medium behaves as a viscous, energy-dissipating fluid.</p>
-            <p>When a computational impulse is applied, the medium's viscosity acts as a geometric funnel, driving the Vector Nodes into stable mathematical attractors (equilibriums). Instead of destroying the calculation, environmental interactions stabilize it, allowing for room-temperature topological processors without error-correction overhead.</p>
-        </section>
-
-        <section>
-            <h2>3. Topological Pathfinding</h2>
-            <p>Analog Kinematic Processors are uniquely suited for complex topological problems, such as route optimization and ground-state energy minimization. By structuring a computational problem as a physical network of varied flow resistances within the Field Medium, an excitation wave can traverse the entire grid simultaneously. Because the propagation naturally follows the principle of least action (Hamilton's Principle), the fluid dynamics deterministically and instantly locate the optimal path, providing a classical analog to Grover's search algorithm.</p>
-        </section>
-
-        <section>
-            <h2>4. Turing Completeness via Background Bias (The NAND Gate)</h2>
-            <p>To demonstrate universal programmability (Turing completeness), the architecture must be capable of forming a universal logic gate (such as a NAND gate) classically. In Kinematic Computing, this is achieved via <strong>Background Field Bias</strong> without transistors:</p>
-            <ul>
-                <li><strong>The Inverter (NOT Gate):</strong> The Field Medium is configured with a constant, weak background flow representing a default "True" (1) state. This background pressure acts as an inverter.</li>
-                <li><strong>The NAND Gate:</strong> When two strong input vectors ($A$ and $B$) are introduced, their combined hydrodynamic drag overcomes the background bias, reversing the local flow to a "False" (0) state. This fluid-dynamic competition between input vectors and background bias produces a perfect, universal <strong>Kinematic NAND Gate</strong>.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>5. Industrial Implications</h2>
-            <ul>
-                <li><strong>Decoherence Immunity:</strong> Because the processor uses localized drag to reach stable attractors, environmental noise is a stabilizer rather than a disruptor.</li>
-                <li><strong>Room-Temperature Operation:</strong> Bypassing the need for fragile superposition eliminates the requirement for cryogenic cooling.</li>
-                <li><strong>Cryptographic Resilience:</strong> Bypasses standard integer-based decryption vulnerabilities (such as Shor's algorithm) by executing prime factorization through continuous-variable analog pathfinding.</li>
-            </ul>
-        </section>
+        <article class="full-paper">
+<h2>1. Introduction: The Complementary Paradigm</h2>
+<p>The rapid development of modern computing has historically focused on the manipulation of discrete logic states—first through classical binary transistors (0 and 1), and more recently through the probabilistic superposition of qubits ($|0\rangle + |1\rangle$). While discrete-state quantum computing offers profound theoretical advantages, the practical engineering of these systems faces significant challenges, most notably environmental decoherence and quantum noise.</p>
+<p>This paper proposes a complementary computing architecture inspired by the <strong>Rapid Alignment Kinematic Theory of Spin (RAKTS)</strong>. Rather than attempting to isolate discrete probability states from a noisy environment, this architecture embraces the environment as a continuous computational medium. By modeling information not as probabilistic amplitudes, but as continuous geometric vectors subject to physical hydrodynamic drag, we outline the theoretical foundation for an <strong>Analog Kinematic Processor</strong>.</p>
+<h2>2. Vector Nodes vs. Qubits</h2>
+<p>In a standard quantum computer, information is encoded in a qubit, a mathematical superposition of two orthogonal states. In the RAKTS Kinematic Computing paradigm, the fundamental unit of information is the <strong>Vector Node</strong>.</p>
+<p>A Vector Node stores data as a physical, geometric orientation (a 3D spatial vector) interacting continuously with a background stress-tensor field.</p>
+<ul>
+<li>Instead of a discrete state collapse upon measurement, the Vector Node represents a continuous topological state.</li>
+<li>Logic operations (gates) are not performed by multiplying unitary matrices, but by inducing a localized gradient in the continuous Field Medium. The Vector Node naturally realigns to minimize resistance, yielding the computational output.</li>
+</ul>
+<h2>3. The Hydrodynamic Advantage: Noise as a Stabilizer</h2>
+<p>The most significant hurdle in contemporary discrete quantum computing is <em>decoherence</em>—the loss of fragile superposition due to thermal and electromagnetic environmental interactions. Currently, this requires extreme cryogenic cooling (near Absolute Zero) and complex error-correction overhead, making scaling profoundly difficult.</p>
+<p>In RAKTS Kinematic Computing, interaction with the environment is not a destructive "noise" to be isolated against; it is the primary computational mechanism. Through the non-linear <strong>Landau-Lifshitz hydrodynamic drag</strong>, the Field Medium acts as a viscous, energy-dissipating fluid.</p>
+<p>When a computational impulse is applied, this inherent viscosity—which standard QM models as decoherence—actually works to drive the Vector Nodes into stable geometric equilibriums (Attractors). Instead of destroying the calculation, the medium's "drag" acts as a geometric funnel that forces the system to settle robustly into the correct macroscopic output state. This radically reduces the need for cryogenic cooling and error-correction, allowing for room-temperature topological processors.</p>
+<h2>4. Topological Pathfinding and Logic</h2>
+<p>Analog Kinematic Processors excel at problems that are inherently topological, such as route optimization, ground-state energy minimization, and complex logic gating.</p>
+<p>By structuring the computational problem as a physical geometry of varied resistances within a simulated or physical Field Medium, a single excitation wave can traverse the entire grid simultaneously. Because the propagation inherently follows the principle of least action (Hamilton's Principle), the fluid dynamics deterministically and instantly locate the optimal path, mirroring the theoretical advantages of Grover's search algorithm without invoking probabilistic collapse.</p>
+<h2>5. Turing Completeness via Background Bias (The NAND Gate)</h2>
+<p>To construct a universally programmable computer, the architecture must demonstrate Turing completeness, typically achieved by constructing a universal logic gate such as a NAND or NOR gate. In standard computing, this requires transistors. In Kinematic Computing, this is achieved intrinsically via <strong>Background Field Bias</strong>.</p>
+<p>By configuring the Field Medium to exert a constant, weak background flow (acting as a default "True" or "1" state), the medium itself functions as an analog <strong>Inverter (NOT gate)</strong>.</p>
+<p>When strong input vectors are introduced into the medium, their combined force can overcome this background bias, physically reversing the local flow to a "False" or "0" state. This fluid-dynamic competition between localized input impulses and the continuous background vacuum pressure elegantly produces a perfect <strong>Kinematic NAND Gate</strong>. Because the NAND gate is universal, this proves that any arbitrarily complex algorithm or computer architecture can be built using only the physical flow of the Field Medium.</p>
+<h2>6. Industrial Consequences and Future Hardware</h2>
+<p>The realization of a Continuous-Variable Kinematic Computer carries profound implications for the future of computational hardware and cryptography:</p>
+<ul>
+<li><strong>Room-Temperature Quantum Logic:</strong> By utilizing macroscopic field drag rather than fragile single-particle superposition, processors can theoretically achieve quantum-like algorithmic advantages without extreme cryogenic constraints.</li>
+<li><strong>Decoherence Immunity:</strong> Since the architecture utilizes "noise" as an energy-dissipation mechanic to reach the correct logical attractor, the hardware is fundamentally immune to the decoherence errors plaguing current discrete qubit systems.</li>
+<li><strong>Cryptographic Resilience:</strong> Analog Kinematic Processors redefine how prime factorization and database searching (Grover's algorithm analogs) are executed physically, seamlessly bridging the gap to dynamic topological cryptography.</li>
+</ul>
+<h2>7. Conclusion</h2>
+<p>Kinematic Computing offers a paradigm where the rules of classical, macroscopic fluid dynamics are applied to subatomic information processing. While it does not seek to invalidate the mathematical elegance of standard quantum logic, it provides a highly resilient, noise-tolerant, and deterministic alternative framework for building the next generation of analog hardware accelerators.</p>
+        </article>
     </div>
-    
+
     <footer>
         <p>&copy; 2026 Anastasov Theory Research</p>
     </footer>
