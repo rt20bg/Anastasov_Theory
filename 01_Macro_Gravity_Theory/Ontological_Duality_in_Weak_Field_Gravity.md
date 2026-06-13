@@ -89,7 +89,7 @@ This simplistic scalar multiplier fails, yielding only $~14^{\prime\prime}$/cy o
 ### 3.2 The Switch to Specific Vector Angular Momentum
 To correct the model, we observed that gravitational perturbation does not correlate purely with radial kinetic energy, but specifically with the *transverse* motion of the particle. The faster the particle cuts *across* the energy flux of the Field Medium, the stronger the induced anomalous effect.
 
-Mathematically, this transverse state is captured by the Specific Angular Momentum, named the **Anastasov-EFR Specific Angular Momentum Relation**, which is a localized vector quantity independent of scalar uniform translation:
+Mathematically, this transverse state is captured by the Specific Angular Momentum, a localized vector quantity independent of scalar uniform translation:
 
 $$ \vec{h} = \vec{r} \times \vec{v} $$
 
@@ -97,7 +97,7 @@ $$ \vec{h} = \vec{r} \times \vec{v} $$
 * **When moving transversely (orbiting):** The particle shears through the dense layers of the polarized Field Medium. The higher the $\vec{h}$, the greater the "drag" or torque against this polarization, which is what causes the orbital shift.
 
 
-This leads to the **Anastasov-EFR Kinematic Equation of Motion**, acting fundamentally within a **flat Euclidean grid**:
+This leads to the precise, corrected acceleration equation acting fundamentally within a **flat Euclidean grid**:
 
 $$ \vec{a} = -\frac{GM}{r^3}\vec{r} \left[ 1 + K(v) \frac{h^2}{c^2 r^2} \right] $$
 
@@ -112,7 +112,7 @@ Standard calculations require a structural coefficient $K \approx 3.0$ to reprod
 - **Free photons ($K = 1.5$):** Propagate as unbound electromagnetic wave-fronts. Their trajectory is deflected solely by the refractive gradient of the medium.
 - **Massive bodies ($K \approx 3.0$):** Are modeled as confined, self-interacting energy structures. Unlike a free photon that propagates linearly, fundamental particles with rest mass (like quarks or electrons) can be conceptualized as highly localized, circulating energetic states. Because their internal energy is tightly bound and circulating, these structures inherently carry a localized specific angular momentum ($\vec{h} = \vec{r} \times \vec{v}$). As this circulating mass-energy moves transversely across the polarized medium, its internal rotation "hooks" into the density gradient, inducing an additional kinematic drag. This dual-layer interaction effectively double-counts the gravitational resistance relative to a simple, non-circulating free photon.
 
-The continuous transition between the two regimes is expressed by the **Anastasov Velocity Scaling Function**:
+The continuous transition between the two regimes is expressed as:
 
 $$K_{dynamic}(v) = 3.0 - 1.5 \left( \frac{v^2}{c^2} \right)$$
 
@@ -235,12 +235,12 @@ In the Schwarzschild metric, setting the spacetime interval for light to zero ($
 $$ v_{\text{GR}} = c \left( 1 - \frac{2GM}{rc^2} \right) $$
 
 #### The Mechanical Approach: Euclidean Field Relativity
-In our model, to preserve strict flat-space logic, we invoke the **Polarizable Field Medium**. A massive celestial body increases the refractive index $n$ of the medium surrounding it, modeled by the **Anastasov-EFR Refractive Index Equation**:
+In our model, to preserve strict flat-space logic, we invoke the **Polarizable Field Medium**. A massive celestial body increases the refractive index $n$ of the medium surrounding it:
 $$ n(r) = 1 + \frac{2GM}{rc^2} $$
 
 > **Note:** The formulation $n(r) = 1 + \frac{2GM}{rc^2}$ is utilized here as the first-order linear approximation of the medium's polarization. In extreme potentials, the full non-linear behavior of $\varepsilon_0(\varphi)$ takes precedence.
 
-The coordinate speed of light locally becomes governed by standard optics $v_{light} = c / n(r)$, expressed as the **Anastasov-EFR Coordinate Light Velocity Equation**:
+The coordinate speed of light locally becomes governed by standard optics $v_{light} = c / n(r)$:
 $$ v_{\text{EFR}} = \frac{c}{1 + \frac{2GM}{rc^2}} $$
 
 #### The Conclusion: 1-to-1 Algebraic Parity
@@ -276,7 +276,7 @@ $$ \frac{\omega_{\text{sat}} - \omega_{\text{earth}}}{\omega_0} = \frac{1}{\sqrt
 In this framework, gravitational redshift is not caused by the curvature of spacetime, but by the change in the local refractive index of the **Field Medium** $n(\varphi)$.
 
 #### 6.1. The Universal Component ($z_{\text{universal}}$)
-If matter is fundamentally composed of confined, self-interacting energy structures in standing wave configurations, the internal frequency $\omega$ is governed by both the local coordinate speed of light $c_{\text{loc}} = c_0/n$ and the physical size of the atomic structure (wavelength) $\lambda_{\text{loc}}$. Under the polarizable medium density pressure, the local spatial scale (rulers) contracts by a factor of $\sqrt{n}$, defined by the **Anastasov Wavelength Compression Equation**:
+If matter is fundamentally composed of confined, self-interacting energy structures in standing wave configurations, the internal frequency $\omega$ is governed by both the local coordinate speed of light $c_{\text{loc}} = c_0/n$ and the physical size of the atomic structure (wavelength) $\lambda_{\text{loc}}$. Under the polarizable medium density pressure, the local spatial scale (rulers) contracts by a factor of $\sqrt{n}$:
 
 $$ \lambda_{\text{loc}} = \frac{\lambda_0}{\sqrt{n}} $$
 
@@ -307,7 +307,7 @@ Since $\varepsilon_0$ and $c$ vary differently in a potential, $\alpha$ changes,
 
 $$\Delta \omega_{q} = q \cdot \left[ \left( \frac{\alpha}{\alpha_0} \right)^2 - 1 \right]$$
 
-The total observed redshift is therefore not uniform, but composite, formulated by the **Anastasov Quantum Redshift Divergence Relation**:
+The total observed redshift is therefore not uniform, but composite:
 
 $$z_{total} = z_{universal} + z_{alpha}(q)$$
 
