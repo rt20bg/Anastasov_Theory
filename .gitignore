@@ -24,3 +24,14 @@ scratch/
 
 # Chemistry (UNDER DEVELOPMENT - DO NOT PUBLISH)
 05_RAKTS_Kinematic_Chemistry/
+06_Emergent_Valence_Mechanics_v3/
+07_RAKTS_Inspired_Chemistry/
+
+# Working papers and drafts (DO NOT PUBLISH)
+working_drafts/
+
+# Backups and AI config
+*.rar
+*.zip
+.agents/
+

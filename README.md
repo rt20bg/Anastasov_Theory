@@ -3,6 +3,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19707919.svg)](https://doi.org/10.5281/zenodo.19707919)
 [![License: All Rights Reserved](https://img.shields.io/badge/License-All_Rights_Reserved-red.svg)](https://github.com/rt20bg/Anastasov_Theory)
 
+**Official Project Website:** [https://rakts-research.org](https://rakts-research.org)
+
 This repository serves as a centralized archive for computational physics models, theoretical frameworks, and validation scripts exploring mechanical, flat-space analogues to standard geometric and probabilistic physics.
 
 Rather than challenging the empirical validity of General Relativity or Quantum Mechanics, this project advocates for epistemic pluralism—the active maintenance of multiple concurrent theoretical ontologies to process computational data. By offering these models as a rigorous **intellectual stress-test** for established science, we demonstrate that established astronomical and subatomic benchmarks can be reproduced through classical fluid kinematics, vector dynamics, and hydrodynamic drag. By treating the vacuum as a polarizable "Field Medium" operating strictly within Euclidean space, we push the boundaries of classical mechanics to their absolute limit.
