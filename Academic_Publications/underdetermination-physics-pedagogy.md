@@ -1,7 +1,8 @@
 # Why Students Deserve More Than One Theory of Gravity: Underdetermination and the Pedagogy of Modern Physics
 
 **Author:** Ivaylo Anastasov  
-**Affiliation:** Lead Researcher, RAKTS Simulation Framework (rakts-research.org)
+**Affiliation:** Lead Researcher, RAKTS Simulation Framework (rakts-research.org)  
+**Contact:** i.anastasov@rakts-research.org
 
 
 ## Abstract
