@@ -35,6 +35,8 @@ working_drafts/
 *.zip
 .agents/
 
+# Personal Notes (DO NOT PUBLISH)
+Personal_Notes/
+07_EVM_Publication_Roadmap/
 
 INTEGRATION_GUIDE.md
-
