@@ -73,4 +73,4 @@ Modern analytic number theory routinely employs complex analysis to study the di
 
 **Note on accompanying material**
 
-A Python implementation demonstrating the Dynamic Monoid Chaining mechanism (256-grid family, SHA-256-derived initialization, counter-mode keystream, and honest attack analysis) is provided in the file `dynamic_monoid_chaining_poc.py`. The code is intentionally transparent about its limitations and is intended to facilitate further research rather than to serve as a production cryptographic primitive.
+A Python implementation demonstrating the Dynamic Monoid Chaining mechanism (256-grid family, SHA-256-derived initialization, counter-mode keystream, and honest attack analysis) is provided in the file [`dynamic_monoid_chaining_poc.py`](https://github.com/rt20bg/Anastasov_Theory/blob/main/03_The_Prime_Number_Illusion/dynamic_monoid_chaining_poc.py). The code is intentionally transparent about its limitations and is intended to facilitate further research rather than to serve as a production cryptographic primitive.
