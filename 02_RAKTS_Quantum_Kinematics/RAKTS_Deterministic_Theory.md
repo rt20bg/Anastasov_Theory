@@ -1,4 +1,4 @@
-# The Rapid Alignment Kinematic Theory of Spin (RAKTS)
+﻿# The Rapid Alignment Kinematic Theory of Spin (RAKTS)
 ## A Deterministic Kinematic Theory of Quantum Spin
 
 **Author:** Ivaylo Anastasov  
@@ -54,10 +54,10 @@ If an atom enters perfectly at $90^\circ$, it balances on this razor-thin energe
 
 This action—termed the **Vector Snap**—happens in nanoseconds, *before* the translational magnetic gradient has time to deflect the atom physically. Thus, the beam bifurcates strictly 50/50 organically and deterministically. No `if` statements or probabilistic wave-collapses are required. The differential equations solve themselves.
 
-![Deterministic Bifurcation](Simulations/01_Spin_Dynamics/01_Stern_Gerlach/stern_gerlach.png)
+![Deterministic Bifurcation](https://raw.githubusercontent.com/rt20bg/Anastasov_Theory/main/02_RAKTS_Quantum_Kinematics/Simulations/01_Spin_Dynamics/01_Stern_Gerlach/stern_gerlach.png)
 *Fig 1. Continuous deterministic bifurcation of random states into the Double-Attractor landscape.*
 
-![Sequential Z-X-Z Chaos](Simulations/01_Spin_Dynamics/02_ZXZ_Sequential/zxz_sequential.png)
+![Sequential Z-X-Z Chaos](https://raw.githubusercontent.com/rt20bg/Anastasov_Theory/main/02_RAKTS_Quantum_Kinematics/Simulations/01_Spin_Dynamics/02_ZXZ_Sequential/zxz_sequential.png)
 *Fig 2. Sequential Z-X-Z split. Because the second (X) magnet is rotated exactly $90^\circ$ relative to the first (Z) magnet, atoms entering the X-field are forced perfectly onto the unstable $90^\circ$ peak of the Double-Attractor. From this razor's edge, microscopic ZPF noise deterministically tips them left or right, perfectly replicating the "reset" of quantum states without invoking probability.*
 
 ***
@@ -75,7 +75,7 @@ Once over the edge, the atom violently collapses into the deeper global minimum 
 
 This framework also offers a mechanical interpretation for phase retention during Spin Echo experiments. During free precession, the atomic vortex spins at a constant latitude. If the Field Medium acts as a Superfluid Vacuum, this steady-state internal rotation stays below the Landau critical velocity, generating zero viscous drag. Furthermore, the conservation of angular momentum (gyroscopic stabilization) shields the vortex from isotropic ZPF noise. Because dissipation ($A\sin^2\theta$) occurs primarily during the translational acceleration of the Vector Snap, phase memory ($\phi$) remains largely untouched during free precession.
 
-![Spin Echo Phase Retention](Simulations/01_Spin_Dynamics/03_Spin_Echo/spin_echo.png)
+![Spin Echo Phase Retention](https://raw.githubusercontent.com/rt20bg/Anastasov_Theory/main/02_RAKTS_Quantum_Kinematics/Simulations/01_Spin_Dynamics/03_Spin_Echo/spin_echo.png)
 *Fig 3. Phase memory retention during free precession in the Superfluid Vacuum.*
 
 ***
@@ -86,19 +86,19 @@ To further demonstrate the universal applicability of the Double-Attractor lands
 
 #### 1. The Frisch-Segrè Experiment (Majorana Transitions)
 Orthodox physics invokes non-adiabatic probability amplitudes to explain why atoms lose their polarization when passing through rapidly changing magnetic fields. RAKTS proves this is merely the mechanical failure of a gyroscope to track a fast-moving valley due to finite fluid viscosity.
-![Frisch-Segrè Transition](Simulations/01_Spin_Dynamics/04_Frisch_Segre/frisch_segre.png)
+![Frisch-Segrè Transition](https://raw.githubusercontent.com/rt20bg/Anastasov_Theory/main/02_RAKTS_Quantum_Kinematics/Simulations/01_Spin_Dynamics/04_Frisch_Segre/frisch_segre.png)
 
 #### 2. Rabi Oscillations (Nuclear Magnetic Resonance)
 The standard model claims an atom in an RF field enters a state of "superposition," oscillating probabilistically between Up and Down. RAKTS models this as a classical **driven pendulum**. The RF field physically pushes the fluid gyroscope back and forth over the kinematic barrier via forced mechanical resonance.
-![Rabi Oscillation](Simulations/02_Resonance_Spectroscopy/01_Rabi_Oscillation/rabi_oscillation.png)
+![Rabi Oscillation](https://raw.githubusercontent.com/rt20bg/Anastasov_Theory/main/02_RAKTS_Quantum_Kinematics/Simulations/02_Resonance_Spectroscopy/01_Rabi_Oscillation/rabi_oscillation.png)
 
 #### 3. MRI Free Induction Decay (T1 and T2 Relaxation)
 Medical MRI machines measure T1 and T2 times, widely taught as quantum spin relaxation constants. RAKTS reveals that MRI actually measures **macroscopic fluid viscosity**. T1 is the physical sliding down the double-attractor back to the pole, while T2 is phase smearing caused by thermal ZPF noise in the Field Medium.
-![MRI Relaxation](Simulations/02_Resonance_Spectroscopy/02_MRI_Relaxation/mri_relaxation.png)
+![MRI Relaxation](https://raw.githubusercontent.com/rt20bg/Anastasov_Theory/main/02_RAKTS_Quantum_Kinematics/Simulations/02_Resonance_Spectroscopy/02_MRI_Relaxation/mri_relaxation.png)
 
 #### 4. The Zeeman Effect (The Lorentz Triplet)
 The splitting of spectral lines in a magnetic field is usually attributed to quantized electron orbital shifts and photon emissions. By treating the atom as a vibrating fluid string (damped harmonic oscillator), RAKTS proves the magnetic field acts purely as **physical tension**. A Fast Fourier Transform (FFT) of this mechanical vibration naturally yields the three distinct frequency peaks of the Lorentz Triplet, requiring no photons.
-![Zeeman Effect](Simulations/02_Resonance_Spectroscopy/03_Zeeman_Effect/zeeman_effect.png)
+![Zeeman Effect](https://raw.githubusercontent.com/rt20bg/Anastasov_Theory/main/02_RAKTS_Quantum_Kinematics/Simulations/02_Resonance_Spectroscopy/03_Zeeman_Effect/zeeman_effect.png)
 
 ***
 ## 5. Macroscopic Implications: Molecular Geometry & Crystallography
@@ -109,7 +109,7 @@ Because RAKTS is a kinematic theory, the vector orientations of bound electrons 
 In standard chemistry, the $109.5^\circ$ bond angle of a tetrahedral molecule is attributed to VSEPR theory and abstract $sp^3$ orbital hybridization. In RAKTS, this angle is a direct geometric consequence of fluid vortex interactions. 
 When four electron vortices are bound to a central nucleus, their magnetic dipole moments repel one another while their hydrodynamic flow fields seek a state of minimal structural interference. The absolute lowest-energy configuration for four fluid vortices constrained on a sphere is to orient their vectors to maximize the solid angle between them. Pure Euclidean geometry dictates that the optimal symmetric distance between four vectors is exactly $\arccos(-1/3) \approx 109.47^\circ$. 
 
-![Methane 109.5 Optimization](Simulations/03_Macroscopic_Chemistry/01_Methane_Geometry/methane_geometry.png)
+![Methane 109.5 Optimization](https://raw.githubusercontent.com/rt20bg/Anastasov_Theory/main/02_RAKTS_Quantum_Kinematics/Simulations/03_Macroscopic_Chemistry/01_Methane_Geometry/methane_geometry.png)
 *Fig 4. Methane bond angles derived purely via kinematic drag minimization (BFGS optimization), exactly matching empirical VSEPR data without orbital hybridization.*
 
 ### Effective Nuclear Charge and Repulsion
@@ -118,7 +118,7 @@ The structural drag and Vector Snap mechanics govern exactly how close atoms can
 ### Infrared (IR) Spectroscopy
 Furthermore, molecular bonds are not purely abstract "quantum harmonic oscillators" existing in discrete energy levels. They are literal kinematic springs oscillating in a viscous Field Medium. When a bond stretches, the restoring force generates a damped classical oscillation. A Fast Fourier Transform (FFT) of this continuous damped movement perfectly reproduces the empirical Infrared absorption peaks (e.g., Carbon Monoxide at 2143 cm⁻¹).
 
-![IR Spring Resonance](Simulations/03_Macroscopic_Chemistry/02_IR_Spring_Resonance/ir_spring_resonance.png)
+![IR Spring Resonance](https://raw.githubusercontent.com/rt20bg/Anastasov_Theory/main/02_RAKTS_Quantum_Kinematics/Simulations/03_Macroscopic_Chemistry/02_IR_Spring_Resonance/ir_spring_resonance.png)
 *Fig 5. Infrared absorption spectrum of Carbon Monoxide derived purely from a classical damped kinematic spring in the Field Medium, matching empirical data.*
 
 > **Author's Note regarding Macroscopic Scaling:** The geometric and IR optimizations presented in this section serve as simplified, 1D fluid-dynamic *Proof of Concept* toy models to demonstrate the upward scalability of kinematic drag. However, the ultimate realization of RAKTS in chemistry—organically integrating subatomic spin kinematics, non-linear Coulomb repulsion, and the structural kinematic equivalent of the Pauli Exclusion Principle (Phase Exclusion)—is handled by our advanced N-body "Soft-Core" framework: **Emergent Valence Mechanics (EVM)**.
@@ -135,7 +135,7 @@ If the vacuum is a continuous fluid under tension, then "photons" do not exist a
 The final nail in the coffin of wave-particle duality is the infamous Double Slit Experiment. Orthodox physics insists a single particle goes through both slits simultaneously in a "probability superposition." RAKTS and fluid dynamics offer the sane, classical reality: 
 As the atomic vortex (particle) travels, it pushes a bow-wave through the Field Medium. This fluid wave passes through both slits and interferes with itself. The actual particle passes through only **one** slit, but when it emerges, it "surfs" on the interference gradient created by its own wake. The fluid physically pushes the particles into discrete bands on the screen.
 
-![Double Slit Pilot Wave Simulation](Simulations/05_Double_Slit_Fluid_Dynamics/01_Pilot_Wave_Interference/double_slit.png)
+![Double Slit Pilot Wave Simulation](https://raw.githubusercontent.com/rt20bg/Anastasov_Theory/main/02_RAKTS_Quantum_Kinematics/Simulations/05_Double_Slit_Fluid_Dynamics/01_Pilot_Wave_Interference/double_slit.png)
 *Fig 6. Deterministic fluid mechanics simulation: 100 classical particles (red and orange) surfing on a continuous interference fluid gradient (blue) to form the "quantum" bands.*
 
 What we mistook for discrete particles were merely the ripples crashing against our instruments. What we mistook for random collapse was simply the deterministic grace of fluid mechanics finding the path of least resistance. RAKTS does not ask physics to abandon its empirical achievements. It asks only that we take seriously the question of what is actually moving, rotating, and interacting beneath the statistics.
