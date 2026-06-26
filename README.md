@@ -30,7 +30,8 @@ An exploration of gravitational physics without curved spacetime. EFR investigat
 * **Key Demonstration:** Computationally recovers the 43.0"/century anomalous precession of Mercury and GPS temporal dilation (38.6 $\mu$s/day) using classical wave mechanics.
 
 ## 3. Empirical Validation: NIST 2015 Data Analysis
-**Directory:** [`03_NIST_Empirical_Validation`](./03_NIST_Empirical_Validation)
+**Directory:** [`03_NIST_Empirical_Validation`](./03_NIST_Empirical_Validation)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20936793.svg)](https://doi.org/10.5281/zenodo.20936793)
 
 As a corollary to the continuous mechanics proposed in RAKTS, this section provides an empirical data analysis of the raw photodiode data from the celebrated 2015 NIST Bell Test. 
 * **Key Demonstration:** We analyze the nanosecond-scale Avalanche Photodiode (APD) hardware logs to identify a physical 6% statistical variance caused by a kinematic time-delay (the "Time-Delay Loophole"), challenging the standard interpretation of quantum non-locality.

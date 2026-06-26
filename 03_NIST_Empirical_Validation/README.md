@@ -1,5 +1,7 @@
 # Folder 03: The Geometric Sieve & Photon Illusion
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20936793.svg)](https://doi.org/10.5281/zenodo.20936793)
+
 This directory contains the second foundational pillar of the RAKTS framework.
 
 While Folder 02 established the **sub-quantum engine** (how localized atoms and electrons precess and bifurcate in magnetic fields via kinematic drag), this folder addresses the **ontology of the photon itself**.
