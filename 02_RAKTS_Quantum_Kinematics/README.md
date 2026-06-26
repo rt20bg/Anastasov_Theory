@@ -1,6 +1,8 @@
 # The Rapid Alignment Kinematic Theory of Spin (RAKTS)
 ## Sub-Quantum Kinematics & The Double-Attractor Landscape
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20531697.svg)](https://doi.org/10.5281/zenodo.20531697)
+
 Welcome to the core theoretical repository for **RAKTS**. This folder contains the foundational kinematics and differential equations that replace probabilistic wave-function collapse with deterministic fluid mechanics.
 
 This is the primary theory referenced in the root repository.

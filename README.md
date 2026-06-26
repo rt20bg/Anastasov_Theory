@@ -13,7 +13,8 @@ Our primary goal is to demonstrate that established subatomic and astronomical p
 ---
 
 ## 1. Main Theory: Quantum Kinematics (RAKTS)
-**Directory:** [`02_RAKTS_Quantum_Kinematics`](./02_RAKTS_Quantum_Kinematics)
+**Directory:** [`02_RAKTS_Quantum_Kinematics`](./02_RAKTS_Quantum_Kinematics)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20531697.svg)](https://doi.org/10.5281/zenodo.20531697)
 
 This is the core subatomic foundation of the project. The **Rapid Alignment Kinematic Theory of Spin (RAKTS)** provides a fully deterministic, 3D kinematic alternative to probabilistic wavefunctions. 
 
