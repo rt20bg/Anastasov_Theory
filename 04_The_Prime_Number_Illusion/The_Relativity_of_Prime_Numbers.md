@@ -1,9 +1,9 @@
 # The Relativity of Prime Numbers: Grid-Dependent Distributions and Cryptographic Applications
 
 **Author:** Ivaylo Anastasov  
-**ORCID:** [0009-0004-9628-7057](https://orcid.org/0009-0004-9628-7057)  
-**Project Website:** [https://rakts-research.org](https://rakts-research.org)  
-**Source Code & Repository:** [GitHub: Anastasov_Theory](https://github.com/rt20bg/Anastasov_Theory)  
+**ORCID:** https://orcid.org/0009-0004-9628-7057  
+**Project Website:** https://rakts-research.org  
+**Source Code & Repository:** https://github.com/rt20bg/Anastasov_Theory  
 
 ---
 

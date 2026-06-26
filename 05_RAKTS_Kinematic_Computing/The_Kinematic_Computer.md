@@ -1,9 +1,9 @@
 # Continuous-Variable Kinematic Computing: A Hydrodynamic Architecture
 
 **Author:** Ivaylo Anastasov  
-**ORCID:** 0009-0004-9628-7057  
+**ORCID:** https://orcid.org/0009-0004-9628-7057  
 **Project Website:** https://rakts-research.org  
-**Source Code:** https://github.com/rt20bg/Anastasov_Theory
+**Source Code & Repository:** https://github.com/rt20bg/Anastasov_Theory
 
 ---
 

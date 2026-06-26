@@ -1,4 +1,4 @@
-# Field Medium Initiative: Computational Physics Frameworks
+# Anastasov Theory: Deterministic Computational Physics Frameworks
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19707919.svg)](https://doi.org/10.5281/zenodo.19707919)
 [![License: All Rights Reserved](https://img.shields.io/badge/License-All_Rights_Reserved-red.svg)](https://github.com/rt20bg/Anastasov_Theory)
@@ -6,52 +6,53 @@
 
 **Official Project Website:** [https://rakts-research.org](https://rakts-research.org)
 
-This repository serves as a centralized archive for computational physics models, theoretical frameworks, and philosophical investigations exploring mechanical, flat-space analogues to standard geometric and probabilistic physics.
+Welcome to the **Anastasov Theory** repository. This project serves as a centralized archive for theoretical frameworks and computational physics models that explore **flat-space, deterministic analogues** to standard probabilistic physics and curved spacetime.
 
-Rather than challenging the empirical validity of General Relativity or Quantum Mechanics—which remain the most rigorously tested frameworks in science—this project advocates for **epistemic pluralism**. By offering these alternative models as an intellectual stress-test, we seek to demonstrate that many established astronomical and subatomic benchmarks can be computationally reproduced using classical fluid kinematics and vector dynamics. Our goal is to expand the pedagogical and theoretical tools available to physicists, treating the vacuum as a polarizable "Field Medium" to see how far classical mechanics can be extended.
+Our primary goal is to demonstrate that established subatomic and astronomical phenomena—such as the Stern-Gerlach split and Mercury's anomalous precession—can be computationally reproduced utilizing classical fluid kinematics and vector dynamics within a continuous Field Medium.
 
 ---
 
-## 1. Euclidean Field Relativity (EFR)
+## 1. Main Theory: Quantum Kinematics (RAKTS)
+**Directory:** [`02_RAKTS_Quantum_Kinematics`](./02_RAKTS_Quantum_Kinematics)
+
+This is the core subatomic foundation of the project. The **Rapid Alignment Kinematic Theory of Spin (RAKTS)** provides a fully deterministic, 3D kinematic alternative to probabilistic wavefunctions. 
+
+Rather than treating subatomic "spin" as an intrinsic, abstract property that collapses upon observation, RAKTS models atoms and electrons as **fluid-dynamic gyroscopes** interacting with the continuous stress-tensor of the vacuum. 
+* **Key Demonstration:** By substituting the classical Landau-Lifshitz equation with a novel Double-Attractor topological landscape driven by **Larmor Precession Drag**, RAKTS simulates the Stern-Gerlach bifurcation and Nuclear Magnetic Resonance (NMR) mathematically and deterministically, without invoking wave-function collapse.
+
+📖 **[Read the Full Theory (PDF)](./02_RAKTS_Quantum_Kinematics/RAKTS_Deterministic_Theory.pdf)**
+
+## 2. Macro Gravity: Euclidean Field Relativity (EFR)
 **Directory:** [`01_Macro_Gravity_Theory`](./01_Macro_Gravity_Theory)
 
 An exploration of gravitational physics without curved spacetime. EFR investigates a strict algebraic isomorphism with the post-Newtonian limit of General Relativity, modeling gravity as a variable medium impedance in flat Euclidean space.
 * **Key Demonstration:** Computationally recovers the 43.0"/century anomalous precession of Mercury and GPS temporal dilation (38.6 $\mu$s/day) using classical wave mechanics.
-* **Observational Limits:** Includes an archival data audit of White Dwarf spectra (VLT/UVES), establishing a rigorous upper bound for testing potential element-specific quantum divergence.
 
-## 2. Quantum Kinematics (RAKTS)
-**Directory:** [`02_RAKTS_Quantum_Kinematics`](./02_RAKTS_Quantum_Kinematics)
+## 3. Empirical Validation: NIST 2015 Data Analysis
+**Directory:** [`03_NIST_Empirical_Validation`](./03_NIST_Empirical_Validation)
 
-The Rapid Alignment Kinematic Theory of Spin (RAKTS) explores a deterministic, fluid-dynamic alternative to abstract probability wavefunctions. It models particles as continuous energy streams interacting within a resistive environment.
-* **Key Demonstration:** Simulates the Stern-Gerlach split and the Frisch-Segrè (1933) curve without invoking probabilistic superposition, utilizing continuous Landau-Lifshitz hydrodynamic drag.
-* **Molecular Geometry:** Explores deriving basic bond geometries (e.g., Methane's 109.5°) by minimizing classical boundary layer friction.
+As a corollary to the continuous mechanics proposed in RAKTS, this section provides an empirical data analysis of the raw photodiode data from the celebrated 2015 NIST Bell Test. 
+* **Key Demonstration:** We analyze the nanosecond-scale Avalanche Photodiode (APD) hardware logs to identify a physical 6% statistical variance caused by a kinematic time-delay (the "Time-Delay Loophole"), challenging the standard interpretation of quantum non-locality.
 
-## 3. The Prime Number Illusion
-**Directory:** [`03_The_Prime_Number_Illusion`](./03_The_Prime_Number_Illusion)
+📊 **[Read the Empirical Analysis Report (PDF)](./03_NIST_Empirical_Validation/Empirical_Proof_of_Time_Delay_in_NIST_Bell_Test.pdf)**
 
-A mathematical investigation into the nature of prime numbers, proposing that their distribution may be an artifact of an arbitrary `1.0` integer grid rather than a fundamental property of the universe.
-* **Key Demonstration:** Illustrates how "alien" mathematics (e.g., Even-Stepper monoids) would produce entirely different prime distributions.
-* **Cryptographic Application:** Outlines a theoretical "Dynamic Grid Cryptography" (DGC) designed to be highly resilient against standard quantum factorization algorithms (Shor's Algorithm).
+## 4. The Prime Number Illusion
+**Directory:** [`04_The_Prime_Number_Illusion`](./04_The_Prime_Number_Illusion)
 
-## 4. Kinematic Computing
-**Directory:** [`04_RAKTS_Kinematic_Computing`](./04_RAKTS_Kinematic_Computing)
+A mathematical investigation into the nature of prime numbers, proposing that their distribution may be a topological artifact of a linear integer grid. Includes theoretical proposals for "Dynamic Grid Cryptography" (DGC).
 
-A speculative hardware architecture proposing room-temperature analog quantum logic. Instead of isolating discrete qubits from environmental noise, this model attempts to use background hydrodynamic drag as an advantage.
-* **Key Demonstration:** Proposes continuous "Vector Nodes" where environmental drag acts as a geometric Attractor, naturally funneling the system into stable logical outputs (e.g., a fluid-dynamic NAND gate) and thereby resisting classical decoherence errors.
+## 5. Kinematic Computing
+**Directory:** [`05_RAKTS_Kinematic_Computing`](./05_RAKTS_Kinematic_Computing)
 
-## 5. Philosophy & Pedagogy of Physics
-**Directory:** [`Academic_Publications`](./Academic_Publications)
-
-A formal pedagogical argument analyzing how the *underdetermination of theory by data* (the Duhem-Quine thesis) is handled in modern graduate physics education.
-* **Key Argument:** Proposes the introduction of "Computational Sandboxes" in university curricula. By encouraging students to derive the exact same empirical result (e.g., Mercury's orbit) using two ontologically incompatible frameworks side-by-side, we aim to foster a deeper, more critically engaged understanding of the relationship between mathematics and physical reality.
+A speculative hardware architecture proposing room-temperature analog quantum logic. Instead of isolating discrete qubits from environmental noise, this model attempts to use background hydrodynamic drag as a structural advantage (e.g., fluid-dynamic NAND gates).
 
 ---
 
 ### How to Cite
 
-If you utilize these theoretical frameworks, simulation scripts, or pedagogical materials in your research, please consider citing this repository:
+If you utilize these theoretical frameworks or simulation scripts in your research, please cite this repository:
 
-> Anastasov, I. (2026). *Anastasov Theory: Unified Research on Alternative Physics, Mathematics, and Futurology*. Zenodo. DOI: 10.5281/zenodo.19707919
+> Anastasov, I. (2026). *Anastasov Theory: Deterministic Computational Physics Frameworks*. Zenodo. DOI: 10.5281/zenodo.19707919
 
 ### Contact
 

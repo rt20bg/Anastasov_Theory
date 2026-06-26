@@ -1,0 +1,13 @@
+# Ignore raw NIST data files (several GBs each)
+*.dat
+*.zip
+*.rar
+*.7z
+
+# Ignore generated numpy arrays or caches if any
+*.npy
+*.npz
+
+# Ignore python cache
+__pycache__/
+*.pyc
