@@ -25,10 +25,11 @@ Current physics assumes photons are quantized point-particles. RAKTS models them
 *   **The Experiment:** Construct an APD detector using non-Euclidean metamaterials, such as a Penrose tiling structure, which lacks translational symmetry.
 *   **The Anastasov-EFR Prediction:** The detector will register anomalous "fractional" clicks and fail to produce standard quantized photo-electron emissions, proving that the quantum "click" is an artifact of Euclidean lattice geometry, not the fundamental nature of light.
 
-### 3. The Relativistic Drag Test (Bow Shock)
-In the Stern-Gerlach experiment, atoms bifurcate into two streams. Standard theory attributes this to intrinsic quantum spin. RAKTS attributes it to the hydrodynamic drag (Vector Snap) of the atom's vortex against the Field Medium.
-*   **The Experiment:** Shoot Silver atoms through a Stern-Gerlach apparatus at relativistic velocities (e.g., $0.5c$).
-*   **The Anastasov-RAKTS Prediction:** At high velocities, the atom will generate a fluidic "bow shock" in the Field Medium. This non-linear hydrodynamic drag will drastically alter the Larmor frequency, causing the bifurcation angles to deviate anomalously from standard quantum predictions.
+### 3. The Relativistic Stern-Gerlach Profile (M-Shape Anomaly)
+Orthodox Quantum Mechanics (Dirac + Thomas Precession) asserts that spin is an intrinsic binary property ($\pm \hbar/2$) held in superposition. RAKTS asserts that atoms physically traverse a continuous spectrum of angles, governed by a non-linear hydrodynamic drag gradient ($U = A \sin^2\theta - B \cos\theta$).
+*   **The Experiment:** Perform a relativistic Stern-Gerlach experiment where the time-of-flight is so short that neutral atoms (or suitably compensated ions) do not have time to fully bifurcate.
+*   **The QM Prediction:** The beam will blur into a standard Gaussian probability distribution centered in the middle, as the superposition states lack the temporal flight path to spatially diverge.
+*   **The Anastasov-RAKTS Prediction:** The atoms will "freeze" mid-rotation. Because they spend less time on the steep gradient slopes of the attractor, they will accumulate on the edges. The detector will register a distinct **bimodal (M-shaped) density profile** with a depleted center, not a Gaussian blur. Observing this M-shape formally falsifies the Dirac superposition model in favor of classical kinematic drag.
 
 ---
 

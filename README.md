@@ -21,7 +21,7 @@ This is the core subatomic foundation of the project. The **Rapid Alignment Kine
 Rather than treating subatomic "spin" as an intrinsic, abstract property that collapses upon observation, RAKTS models atoms and electrons as **fluid-dynamic gyroscopes** interacting with the continuous stress-tensor of the vacuum. 
 * **Key Demonstration:** By substituting the classical Landau-Lifshitz equation with a novel Double-Attractor topological landscape driven by **Larmor Precession Drag**, RAKTS simulates the Stern-Gerlach bifurcation and Nuclear Magnetic Resonance (NMR) mathematically and deterministically, without invoking wave-function collapse.
 
-📖 **[Read the Full Theory (PDF)](./02_RAKTS_Quantum_Kinematics/RAKTS_Deterministic_Theory.pdf)**
+**[Read the Full Theory (PDF)](./02_RAKTS_Quantum_Kinematics/RAKTS_Deterministic_Theory.pdf)**
 
 ## 2. Macro Gravity: Euclidean Field Relativity (EFR)
 **Directory:** [`01_Macro_Gravity_Theory`](./01_Macro_Gravity_Theory)
@@ -36,7 +36,7 @@ An exploration of gravitational physics without curved spacetime. EFR investigat
 As a corollary to the continuous mechanics proposed in RAKTS, this section provides an empirical data analysis of the raw photodiode data from the celebrated 2015 NIST Bell Test. 
 * **Key Demonstration:** We analyze the nanosecond-scale Avalanche Photodiode (APD) hardware logs to identify a physical 6% statistical variance caused by a kinematic time-delay (the "Time-Delay Loophole"), challenging the standard interpretation of quantum non-locality.
 
-📊 **[Read the Empirical Analysis Report (PDF)](./03_NIST_Empirical_Validation/Empirical_Proof_of_Time_Delay_in_NIST_Bell_Test.pdf)**
+**[Read the Empirical Analysis Report (PDF)](./03_NIST_Empirical_Validation/Empirical_Proof_of_Time_Delay_in_NIST_Bell_Test.pdf)**
 
 ## 4. The Prime Number Illusion
 **Directory:** [`04_The_Prime_Number_Illusion`](./04_The_Prime_Number_Illusion)
@@ -50,6 +50,14 @@ A speculative hardware architecture proposing room-temperature analog quantum lo
 
 ---
 
+## 6. The Falsifiability Challenge & Predictions
+**Directory:** [`06_Predictions`](./06_Predictions)
+
+In strict adherence to the demarcation problem, the Anastasov Theory is fully falsifiable. We have published **9 highly specific experimental predictions** spanning quantum kinematics, astrophysics, and molecular chemistry. If any of these proposed tests yield the standard orthodox prediction over the kinematic model, the framework is formally falsified.
+
+**[View the 9 Experimental Challenges](https://rakts-research.org/predictions.html)**
+
+---
 ### How to Cite
 
 If you utilize these theoretical frameworks or simulation scripts in your research, please cite this repository:
