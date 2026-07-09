@@ -12,7 +12,13 @@ Our primary goal is to demonstrate that established subatomic and astronomical p
 
 ---
 
-## 1. Main Theory: Quantum Kinematics (RAKTS)
+## 1. Macro Gravity: Euclidean Field Relativity (EFR)
+**Directory:** [`01_Macro_Gravity_Theory`](./01_Macro_Gravity_Theory)
+
+An exploration of gravitational physics without curved spacetime. EFR investigates a strict algebraic isomorphism with the post-Newtonian limit of General Relativity, modeling gravity as a variable medium impedance in flat Euclidean space.
+* **Key Demonstration:** Computationally recovers the 43.0"/century anomalous precession of Mercury and GPS temporal dilation (38.6 $\mu$s/day) using classical wave mechanics.
+
+## 2. Main Theory: Quantum Kinematics (RAKTS)
 **Directory:** [`02_RAKTS_Quantum_Kinematics`](./02_RAKTS_Quantum_Kinematics)  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20531697.svg)](https://doi.org/10.5281/zenodo.20531697)
 
@@ -22,12 +28,6 @@ Rather than treating subatomic "spin" as an intrinsic, abstract property that co
 * **Key Demonstration:** By substituting the classical Landau-Lifshitz equation with a novel Double-Attractor topological landscape driven by **Larmor Precession Drag**, RAKTS simulates the Stern-Gerlach bifurcation and Nuclear Magnetic Resonance (NMR) mathematically and deterministically, without invoking wave-function collapse.
 
 **[Read the Full Theory (PDF)](./02_RAKTS_Quantum_Kinematics/RAKTS_Deterministic_Theory.pdf)**
-
-## 2. Macro Gravity: Euclidean Field Relativity (EFR)
-**Directory:** [`01_Macro_Gravity_Theory`](./01_Macro_Gravity_Theory)
-
-An exploration of gravitational physics without curved spacetime. EFR investigates a strict algebraic isomorphism with the post-Newtonian limit of General Relativity, modeling gravity as a variable medium impedance in flat Euclidean space.
-* **Key Demonstration:** Computationally recovers the 43.0"/century anomalous precession of Mercury and GPS temporal dilation (38.6 $\mu$s/day) using classical wave mechanics.
 
 ## 3. Empirical Validation: NIST 2015 Data Analysis
 **Directory:** [`03_NIST_Empirical_Validation`](./03_NIST_Empirical_Validation)  
