@@ -43,15 +43,15 @@ As a corollary to the continuous mechanics proposed in RAKTS, this section provi
 
 A high-performance classical physics engine demonstrating that complex covalent chemistry, steric valency limits (the octet rule), and molecular polarity naturally emerge from deterministic point-charge dynamics without invoking quantum mechanical wavefunctions. Validated against 134,000 organic molecules from the QM9 database with a 99.96% structural survival rate.
 
-## 6. The Prime Number Illusion
-**Directory:** [`06_The_Prime_Number_Illusion`](./06_The_Prime_Number_Illusion)
-
-A mathematical investigation into the nature of prime numbers, proposing that their distribution may be a topological artifact of a linear integer grid. Includes theoretical proposals for "Dynamic Grid Cryptography" (DGC).
-
 ## 5. Kinematic Computing
 **Directory:** [`05_RAKTS_Kinematic_Computing`](./05_RAKTS_Kinematic_Computing)
 
 A speculative hardware architecture proposing room-temperature analog quantum logic. Instead of isolating discrete qubits from environmental noise, this model attempts to use background hydrodynamic drag as a structural advantage (e.g., fluid-dynamic NAND gates).
+
+## 6. The Prime Number Illusion
+**Directory:** [`06_The_Prime_Number_Illusion`](./06_The_Prime_Number_Illusion)
+
+A mathematical investigation into the nature of prime numbers, proposing that their distribution may be a topological artifact of a linear integer grid. Includes theoretical proposals for "Dynamic Grid Cryptography" (DGC).
 
 ---
 

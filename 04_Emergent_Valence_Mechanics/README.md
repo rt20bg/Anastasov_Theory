@@ -18,8 +18,8 @@ This is the main representative document of the project, including the mathemati
 - **Matplotlib & NumPy** (For physical dynamics visualizations and logging)
 
 ```bash
-# Example installation via pip
-pip install torch numpy matplotlib rdkit
+# Install dependencies from the requirements file
+pip install -r requirements.txt
 ```
 
 ### 2. Running an Experiment
@@ -45,11 +45,11 @@ Contains [engine.py](./core/engine.py) (the Velocity Verlet integrator computing
 ### 2. [experiments/](./experiments) (Proofs & Benchmarks)
 Contains the officially validated experiments proving the emergent properties of EVM:
 - **[01_Baseline_Hydrogen/](./experiments/01_Baseline_Hydrogen)**, **[02_Baseline_Methane/](./experiments/02_Baseline_Methane)**, **[03_Baseline_Water/](./experiments/03_Baseline_Water)**, **[03b_Baseline_Ammonia/](./experiments/03b_Baseline_Ammonia)**, **[03c_Baseline_Water_Dimer/](./experiments/03c_Baseline_Water_Dimer)**: Baseline geometrical emergence demonstrations.
-- **[05_QM9_Validation/](./experiments/05_QM9_Validation)**: Large-scale benchmark validation across ~134,000 molecules. Achieved **99.96%** geometric stability with a mean RMSD of ~0.012 Å relative to quantum ab-initio DFT coordinates.
 - **[04_Physical_Dynamics/](./experiments/04_Physical_Dynamics)**: Three interactive simulations proving physical dynamics in motion:
   - Bond elasticity (Hooke's Law regime & dissociation).
   - Octet rule limits (Steric/Pauli rejection of $CH_5$).
   - Spontaneous bond formation (Radical recombination).
+- **[05_QM9_Validation/](./experiments/05_QM9_Validation)**: Large-scale benchmark validation across ~134,000 molecules. Achieved **99.96%** geometric stability with a mean RMSD of ~0.012 Å relative to quantum ab-initio DFT coordinates.
 
 ### 3. [datasets/](./datasets) & [data/](./data) (Data Processing & Storage)
 Contains [qm9_loader.py](./datasets/qm9_loader.py) and [evaluator.py](./datasets/evaluator.py), which handle parsing the QM9 dataset, converting RDKit molecules into PyTorch tensors, and calculating RMSD. The `data/` directory is the intended location for the ~300MB `gdb9.sdf` database file.
