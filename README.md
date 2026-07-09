@@ -38,8 +38,13 @@ As a corollary to the continuous mechanics proposed in RAKTS, this section provi
 
 **[Read the Empirical Analysis Report (PDF)](./03_NIST_Empirical_Validation/Empirical_Proof_of_Time_Delay_in_NIST_Bell_Test.pdf)**
 
-## 4. The Prime Number Illusion
-**Directory:** [`04_The_Prime_Number_Illusion`](./04_The_Prime_Number_Illusion)
+## 4. Emergent Valence Mechanics (EVM)
+**Directory:** [`04_Emergent_Valence_Mechanics`](./04_Emergent_Valence_Mechanics)
+
+A high-performance classical physics engine demonstrating that complex covalent chemistry, steric valency limits (the octet rule), and molecular polarity naturally emerge from deterministic point-charge dynamics without invoking quantum mechanical wavefunctions. Validated against 134,000 organic molecules from the QM9 database with a 99.96% structural survival rate.
+
+## 6. The Prime Number Illusion
+**Directory:** [`06_The_Prime_Number_Illusion`](./06_The_Prime_Number_Illusion)
 
 A mathematical investigation into the nature of prime numbers, proposing that their distribution may be a topological artifact of a linear integer grid. Includes theoretical proposals for "Dynamic Grid Cryptography" (DGC).
 
@@ -50,8 +55,8 @@ A speculative hardware architecture proposing room-temperature analog quantum lo
 
 ---
 
-## 6. The Falsifiability Challenge & Predictions
-**Directory:** [`06_Predictions`](./06_Predictions)
+## 7. The Falsifiability Challenge & Predictions
+**Directory:** [`07_Predictions`](./07_Predictions)
 
 In strict adherence to the demarcation problem, the Anastasov Theory is fully falsifiable. We have published **9 highly specific experimental predictions** spanning quantum kinematics, astrophysics, and molecular chemistry. If any of these proposed tests yield the standard orthodox prediction over the kinematic model, the framework is formally falsified.
 

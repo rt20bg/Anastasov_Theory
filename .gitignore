@@ -3,9 +3,11 @@
 *.log
 __pycache__/
 *.py[cod]
+.venv/
+.venv_cuda/
 
 # Distribution & Outreach (DO NOT PUBLISH)
-03_Distribution_Campaign/
+_Distribution_Campaign/
 potential_reviewers.csv
 *.env
 
@@ -23,9 +25,7 @@ reports/
 scratch/
 
 # Chemistry (UNDER DEVELOPMENT - DO NOT PUBLISH)
-05_RAKTS_Kinematic_Chemistry/
-06_Emergent_Valence_Mechanics_v3/
-07_RAKTS_Inspired_Chemistry/
+06_Emergent_Valence_Mechanics/
 
 # Working papers and drafts (DO NOT PUBLISH)
 working_drafts/
@@ -37,12 +37,8 @@ working_drafts/
 
 # Personal Notes (DO NOT PUBLISH)
 Personal_Notes/
-07_EVM_Publication_Roadmap/
 
 INTEGRATION_GUIDE.md
 
 # Website Workflows
 docs/WORKFLOW.md
-
-# Temporary simulation files (DO NOT PUBLISH)
-Temp/
