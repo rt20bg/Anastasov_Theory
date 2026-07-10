@@ -20,3 +20,4 @@ ENV/
 # Project specific
 z_archived_legacy_files/
 *.log
+EVM_Breakthrough_Paper_Web.md
