@@ -1,4 +1,4 @@
-# Anastasov Theory: Deterministic Computational Physics Frameworks
+# Field Medium Initiative: Deterministic Computational Physics Frameworks
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19707919.svg)](https://doi.org/10.5281/zenodo.19707919)
 [![License: All Rights Reserved](https://img.shields.io/badge/License-All_Rights_Reserved-red.svg)](https://github.com/rt20bg/Anastasov_Theory)
@@ -6,9 +6,11 @@
 
 **Official Project Website:** [https://rakts-research.org](https://rakts-research.org)
 
-Welcome to the **Anastasov Theory** repository. This project serves as a centralized archive for theoretical frameworks and computational physics models that explore **flat-space, deterministic analogues** to standard probabilistic physics and curved spacetime.
+Welcome to the **Field Medium Initiative** repository (home of the Anastasov Theory frameworks). Operating at the intersection of classical mechanics and modern data-science, this project serves as a centralized archive for theoretical frameworks exploring **flat-space, deterministic analogues** to standard probabilistic physics and curved spacetime.
 
-Our primary goal is to demonstrate that established subatomic and astronomical phenomena—such as the Stern-Gerlach split and Mercury's anomalous precession—can be computationally reproduced utilizing classical fluid kinematics and vector dynamics within a continuous Field Medium.
+Standing on the shoulders of the classical giants who laid our mathematical foundations, our mission is not to discard their legacy, but to explore its absolute computational limits. Rather than challenging the empirical validity of standard models, this project advocates for *epistemic pluralism*—the active maintenance of multiple concurrent theoretical ontologies to process complex data.
+
+By treating the vacuum as a polarizable "Field Medium" and applying rigorous computational stress-testing, our primary goal is to demonstrate that established subatomic, astronomical, and chemical phenomena can be accurately reproduced utilizing classical fluid kinematics and vector dynamics.
 
 ---
 
@@ -41,7 +43,8 @@ As a corollary to the continuous mechanics proposed in RAKTS, this section provi
 ## 4. Emergent Valence Mechanics (EVM)
 **Directory:** [`04_Emergent_Valence_Mechanics`](./04_Emergent_Valence_Mechanics)
 
-A high-performance classical physics engine demonstrating that complex covalent chemistry, steric valency limits (the octet rule), and molecular polarity naturally emerge from deterministic point-charge dynamics without invoking quantum mechanical wavefunctions. Validated against 134,000 organic molecules from the QM9 database with a 99.96% structural survival rate.
+A high-performance classical physics engine demonstrating that complex covalent chemistry, steric valency limits (the octet rule), and molecular polarity naturally emerge from deterministic point-charge dynamics without invoking quantum mechanical wavefunctions. 
+* **Key Demonstration:** Evaluated against 134,000+ stable organic molecules from the QM9 database, the $O(N^2)$ EVM engine achieved a **99.96% structural survival rate** with an average RMSD of 0.013 Å, bypassing traditional Schrödinger bottlenecks via differentiable tensor mechanics.
 
 ## 5. Kinematic Computing
 **Directory:** [`05_RAKTS_Kinematic_Computing`](./05_RAKTS_Kinematic_Computing)

@@ -25,9 +25,11 @@ nav {
     border-bottom: 1px solid var(--border-color);
     padding: 1rem 2rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: #f6f8fa;
+    gap: 1rem;
 }
 
 nav .logo {
@@ -39,6 +41,8 @@ nav .logo {
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     list-style: none;
     gap: 1.5rem;
 }
@@ -212,6 +216,8 @@ footer {
     font-size: 0.875rem;
 }
 
+.mobile-only { display: none; }
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
     nav {
@@ -223,6 +229,12 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         gap: 1rem;
+    }
+    .desktop-only {
+        display: none;
+    }
+    .mobile-only {
+        display: inline;
     }
 }
 
