@@ -129,6 +129,29 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <meta name="citation_doi" content="{doi}">
     <meta name="citation_language" content="en">
 
+    <!-- JSON-LD Structured Data for SEO -->
+    <script type="application/ld+json">
+    {{
+      "@context": "https://schema.org",
+      "@type": "ScholarlyArticle",
+      "headline": "{title}",
+      "description": "{description}",
+      "author": {{
+        "@type": "Person",
+        "name": "Ivaylo Anastasov",
+        "@id": "https://orcid.org/0009-0004-9628-7057"
+      }},
+      "publisher": {{
+        "@type": "Organization",
+        "name": "Anastasov Theory Research Initiative",
+        "url": "https://rakts-research.org"
+      }},
+      "datePublished": "2026-01-01",
+      "sameAs": "https://doi.org/{doi}"
+    }}
+    </script>
+
+
 
     <link rel="canonical" href="https://rakts-research.org/{page_name}.html">
     <link rel="stylesheet" href="style.css">
