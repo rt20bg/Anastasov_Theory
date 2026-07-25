@@ -65,7 +65,7 @@ TEMPLATES = {
         "html_path": "../docs/anastasov_matrix.html",
         "title": "The Anastasov Matrix: A Failure-First Validation Framework for Software",
         "description": "A rigorous, feature-centric deterministic QA testing framework addressing the organizational bias toward functional velocity and Technical Subprime Debt.",
-        "doi": ""
+        "doi": "10.5281/zenodo.21557763"
     }
 }
 
