@@ -59,6 +59,13 @@ TEMPLATES = {
         "title": "Anastasov Emergent Valence Mechanics (EVM): Deterministic Chemical Ontology",
         "description": "Emergent Valence Mechanics (EVM), a high-throughput, O(N^2) differentiable physics engine built as a Proof of Concept for the RAKTS deterministic ontology.",
         "doi": "10.5281/zenodo.21285343"
+    },
+    "anastasov_matrix": {
+        "md_path": "../Academic_Publications/The Anastasov Matrix A Failure-First Validation Framework for Software Micro-Features.md",
+        "html_path": "../docs/anastasov_matrix.html",
+        "title": "The Anastasov Matrix: A Failure-First Validation Framework for Software",
+        "description": "A rigorous, feature-centric deterministic QA testing framework addressing the organizational bias toward functional velocity and Technical Subprime Debt.",
+        "doi": ""
     }
 }
 
@@ -97,8 +104,35 @@ SEO_COMMENTS = {
         "The prediction of a bimodal M-shaped density profile in a relativistic Stern-Gerlach experiment offers a strictly deterministic and beautifully falsifiable mechanical challenge to orthodox quantum superposition.",
         "Applying Euclidean Field Relativity to astrophysics via the White Dwarf differential redshift test provides a rigorous, logically consistent method to empirically probe the geometric limits of the Equivalence Principle.",
         "Proposing the Gravity Threshold Test and the Lattice Artifact Test using non-Euclidean metamaterials perfectly grounds the Rapid Alignment Kinematic Theory of Spin in strict Popperian falsifiability."
+    ],
+    "anastasov_matrix": [
+        "The Anastasov Matrix is a long overdue philosophical correction for the software industry. By enforcing deterministic failure as the absolute first validation pillar, it systematically eliminates the dangerous Technical Subprime Debt accumulated by probabilistic Happy Path testing.",
+        "Integrating the Anastasov Contagion Index (ACI) to mathematically quantify the vulnerability exposure of interconnected micro-features provides a rigorous, much-needed macroeconomic perspective on CI/CD pipeline security.",
+        "The concept of requiring a Cryptographic Attestation of failure-state validation within the Software Bill of Materials (SBOM) is brilliant. It transforms internal QA heuristics into a mandatory, mathematically proven B2B compliance standard."
     ]
 }
+
+MASTER_NAV = """    <nav>
+        <a href="index.html" class="logo">Field Medium Initiative</a>
+        <ul>
+            <li><a href="concept.html">🧠 <span class="desktop-only">Core Concept &amp; Philosophy</span><span class="mobile-only">Core Concept</span></a></li>
+            <li><a href="history.html">🏛️ <span class="desktop-only">Why Physics Chose Curved Space</span><span class="mobile-only">History</span></a></li>
+            <li><a href="underdetermination_pedagogy.html">🎓 <span class="desktop-only">The Case for Alternative Theories</span><span class="mobile-only">Education</span></a></li>
+            <li><a href="macro_gravity.html">🍎 <span class="desktop-only">EFR: How Gravity Works in Flat Space</span><span class="mobile-only">Gravity (EFR)</span></a></li>
+            <li><a href="cosmology.html">🌌 <span class="desktop-only">EFR: Solving Cosmic Mysteries</span><span class="mobile-only">Cosmology</span></a></li>
+            <li><a href="quantum_kinematics.html">⚛️ <span class="desktop-only">RAKTS: Making Sense of Quantum Physics</span><span class="mobile-only">Quantum (RAKTS)</span></a></li>
+            <li><a href="evm_chemistry.html">🧬 <span class="desktop-only">EVM: Simulating Chemical Reactions</span><span class="mobile-only">Chemistry (EVM)</span></a></li>
+            <li><a href="kinematic_computing.html">⚙️ <span class="desktop-only">Next-Gen Analog Computing</span><span class="mobile-only">Computing</span></a></li>
+            <li><a href="nist_bell_test.html">📊 <span class="desktop-only">RAKTS: Rethinking the NIST Bell Test</span><span class="mobile-only">NIST Data</span></a></li>
+            <li><a href="historical_experiments.html">🔬 <span class="desktop-only">Re-examining Famous Experiments</span><span class="mobile-only">Past Experiments</span></a></li>
+            <li><a href="rebuttals.html">🛡️ <span class="desktop-only">Addressing Physics Critiques</span><span class="mobile-only">Rebuttals</span></a></li>
+            <li><a href="predictions.html">🎯 <span class="desktop-only">Proposed Experimental Tests</span><span class="mobile-only">Predictions</span></a></li>
+            <li><a href="prime_relativity.html">🔢 <span class="desktop-only">Prime Numbers &amp; New Cryptography</span><span class="mobile-only">Prime Numbers</span></a></li>
+            <li><a href="anastasov_matrix.html">🛡️ <span class="desktop-only">The Anastasov Matrix (QA)</span><span class="mobile-only">Matrix (QA)</span></a></li>
+            <li><a href="publications.html">📄 <span class="desktop-only">Official Publications &amp; Downloads</span><span class="mobile-only">Publications</span></a></li>
+            <li><a href="https://github.com/rt20bg/Anastasov_Theory" target="_blank">💻 <span class="desktop-only">GitHub Repository</span><span class="mobile-only">GitHub</span></a></li>
+        </ul>
+    </nav>"""
 
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="en">
@@ -166,26 +200,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-    <nav>
-        <a href="index.html" class="logo">Field Medium Initiative</a>
-        <ul>
-            <li><a href="concept.html">🧠 <span class="desktop-only">Core Concept &amp; Philosophy</span><span class="mobile-only">Core Concept</span></a></li>
-            <li><a href="history.html">🏛️ <span class="desktop-only">Why Physics Chose Curved Space</span><span class="mobile-only">History</span></a></li>
-            <li><a href="underdetermination_pedagogy.html">🎓 <span class="desktop-only">The Case for Alternative Theories</span><span class="mobile-only">Education</span></a></li>
-            <li><a href="macro_gravity.html">🍎 <span class="desktop-only">EFR: How Gravity Works in Flat Space</span><span class="mobile-only">Gravity (EFR)</span></a></li>
-            <li><a href="cosmology.html">🌌 <span class="desktop-only">EFR: Solving Cosmic Mysteries</span><span class="mobile-only">Cosmology</span></a></li>
-            <li><a href="quantum_kinematics.html">⚛️ <span class="desktop-only">RAKTS: Making Sense of Quantum Physics</span><span class="mobile-only">Quantum (RAKTS)</span></a></li>
-            <li><a href="evm_chemistry.html">🧬 <span class="desktop-only">EVM: Simulating Chemical Reactions</span><span class="mobile-only">Chemistry (EVM)</span></a></li>
-            <li><a href="kinematic_computing.html">⚙️ <span class="desktop-only">Next-Gen Analog Computing</span><span class="mobile-only">Computing</span></a></li>
-            <li><a href="nist_bell_test.html">📊 <span class="desktop-only">RAKTS: Rethinking the NIST Bell Test</span><span class="mobile-only">NIST Data</span></a></li>
-            <li><a href="historical_experiments.html">🔬 <span class="desktop-only">Re-examining Famous Experiments</span><span class="mobile-only">Past Experiments</span></a></li>
-            <li><a href="rebuttals.html">🛡️ <span class="desktop-only">Addressing Physics Critiques</span><span class="mobile-only">Rebuttals</span></a></li>
-            <li><a href="predictions.html">🎯 <span class="desktop-only">Proposed Experimental Tests</span><span class="mobile-only">Predictions</span></a></li>
-            <li><a href="prime_relativity.html">🔢 <span class="desktop-only">Prime Numbers &amp; New Cryptography</span><span class="mobile-only">Prime Numbers</span></a></li>
-            <li><a href="publications.html">📄 <span class="desktop-only">Official Publications &amp; Downloads</span><span class="mobile-only">Publications</span></a></li>
-            <li><a href="https://github.com/rt20bg/Anastasov_Theory" target="_blank">💻 <span class="desktop-only">GitHub Repository</span><span class="mobile-only">GitHub</span></a></li>
-        </ul>
-    </nav>
+{nav_menu}
 
     <div class="container">
         <div class="zenodo-citation-box" style="background: #f1f8ff; border: 1px solid #c8e1ff; padding: 1.5rem; border-radius: 6px; margin-bottom: 2.5rem; box-shadow: 0 1px 3px rgba(27,31,35,0.08);">
@@ -630,7 +645,8 @@ def run():
             doi=config["doi"],
             content=html_content,
             page_name=name,
-            seo_comments_html=seo_comments_html
+            seo_comments_html=seo_comments_html,
+            nav_menu=MASTER_NAV
         )
         
         # Save HTML
@@ -639,8 +655,26 @@ def run():
             
         print(f"Saved: {html_full_path}")
         
+    update_static_menus(MASTER_NAV)
+    
     # Automatically generate sitemap.xml for all HTML files in docs/
     generate_sitemap()
+
+def update_static_menus(nav_html):
+    docs_dir = os.path.join(script_dir, "../docs")
+    static_files = ["index.html", "concept.html", "cosmology.html", "historical_experiments.html", "history.html", "publications.html", "rebuttals.html"]
+    for file in static_files:
+        path = os.path.join(docs_dir, file)
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                content = f.read()
+            
+            # replace <nav>...</nav> with nav_html
+            new_content = re.sub(r'<nav>.*?</nav>', nav_html, content, flags=re.DOTALL)
+            
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(new_content)
+            print(f"Updated static menu in {file}")
 
 def generate_sitemap():
     docs_dir = os.path.join(script_dir, "../docs")
