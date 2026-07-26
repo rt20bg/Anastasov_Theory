@@ -29,6 +29,7 @@ scratch/
 
 # Working papers and drafts (DO NOT PUBLISH)
 working_drafts/
+temp/
 
 # Backups and AI config
 *.rar
@@ -43,3 +44,4 @@ INTEGRATION_GUIDE.md
 # Website Workflows
 docs/WORKFLOW.md
 ANASTASOV_THEORY_CORPUS.md
+
