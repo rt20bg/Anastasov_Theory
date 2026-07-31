@@ -113,7 +113,7 @@ SEO_COMMENTS = {
 }
 
 MASTER_NAV = """    <nav>
-        <a href="index.html" class="logo">Field Medium Initiative</a>
+        <a href="/" class="logo">Field Medium Initiative</a>
         <ul>
             <li><a href="concept.html">🧠 <span class="desktop-only">Core Concept &amp; Philosophy</span><span class="mobile-only">Core Concept</span></a></li>
             <li><a href="history.html">🏛️ <span class="desktop-only">Why Physics Chose Curved Space</span><span class="mobile-only">History</span></a></li>

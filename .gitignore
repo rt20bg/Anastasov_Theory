@@ -30,6 +30,7 @@ scratch/
 # Working papers and drafts (DO NOT PUBLISH)
 working_drafts/
 temp/
+Book_Draft/
 
 # Backups and AI config
 *.rar
