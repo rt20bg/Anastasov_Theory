@@ -194,9 +194,54 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             tex: {{
                 inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],
                 displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']]
+            }},
+            options: {{
+                renderActions: {{
+                    addCopyText: [155,
+                        (doc) => {{
+                            for (const math of doc.math) window.MathJax.config.addCopyText(math, doc);
+                        }},
+                        (math, doc) => window.MathJax.config.addCopyText(math, doc)
+                    ]
+                }}
+            }},
+            addCopyText(math, doc) {{
+                const adaptor = doc.adaptor;
+                const text = adaptor.node('mjx-copytext', {{'aria-hidden': true}}, [
+                    adaptor.text(math.start.delim + math.math + math.end.delim)
+                ]);
+                adaptor.append(math.typesetRoot, text);
+            }},
+            startup: {{
+                ready() {{
+                    if (MathJax._ && MathJax._.output && MathJax._.output.chtml_ts && MathJax._.output.chtml_ts.CHTML) {{
+                        MathJax._.output.chtml_ts.CHTML.commonStyles['mjx-copytext'] = {{
+                            display: 'inline-block',
+                            position: 'absolute',
+                            top: 0,
+                            left: 0,
+                            width: '1px',
+                            height: '1px',
+                            padding: 0,
+                            border: 0,
+                            margin: '-1px',
+                            clip: 'rect(0, 0, 0, 0)',
+                            overflow: 'hidden'
+                        }};
+                    }}
+                    MathJax.startup.defaultReady();
+                }}
             }}
         }};
     </script>
+    <style>
+        mjx-container mjx-math {{
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }}
+    </style>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
