@@ -66,6 +66,13 @@ TEMPLATES = {
         "title": "The Anastasov Matrix: A Failure-First Validation Framework for Software",
         "description": "A rigorous, feature-centric deterministic QA testing framework addressing the organizational bias toward functional velocity and Technical Subprime Debt.",
         "doi": "10.5281/zenodo.21557763"
+    },
+    "ai_science_institute": {
+        "md_path": "../Academic_Publications/AI_Science_Institute/AI_Science_Institute_EN.md",
+        "html_path": "../docs/ai_science_institute.html",
+        "title": "Automated Scientific Renaissance: How Artificial Intelligence Can Reimagine Scientific Discovery",
+        "description": "A proposal for an AI Institute for Scientific Analysis to automatically scan, filter, and validate alternative physical theories in silico.",
+        "doi": "10.5281/zenodo.22067049"
     }
 }
 
@@ -129,6 +136,7 @@ MASTER_NAV = """    <nav>
             <li><a href="predictions.html">🎯 <span class="desktop-only">Proposed Experimental Tests</span><span class="mobile-only">Predictions</span></a></li>
             <li><a href="prime_relativity.html">🔢 <span class="desktop-only">Prime Numbers &amp; New Cryptography</span><span class="mobile-only">Prime Numbers</span></a></li>
             <li><a href="anastasov_matrix.html">🛡️ <span class="desktop-only">The Anastasov Matrix (QA)</span><span class="mobile-only">Matrix (QA)</span></a></li>
+            <li><a href="ai_science_institute.html">🤖 <span class="desktop-only">AI Institute for Science</span><span class="mobile-only">AI Institute</span></a></li>
             <li><a href="publications.html">📄 <span class="desktop-only">Official Publications &amp; Downloads</span><span class="mobile-only">Publications</span></a></li>
             <li><a href="https://github.com/rt20bg/Anastasov_Theory" target="_blank">💻 <span class="desktop-only">GitHub Repository</span><span class="mobile-only">GitHub</span></a></li>
         </ul>
