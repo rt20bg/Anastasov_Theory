@@ -122,54 +122,69 @@ SEO_COMMENTS = {
 MASTER_NAV = """    <nav>
         <a href="/" class="logo">Field Medium Initiative</a>
         <ul>
-            <li>
-                <details class="nav-dropdown">
-                    <summary>🌌 <span class="desktop-only">Flat Gravity (EFR)</span><span class="mobile-only">Gravity</span></summary>
-                    <ul class="dropdown-menu">
-                        <li><a href="macro_gravity.html">🍎 EFR: How Gravity Works in Flat Space</a></li>
-                        <li><a href="cosmology.html">🌌 EFR: Solving Cosmic Mysteries</a></li>
-                        <li><a href="history.html">🏛️ Why Physics Chose Curved Space</a></li>
-                    </ul>
-                </details>
+            <li class="nav-dropdown">
+                <span class="nav-cat-label" tabindex="0">🌌 <span class="desktop-only">Flat Gravity (EFR)</span><span class="mobile-only">Gravity</span></span>
+                <ul class="dropdown-menu">
+                    <li><a href="macro_gravity.html">🍎 EFR: How Gravity Works in Flat Space</a></li>
+                    <li><a href="cosmology.html">🌌 EFR: Solving Cosmic Mysteries</a></li>
+                    <li><a href="history.html">🏛️ Why Physics Chose Curved Space</a></li>
+                </ul>
             </li>
-            <li>
-                <details class="nav-dropdown">
-                    <summary>⚛️ <span class="desktop-only">Quantum, Particles &amp; Chemistry (RAKTS/EVM)</span><span class="mobile-only">Quantum &amp; Chemistry</span></summary>
-                    <ul class="dropdown-menu">
-                        <li><a href="quantum_kinematics.html">⚛️ RAKTS: Making Sense of Quantum Physics</a></li>
-                        <li><a href="nist_bell_test.html">📊 RAKTS: Rethinking the NIST Bell Test</a></li>
-                        <li><a href="historical_experiments.html">🔬 Re-examining Famous Experiments</a></li>
-                        <li><a href="evm_chemistry.html">🧬 EVM: Simulating Chemical Reactions</a></li>
-                        <li><a href="rebuttals.html">🛡️ RAKTS: Defenses &amp; Falsification</a></li>
-                        <li><a href="kinematic_computing.html">⚙️ Next-Gen Analog Computing</a></li>
-                    </ul>
-                </details>
+            <li class="nav-dropdown">
+                <span class="nav-cat-label" tabindex="0">⚛️ <span class="desktop-only">Quantum, Particles &amp; Chemistry (RAKTS/EVM)</span><span class="mobile-only">Quantum &amp; Chemistry</span></span>
+                <ul class="dropdown-menu">
+                    <li><a href="quantum_kinematics.html">⚛️ RAKTS: Making Sense of Quantum Physics</a></li>
+                    <li><a href="nist_bell_test.html">📊 RAKTS: Rethinking the NIST Bell Test</a></li>
+                    <li><a href="historical_experiments.html">🔬 Re-examining Famous Experiments</a></li>
+                    <li><a href="evm_chemistry.html">🧬 EVM: Simulating Chemical Reactions</a></li>
+                    <li><a href="rebuttals.html">🛡️ RAKTS: Defenses &amp; Falsification</a></li>
+                    <li><a href="kinematic_computing.html">⚙️ Next-Gen Analog Computing</a></li>
+                </ul>
             </li>
-            <li>
-                <details class="nav-dropdown">
-                    <summary>🔢 <span class="desktop-only">Math &amp; Meta-Tools</span><span class="mobile-only">Math &amp; Tools</span></summary>
-                    <ul class="dropdown-menu">
-                        <li><a href="prime_relativity.html">🔢 Prime Numbers &amp; New Cryptography</a></li>
-                        <li><a href="anastasov_matrix.html">🛡️ The Anastasov Matrix (QA)</a></li>
-                        <li><a href="ai_science_institute.html">🤖 AI Institute for Science</a></li>
-                    </ul>
-                </details>
+            <li class="nav-dropdown">
+                <span class="nav-cat-label" tabindex="0">🔢 <span class="desktop-only">Math &amp; Meta-Tools</span><span class="mobile-only">Math &amp; Tools</span></span>
+                <ul class="dropdown-menu">
+                    <li><a href="prime_relativity.html">🔢 Prime Numbers &amp; New Cryptography</a></li>
+                    <li><a href="anastasov_matrix.html">🛡️ The Anastasov Matrix (QA)</a></li>
+                    <li><a href="ai_science_institute.html">🤖 AI Institute for Science</a></li>
+                </ul>
             </li>
-            <li>
-                <details class="nav-dropdown">
-                    <summary>🎓 <span class="desktop-only">Philosophy &amp; Pedagogy</span><span class="mobile-only">Philosophy</span></summary>
-                    <ul class="dropdown-menu">
-                        <li><a href="concept.html">🧠 Core Concept &amp; Philosophy</a></li>
-                        <li><a href="underdetermination_pedagogy.html">🎓 The Case for Alternative Theories</a></li>
-                        <li><a href="physicists_ignore_discoveries.html">🔍 Are We Training Physicists to Ignore Discoveries?</a></li>
-                    </ul>
-                </details>
+            <li class="nav-dropdown">
+                <span class="nav-cat-label" tabindex="0">🎓 <span class="desktop-only">Philosophy &amp; Pedagogy</span><span class="mobile-only">Philosophy</span></span>
+                <ul class="dropdown-menu">
+                    <li><a href="concept.html">🧠 Core Concept &amp; Philosophy</a></li>
+                    <li><a href="underdetermination_pedagogy.html">🎓 The Case for Alternative Theories</a></li>
+                    <li><a href="physicists_ignore_discoveries.html">🔍 Are We Training Physicists to Ignore Discoveries?</a></li>
+                </ul>
             </li>
             <li><a href="predictions.html">🎯 <span class="desktop-only">Proposed Experimental Tests</span><span class="mobile-only">Predictions</span></a></li>
             <li><a href="publications.html">📄 <span class="desktop-only">Official Publications &amp; Downloads</span><span class="mobile-only">Publications</span></a></li>
             <li><a href="https://github.com/rt20bg/Anastasov_Theory" target="_blank">💻 <span class="desktop-only">GitHub Repository</span><span class="mobile-only">GitHub</span></a></li>
         </ul>
-    </nav>"""
+    </nav>
+    <script>
+    (function () {
+        document.querySelectorAll('.nav-dropdown > .nav-cat-label').forEach(function (label) {
+            label.addEventListener('click', function () {
+                var dd = label.parentElement;
+                var wasOpen = dd.classList.contains('open');
+                document.querySelectorAll('.nav-dropdown.open').forEach(function (o) { o.classList.remove('open'); });
+                if (!wasOpen) dd.classList.add('open');
+            });
+            label.addEventListener('keydown', function (e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    label.click();
+                }
+            });
+        });
+        document.addEventListener('click', function (e) {
+            if (!e.target.closest('.nav-dropdown')) {
+                document.querySelectorAll('.nav-dropdown.open').forEach(function (o) { o.classList.remove('open'); });
+            }
+        });
+    })();
+    </script>"""
 
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="en">
@@ -751,8 +766,9 @@ def update_static_menus(nav_html):
             with open(path, "r", encoding="utf-8") as f:
                 content = f.read()
             
-            # replace <nav>...</nav> with nav_html
-            new_content = re.sub(r'<nav>.*?</nav>', nav_html, content, flags=re.DOTALL)
+            # replace <nav>...</nav> (plus its trailing dropdown <script>, if present from a
+            # previous run) with nav_html, which itself already includes that <script> block.
+            new_content = re.sub(r'<nav>.*?</nav>(\n[ \t]*<script>.*?</script>)?', nav_html, content, count=1, flags=re.DOTALL)
             
             with open(path, "w", encoding="utf-8") as f:
                 f.write(new_content)

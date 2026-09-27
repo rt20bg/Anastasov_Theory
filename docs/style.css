@@ -62,23 +62,19 @@ nav ul li a:hover {
     position: relative;
 }
 
-.nav-dropdown summary {
+.nav-cat-label {
     cursor: pointer;
-    list-style: none;
     color: var(--accent-color);
     font-weight: 500;
+    user-select: none;
 }
 
-.nav-dropdown summary::-webkit-details-marker {
-    display: none;
-}
-
-.nav-dropdown summary::after {
+.nav-cat-label::after {
     content: " \25BE";
     font-size: 0.7em;
 }
 
-.nav-dropdown summary:hover {
+.nav-cat-label:hover {
     text-decoration: underline;
 }
 
@@ -99,7 +95,8 @@ nav ul li a:hover {
     z-index: 1000;
 }
 
-.nav-dropdown:hover .dropdown-menu {
+.nav-dropdown:hover .dropdown-menu,
+.nav-dropdown.open .dropdown-menu {
     display: block;
 }
 
@@ -308,7 +305,7 @@ footer {
     .nav-dropdown:hover .dropdown-menu {
         display: none;
     }
-    .nav-dropdown[open] .dropdown-menu {
+    .nav-dropdown.open .dropdown-menu {
         display: block;
     }
 }
