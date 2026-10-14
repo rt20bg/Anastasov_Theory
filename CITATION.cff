@@ -1,0 +1,11 @@
+
+cff-version: 1.2.0
+message: "If you use or build upon these computational models or their scientific formulations, please cite the original research."
+type: software
+title: "Anastasov Theory: Deterministic Computational Physics Frameworks"
+authors:
+  - family-names: "Anastasov"
+    given-names: "Ivaylo"
+doi: "10.5281/zenodo.19707919"
+url: "https://github.com/rt20bg/Anastasov_Theory"
+license: "MIT"
