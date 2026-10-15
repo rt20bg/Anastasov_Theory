@@ -1,7 +1,7 @@
 # Field Medium Initiative: Deterministic Computational Physics Frameworks
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19707919.svg)](https://doi.org/10.5281/zenodo.19707919)
-[![License: All Rights Reserved](https://img.shields.io/badge/License-All_Rights_Reserved-red.svg)](https://github.com/rt20bg/Anastasov_Theory)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--9628--7057-a6ce39.svg?logo=orcid&logoColor=white)](https://orcid.org/0009-0004-9628-7057)
 
 **Official Project Website:** [https://rakts-research.org](https://rakts-research.org)
