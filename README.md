@@ -45,6 +45,7 @@ As a corollary to the continuous mechanics proposed in RAKTS, this section provi
 
 A high-performance classical physics engine demonstrating that complex covalent chemistry, steric valency limits (the octet rule), and molecular polarity naturally emerge from deterministic point-charge dynamics without invoking quantum mechanical wavefunctions. 
 * **Key Demonstration:** Evaluated against 134,000+ stable organic molecules from the QM9 database, the $O(N^2)$ EVM engine achieved a **99.96% structural survival rate** with an average RMSD of 0.013 Å, bypassing traditional Schrödinger bottlenecks via differentiable tensor mechanics.
+* 🔧 **New:** a standalone **C engine** (no Python/PyTorch/GPU needed) is now available at [`04_Emergent_Valence_Mechanics/c_engine`](./04_Emergent_Valence_Mechanics/c_engine) — an order of magnitude faster than the Python/PyTorch version on CPU, with a batch mode for running many molecules in one process. **Recommended** for anyone who just wants to run EVM, not develop it.
 
 ## 5. Kinematic Computing
 **Directory:** [`05_RAKTS_Kinematic_Computing`](./05_RAKTS_Kinematic_Computing)

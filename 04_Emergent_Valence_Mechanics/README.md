@@ -4,7 +4,7 @@
 
 This directory contains the cleanest, validated, and latest version of the codebase.
 
-🔧 **[c_engine/](./c_engine)** -- a standalone C port of the same physics (Coulomb, steric, phase-exclusion, Velocity Verlet). No Python, no PyTorch, no GPU required; just a C compiler. Includes a batch mode for running many molecules in one process. See [c_engine/README.md](./c_engine/README.md) for build/run instructions.
+🔧 **[c_engine/](./c_engine) -- Recommended.** A standalone C port of the same physics (Coulomb, steric, phase-exclusion, Velocity Verlet), significantly faster than the Python/PyTorch version on CPU (single-digit multiples on one molecule, close to two orders of magnitude on batches of many small molecules). No Python, no PyTorch, no GPU required -- just a C compiler. Includes a batch mode for running many molecules in one process. If you just want to *run* EVM rather than develop it, start here: see [c_engine/README.md](./c_engine/README.md) for build/run instructions.
 
 📖 **[Read the Breakthrough Paper (EVM_Breakthrough_Paper.md)](EVM_Breakthrough_Paper.md)**  
 This is the main representative document of the project, including the mathematics, proofs, and simulator benchmarks.
