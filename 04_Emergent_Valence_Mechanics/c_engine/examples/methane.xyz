@@ -1,0 +1,7 @@
+5
+Methane, rough starting layout (matches 04_Emergent_Valence_Mechanics/experiments/02_Baseline_Methane/run.py)
+C 0.0 0.0 0.0
+H 0.5 0.5 0.5
+H -0.5 -0.5 0.5
+H 0.5 -0.5 -0.5
+H -0.5 0.5 -0.5

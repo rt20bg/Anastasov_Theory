@@ -4,6 +4,8 @@
 
 This directory contains the cleanest, validated, and latest version of the codebase.
 
+🔧 **[c_engine/](./c_engine)** -- a standalone C port of the same physics (Coulomb, steric, phase-exclusion, Velocity Verlet). No Python, no PyTorch, no GPU required; just a C compiler. Includes a batch mode for running many molecules in one process. See [c_engine/README.md](./c_engine/README.md) for build/run instructions.
+
 📖 **[Read the Breakthrough Paper (EVM_Breakthrough_Paper.md)](EVM_Breakthrough_Paper.md)**  
 This is the main representative document of the project, including the mathematics, proofs, and simulator benchmarks.
 
@@ -60,4 +62,7 @@ Internal documentation describing simulator best practices, calibration guidelin
 - [EVM_Simulation_Best_Practices.md](./docs/EVM_Simulation_Best_Practices.md)
 - [EVM_Limitations_and_Future_Scale.md](./docs/EVM_Limitations_and_Future_Scale.md)
 - [EVM_Journey_and_Current_State.md](./docs/EVM_Journey_and_Current_State.md)
+
+### 5. [c_engine/](./c_engine) (Standalone C Port)
+A from-scratch C re-implementation of the same physics as `core/` (same forcefield parameters, same Fibonacci-sphere electron initialization, same Velocity Verlet integrator). No Python/PyTorch/GPU dependency -- build with CMake or the included Makefile. Takes standard XYZ files as input/output, and includes a batch mode (`--batch-dir`/`--batch-list`) for running many molecules in one process without per-molecule launch overhead. See [c_engine/README.md](./c_engine/README.md).
 

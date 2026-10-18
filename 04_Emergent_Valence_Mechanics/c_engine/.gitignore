@@ -1,0 +1,11 @@
+# Build artifacts
+build/
+*.o
+*.obj
+*.exe
+evm_engine
+
+# Run output (regenerate, don't commit)
+trajectory.xyz
+*_traj.xyz
+batch_results.csv
