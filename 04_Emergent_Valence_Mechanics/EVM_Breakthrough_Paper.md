@@ -30,14 +30,14 @@ EVM evaluates interactions in a fully differentiable PyTorch tensor environment,
 
 Formally, the total force $\vec{F}_i$ on any electron $i$ in the system is expressed analytically as:
 
-$$
+```math
 \begin{aligned}
-\vec{F}_i = &-\sum_{n}^{M} \left( k_e \frac{Z_n e^2}{r_{in}^2} \right) \hat{r}_{in} 
-+ \sum_{j \neq i}^{N} \left( k_e \frac{q_i q_j}{r_{ij}^2} (1 - S_{pair} \delta_{opposite}) \right) \hat{r}_{ij} \\
-&+ \sum_{n}^{M} \left( \frac{12 C_{steric}}{r_{in}^{13}} \right) \hat{r}_{in} 
-+ \sum_{j \neq i}^{N} \delta_{\phi_i, \phi_j} \left( \frac{C_{exclusion} \cdot e^{-U_i/U_0}}{r_{ij}^6} \right) \hat{r}_{ij}
+\vec{F}_i ={}& -\sum_{n}^{M} \left( k_e \frac{Z_n e^2}{r_{in}^2} \right) \hat{r}_{in}
+ + \sum_{j \neq i}^{N} \left( k_e \frac{q_i q_j}{r_{ij}^2} (1 - S_{pair} \delta_{opposite}) \right) \hat{r}_{ij} \\
+& + \sum_{n}^{M} \left( \frac{12 C_{steric}}{r_{in}^{13}} \right) \hat{r}_{in}
+ + \sum_{j \neq i}^{N} \delta_{\phi_i, \phi_j} \left( \frac{C_{exclusion} \cdot e^{-U_i/U_0}}{r_{ij}^6} \right) \hat{r}_{ij}
 \end{aligned}
-$$
+```
 
 Where $N$ is the number of electrons, $M$ is the number of nuclei, and $\delta_{\phi_i, \phi_j}$ is the Kronecker delta function for the fluid phase (spin) orientation, evaluating to $1$ only when $\phi_i = \phi_j$ (identical phase), and $0$ otherwise. The exponential compressibility term $e^{-U_i/U_0}$ ensures that electrons deep in the nuclear Coulomb potential ($U_i = \sum \frac{Z}{r}$) dynamically shrink their exclusion radii, seamlessly separating inner-core shells from valence shells.
 
